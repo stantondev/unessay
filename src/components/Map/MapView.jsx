@@ -1328,41 +1328,47 @@ export default function MapView() {
       m.addSource('settler-towns', { type: 'geojson', data: SETTLER_TOWNS_BY_YEAR[1700] || EMPTY_FC });
       loadSettlerTownIcon(m);
 
-      // Soft cool-gray glow underneath each settler town
+      // Background glow — warm white, same scale as Cherokee town glows
       m.addLayer({
         id: 'settler-towns-glow',
         type: 'circle',
         source: 'settler-towns',
         paint: {
-          'circle-radius': ['interpolate', ['linear'], ['zoom'], 4, 6, 7, 12, 10, 22],
-          'circle-color': '#cbd5e1',
-          'circle-opacity': 0.18,
-          'circle-blur': 0.6,
+          'circle-radius': ['interpolate', ['linear'], ['zoom'],
+            5, 12, 7, 20, 10, 30
+          ],
+          'circle-color': '#e2e8f0',
+          'circle-opacity': 0.2,
+          'circle-blur': 0.5,
         },
       });
 
-      // Pale stone backing circle so the icon has contrast on dark terrain
+      // Plaza ring — dark circle with pale stroke, matching Cherokee town plaza scale
       m.addLayer({
         id: 'settler-towns-circle',
         type: 'circle',
         source: 'settler-towns',
         paint: {
-          'circle-radius': ['interpolate', ['linear'], ['zoom'], 4, 3.5, 7, 6, 10, 9],
+          'circle-radius': ['interpolate', ['linear'], ['zoom'],
+            5, 6, 7, 12, 10, 18
+          ],
           'circle-color': 'rgba(15, 18, 25, 0.85)',
-          'circle-stroke-color': '#cbd5e1',
-          'circle-stroke-width': 1.2,
+          'circle-stroke-color': '#e2e8f0',
+          'circle-stroke-width': 1.8,
           'circle-stroke-opacity': 0.9,
         },
       });
 
-      // Pitched-roof colonial house icon
+      // Pitched-roof colonial house icon — same scale as Cherokee council house
       m.addLayer({
         id: 'settler-towns-icon',
         type: 'symbol',
         source: 'settler-towns',
         layout: {
           'icon-image': 'settler-town',
-          'icon-size': ['interpolate', ['linear'], ['zoom'], 4, 0.28, 7, 0.48, 10, 0.7],
+          'icon-size': ['interpolate', ['linear'], ['zoom'],
+            5, 0.32, 7, 0.56, 10, 0.82
+          ],
           'icon-allow-overlap': true,
           'icon-ignore-placement': true,
           'symbol-sort-key': 0,
