@@ -1,0 +1,355 @@
+.info-panel {
+  width: 380px;
+  background: var(--bg-secondary);
+  border-left: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.info-panel-toggle {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  z-index: 10;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.info-panel-toggle:hover {
+  background: var(--bg-surface-hover);
+}
+
+.info-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.info-panel-title {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.info-panel-close {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.info-panel-close:hover {
+  background: var(--bg-surface);
+  color: var(--text-primary);
+}
+
+.info-panel-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-section h3 {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+
+.info-section h4 {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.info-section p {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.info-note {
+  font-size: 12px !important;
+  color: var(--text-muted) !important;
+  font-style: italic;
+}
+
+.info-stat-callout {
+  padding: 12px 16px;
+  background: rgba(139, 0, 0, 0.1);
+  border-left: 3px solid #8B0000;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fca5a5;
+  line-height: 1.5;
+}
+
+/* Treaty-specific styles */
+.treaty-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.treaty-date {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.treaty-location {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.treaty-detail {
+  line-height: 1.7 !important;
+}
+
+.treaty-remaining {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.remaining-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.remaining-value {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.remaining-bar {
+  height: 6px;
+  background: rgba(139, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.remaining-bar-fill {
+  height: 100%;
+  background: #2d5a27;
+  border-radius: 3px;
+  transition: width 0.6s ease;
+}
+
+.context-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.context-list li {
+  font-size: 12px;
+  color: var(--text-secondary);
+  padding-left: 14px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.context-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+}
+
+.context-note {
+  font-size: 12px !important;
+  color: var(--text-muted) !important;
+  line-height: 1.6 !important;
+}
+
+/* Detachment styles */
+.detachment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.detachment-card {
+  padding: 10px 12px;
+  background: var(--bg-surface);
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+.detachment-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.detachment-number {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.detachment-conductor {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.detachment-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.detachment-deaths {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.detachment-notes {
+  font-size: 11px !important;
+  color: var(--text-muted) !important;
+  margin-top: 6px !important;
+  margin-bottom: 0 !important;
+  font-style: italic;
+}
+
+/* Nation cards */
+.nation-card {
+  padding: 12px;
+  background: var(--bg-surface);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.nation-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nation-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.detail-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.detail-value {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+/* Milestones */
+.milestone {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.milestone-year {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--accent-light);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.milestone-event {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* Population table */
+.info-table {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.info-table-row {
+  display: grid;
+  grid-template-columns: 80px 1fr 1fr;
+  gap: 8px;
+  padding: 4px 0;
+  font-size: 11px;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+
+.info-table-year {
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+}
+
+.info-table-value {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.info-table-context {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .info-panel {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 380px;
+    z-index: 20;
+  }
+}

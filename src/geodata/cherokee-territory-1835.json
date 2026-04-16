@@ -1,0 +1,32 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cherokee Territory at Treaty of New Echota (1835)",
+        "period": "Eve of Removal",
+        "note": "The last Cherokee territory east of the Mississippi. Treaty of New Echota ceded ALL of it."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-83.60, 35.30],
+          [-83.70, 35.00],
+          [-83.90, 34.70],
+          [-84.10, 34.50],
+          [-84.40, 34.40],
+          [-84.70, 34.40],
+          [-84.90, 34.50],
+          [-85.00, 34.70],
+          [-84.90, 34.90],
+          [-84.70, 35.10],
+          [-84.50, 35.20],
+          [-84.20, 35.30],
+          [-83.90, 35.35],
+          [-83.60, 35.30]
+        ]]
+      }
+    }
+  ]
+}

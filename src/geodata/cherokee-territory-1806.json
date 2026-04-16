@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cherokee Territory after Treaties of 1804-1806",
+        "period": "Post-Meigs Treaties",
+        "note": "Multiple rapid cessions negotiated by Return J. Meigs"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-83.40, 35.60],
+          [-83.50, 35.30],
+          [-83.60, 35.00],
+          [-83.80, 34.70],
+          [-84.00, 34.40],
+          [-84.30, 34.20],
+          [-84.70, 34.10],
+          [-85.10, 34.20],
+          [-85.40, 34.30],
+          [-85.70, 34.40],
+          [-85.80, 34.60],
+          [-85.80, 34.80],
+          [-85.70, 35.00],
+          [-85.50, 35.20],
+          [-85.20, 35.40],
+          [-85.00, 35.60],
+          [-84.60, 35.70],
+          [-84.20, 35.70],
+          [-83.80, 35.70],
+          [-83.40, 35.60]
+        ]]
+      }
+    }
+  ]
+}

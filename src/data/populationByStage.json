@@ -1,0 +1,83 @@
+{
+  "stages": {
+    "precontact": {
+      "year": "Pre-1721",
+      "population": 32000,
+      "sqMiles": 40000,
+      "density": 0.8,
+      "note": "Estimated 25,000-36,000 Cherokee across ~64 towns in five divisions",
+      "dotLabel": "1 dot = 100 people"
+    },
+    "1777": {
+      "year": "1777",
+      "population": 16000,
+      "sqMiles": 32000,
+      "density": 0.5,
+      "note": "Population halved by 1738 smallpox epidemic; further losses in Cherokee-American wars"
+    },
+    "1785": {
+      "year": "1785",
+      "population": 16000,
+      "sqMiles": 30000,
+      "density": 0.53,
+      "note": "Post-Revolutionary War; first U.S.-Cherokee treaty"
+    },
+    "1791": {
+      "year": "1791",
+      "population": 16000,
+      "sqMiles": 27000,
+      "density": 0.59,
+      "note": "U.S. \"civilization program\" begins"
+    },
+    "1798": {
+      "year": "1798",
+      "population": 16000,
+      "sqMiles": 23000,
+      "density": 0.7,
+      "note": "Population stable but land pressure increasing"
+    },
+    "1806": {
+      "year": "1806",
+      "population": 16500,
+      "sqMiles": 18000,
+      "density": 0.92,
+      "note": "Cherokee adopting written laws, plantation agriculture"
+    },
+    "1814": {
+      "year": "1814",
+      "population": 16500,
+      "sqMiles": 14000,
+      "density": 1.18,
+      "note": "Cherokee fought as U.S. allies at Horseshoe Bend; Jackson took their land anyway"
+    },
+    "1819": {
+      "year": "1819",
+      "population": 16000,
+      "sqMiles": 10000,
+      "density": 1.6,
+      "note": "~1,500-2,000 voluntarily emigrate west; Cherokee Council declares \"not one more foot\""
+    },
+    "1835": {
+      "year": "1835",
+      "population": 16542,
+      "sqMiles": 0,
+      "density": null,
+      "note": "Henderson Roll count: 16,542 Cherokee + 201 whites + 1,592 enslaved. Treaty of New Echota cedes ALL land."
+    },
+    "removal": {
+      "year": "1838-39",
+      "population": 16000,
+      "deaths": 4000,
+      "survived": 12000,
+      "note": "Approximately 4,000 died in camps and on the march — 1 in 4"
+    },
+    "today": {
+      "year": "2024",
+      "population": 496000,
+      "cherokeeNation": 466000,
+      "ebci": 16000,
+      "ukb": 14000,
+      "note": "Cherokee Nation is the largest tribal nation in the United States"
+    }
+  }
+}

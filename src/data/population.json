@@ -1,0 +1,26 @@
+{
+  "continental": {
+    "americas1492": "~100 million (higher-end scholarly estimate; range varies from 50\u2013112 million)",
+    "northAmericaWithMexico": "~40 million",
+    "presentDayUS": "5\u201318 million (estimates vary widely by scholar)"
+  },
+  "timeline": [
+    { "year": "Pre-1492", "usIndigenous": "5\u201318 million", "cherokee": "25,000\u201336,000", "context": "Fully occupied continent" },
+    { "year": "1650", "usIndigenous": "~3.5 million", "cherokee": "~22,500", "context": "Already declining from European diseases" },
+    { "year": "1738", "usIndigenous": null, "cherokee": "~30,000\u201336,000", "context": "Pre-smallpox epidemic; 64 towns" },
+    { "year": "1740", "usIndigenous": null, "cherokee": "~12,000\u201316,000", "context": "Post-smallpox epidemic (killed approximately half)" },
+    { "year": "1800", "usIndigenous": "~600,000", "cherokee": "~16,000", "context": "Post-Revolutionary War losses" },
+    { "year": "1835", "usIndigenous": null, "cherokee": "16,542 + 201 whites + 1,592 enslaved", "context": "Henderson Roll; eve of removal" },
+    { "year": "1839", "usIndigenous": null, "cherokee": "~12,000\u201313,000", "context": "Post-Trail of Tears" },
+    { "year": "1890s", "usIndigenous": "~250,000", "cherokee": null, "context": "Nadir of Native population in the U.S." },
+    { "year": "2020", "usIndigenous": "3.7M alone / 9.7M combined", "cherokee": "~466,000 CN + ~16,000 EBCI + ~14,000 UKB", "context": "Modern recovery and growth" }
+  ],
+  "landLoss": [
+    { "period": "Pre-1492", "indigenousLand": "~2.4 billion acres (100%)", "percentUS": "100%", "cherokeeLand": "~40,000 sq mi" },
+    { "period": "1850", "indigenousLand": "Sharply reduced", "percentUS": null, "cherokeeLand": "Removed to Indian Territory" },
+    { "period": "1887 (pre-Dawes)", "indigenousLand": "~138 million acres", "percentUS": "~6%", "cherokeeLand": "Tribal lands in Oklahoma" },
+    { "period": "1934 (post-allotment)", "indigenousLand": "~48 million acres", "percentUS": "~2%", "cherokeeLand": "Allotted 1902; OK statehood 1907" },
+    { "period": "Present", "indigenousLand": "~56.2 million acres", "percentUS": "~2.3%", "cherokeeLand": "14-county reservation (OK) + Qualla Boundary (NC)" }
+  ],
+  "keyStat": "Indigenous nations lost 98.9% of their historical land base (Farrell et al., Science 374, 2021)"
+}

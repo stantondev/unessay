@@ -1,0 +1,106 @@
+[
+  {
+    "id": "fort-cass",
+    "name": "Fort Cass",
+    "location": "Charleston, TN",
+    "lat": 35.29,
+    "lon": -84.86,
+    "notes": "Principal Cherokee Agency; General Winfield Scott's headquarters; primary emigration depot for Cherokee-managed detachments."
+  },
+  {
+    "id": "rosss-landing",
+    "name": "Ross's Landing",
+    "location": "Chattanooga, TN",
+    "lat": 35.05,
+    "lon": -85.31,
+    "notes": "Major departure point for the water route removals. Now the site of downtown Chattanooga."
+  },
+  {
+    "id": "fort-butler",
+    "name": "Fort Butler",
+    "location": "Murphy, NC",
+    "lat": 35.09,
+    "lon": -84.04,
+    "notes": "North Carolina removal headquarters. Held up to 1,500 Cherokee during the roundup."
+  },
+  {
+    "id": "fort-payne",
+    "name": "Fort Payne",
+    "location": "DeKalb County, AL",
+    "lat": 34.44,
+    "lon": -85.72,
+    "notes": "Departure point for the John Benge detachment (southern route). The city of Fort Payne, AL is named after this fort."
+  },
+  {
+    "id": "fort-marr",
+    "name": "Fort Marr",
+    "location": "Polk County, TN",
+    "lat": 35.08,
+    "lon": -84.78,
+    "notes": "The only surviving original stockade structure from the Cherokee removal period."
+  },
+  {
+    "id": "fort-lindsay",
+    "name": "Fort Lindsay",
+    "location": "Almond/Bryson City, NC",
+    "lat": 35.38,
+    "lon": -83.54,
+    "notes": "Northeastern-most military installation for the removal. Located near the junction of the Nantahala and Little Tennessee Rivers."
+  },
+  {
+    "id": "fort-montgomery",
+    "name": "Fort Montgomery",
+    "location": "Robbinsville, NC",
+    "lat": 35.32,
+    "lon": -83.81,
+    "notes": "Removal fort in Graham County, NC."
+  },
+  {
+    "id": "fort-hembree",
+    "name": "Fort Hembree",
+    "location": "Hayesville, NC",
+    "lat": 35.04,
+    "lon": -83.82,
+    "notes": "Removal fort in Clay County, NC."
+  },
+  {
+    "id": "fort-delaney",
+    "name": "Fort Delaney",
+    "location": "Andrews, NC",
+    "lat": 35.20,
+    "lon": -83.83,
+    "notes": "Convergence point for North Carolina removal routes."
+  },
+  {
+    "id": "new-echota",
+    "name": "New Echota / Fort Wool",
+    "location": "Near Calhoun, GA",
+    "lat": 34.60,
+    "lon": -84.79,
+    "notes": "Military fort built in the Cherokee national capital. General Scott initially arrived here on May 17, 1838. Now a Georgia state historic site."
+  },
+  {
+    "id": "gunters-landing",
+    "name": "Gunter's Landing",
+    "location": "Guntersville, AL",
+    "lat": 34.35,
+    "lon": -86.30,
+    "notes": "Major emigration depot, named after Cherokee leader John Gunter."
+  },
+  {
+    "id": "red-clay",
+    "name": "Red Clay Council Ground",
+    "location": "Near Cleveland, TN",
+    "lat": 35.10,
+    "lon": -84.96,
+    "notes": "Cherokee national capital after 1832, when Georgia outlawed Cherokee government meetings at New Echota. Known as \"Camp Ross\" during the removal. Now Red Clay State Historic Park."
+  },
+  {
+    "id": "rattlesnake-springs",
+    "name": "Rattlesnake Springs",
+    "location": "Near Charleston, TN",
+    "lat": 35.24,
+    "lon": -84.82,
+    "notes": "Assembly site where the last Cherokee council on eastern soil was held on August 1, 1838."
+  }
+]

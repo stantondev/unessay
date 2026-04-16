@@ -1,0 +1,134 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "note": "Battle site visualizations for key military events. Each battle has multiple features (marker, enemy zone, force movement arrows) all sharing the same battleId so they can be filtered together.",
+    "sources": [
+      "Horseshoe Bend National Military Park, National Park Service",
+      "Robert V. Remini, Andrew Jackson and His Indian Wars (Viking, 2001)",
+      "Sean Michael O'Brien, In Bitterness and in Tears: Andrew Jackson's Destruction of the Creeks and Seminoles (2003)"
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "battleId": "horseshoe-bend",
+        "kind": "battle-marker",
+        "name": "Battle of Horseshoe Bend",
+        "date": "March 27, 1814",
+        "validFrom": 1814,
+        "validTo": 1814
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.7396, 32.9763]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "battleId": "horseshoe-bend",
+        "kind": "enemy-zone",
+        "label": "Red Stick Creek position",
+        "validFrom": 1814,
+        "validTo": 1814
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-85.745, 32.972],
+          [-85.738, 32.971],
+          [-85.733, 32.974],
+          [-85.732, 32.978],
+          [-85.736, 32.982],
+          [-85.742, 32.982],
+          [-85.747, 32.978],
+          [-85.745, 32.972]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "battleId": "horseshoe-bend",
+        "kind": "advance-arrow",
+        "label": "Jackson's frontal assault",
+        "color": "#3b82f6",
+        "validFrom": 1814,
+        "validTo": 1814
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-85.738, 32.995],
+          [-85.738, 32.988],
+          [-85.738, 32.982]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "battleId": "horseshoe-bend",
+        "kind": "flank-arrow",
+        "label": "Cherokee swam the river to attack from the rear",
+        "color": "#fbbf24",
+        "validFrom": 1814,
+        "validTo": 1814
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-85.755, 32.962],
+          [-85.749, 32.967],
+          [-85.745, 32.972]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "battleId": "horseshoe-bend",
+        "kind": "force-label",
+        "label": "Red Stick Creek\n(barricaded)",
+        "color": "#dc2626",
+        "validFrom": 1814,
+        "validTo": 1814
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.739, 32.977]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "battleId": "horseshoe-bend",
+        "kind": "force-label",
+        "label": "Jackson's army",
+        "color": "#3b82f6",
+        "validFrom": 1814,
+        "validTo": 1814
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.738, 32.997]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "battleId": "horseshoe-bend",
+        "kind": "force-label",
+        "label": "Cherokee\n(crossing river)",
+        "color": "#fbbf24",
+        "validFrom": 1814,
+        "validTo": 1814
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.758, 32.960]
+      }
+    }
+  ]
+}

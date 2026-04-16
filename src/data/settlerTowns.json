@@ -1,0 +1,461 @@
+[
+  {
+    "id": "jamestown",
+    "name": "Jamestown",
+    "state": "VA",
+    "foundedYear": 1607,
+    "lat": 37.2080,
+    "lon": -76.7811,
+    "kind": "settlement",
+    "shortNote": "First permanent English settlement in North America.",
+    "founding": "Established in May 1607 by the Virginia Company of London under Captain Christopher Newport. The colonists landed inside the territory of the Powhatan Confederacy without permission.",
+    "nativeEvents": [
+      { "year": "1610–1614", "event": "First Anglo-Powhatan War. Colonists under Sir Thomas Dale attack and burn Powhatan towns. Pocahontas is taken hostage and forcibly converted; her marriage to John Rolfe brokers a temporary peace." },
+      { "year": "1622", "event": "Coordinated Powhatan attack under Opechancanough kills roughly a quarter of the Virginia colonists. The English use it as justification to seize Powhatan land outright." },
+      { "year": "1715", "event": "First documented Cherokee diplomatic delegation visits the colonial Virginia capital." }
+    ],
+    "today": "National park (Historic Jamestowne / Colonial National Historical Park)",
+    "source": "Historic Jamestowne, Jamestown Rediscovery / NPS Colonial National Historical Park"
+  },
+  {
+    "id": "williamsburg",
+    "name": "Williamsburg",
+    "state": "VA",
+    "foundedYear": 1632,
+    "lat": 37.2707,
+    "lon": -76.7075,
+    "kind": "settlement",
+    "shortNote": "Colonial Virginia capital, 1699–1780. Cherokee delegations were received here.",
+    "founding": "Founded as Middle Plantation in 1632 between the James and York Rivers. After the Statehouse at Jamestown burned in 1698, the Virginia capital was moved here in 1699 and renamed Williamsburg in honor of King William III.",
+    "nativeEvents": [
+      { "year": "1730", "event": "Sir Alexander Cuming brought a Cherokee delegation through Williamsburg en route to London, where they signed the Treaty of Whitehall pledging trade and alliance with Britain." },
+      { "year": "1755–1756", "event": "Negotiations with Attakullakulla and other Cherokee leaders here led to the Treaty of Broad River and the construction of Fort Loudoun in Overhill Cherokee country." },
+      { "year": "1762", "event": "Lt. Henry Timberlake's Cherokee delegation, led by Ostenaco, visited Williamsburg before traveling on to London to meet King George III." }
+    ],
+    "today": "Colonial Williamsburg living-history museum",
+    "source": "Colonial Williamsburg Foundation; Encyclopedia Virginia"
+  },
+  {
+    "id": "charleston",
+    "name": "Charles Town",
+    "state": "SC",
+    "foundedYear": 1670,
+    "lat": 32.7765,
+    "lon": -79.9311,
+    "kind": "settlement",
+    "shortNote": "Origin of the Trading Path that brought trade goods, smallpox, and the Indian slave trade into Cherokee country.",
+    "founding": "Founded in 1670 by English settlers from Barbados as the capital of the Carolina colony. Within a generation Charles Town merchants had built a deerskin and Indian-slave trade network reaching the Mississippi.",
+    "nativeEvents": [
+      { "year": "1693", "event": "Cherokee delegation travels to Charles Town requesting trade and protection from Indian slave raiders." },
+      { "year": "1715–1717", "event": "Yamasee War — a coalition of southeastern Indigenous nations, including Catawba, Yamasee, Creek, and Cherokee factions, nearly destroys the Carolina colony in retaliation for trader abuses and slave raiding." },
+      { "year": "1721", "event": "First Cherokee land-cession treaty signed at Charles Town with Governor Francis Nicholson." },
+      { "year": "1738", "event": "A smallpox epidemic carried up the Trading Path from Charles Town reaches Cherokee country and kills roughly half the population." }
+    ],
+    "today": "Charleston, SC",
+    "source": "South Carolina Encyclopedia, University of South Carolina Press"
+  },
+  {
+    "id": "savannah",
+    "name": "Savannah",
+    "state": "GA",
+    "foundedYear": 1733,
+    "lat": 32.0809,
+    "lon": -81.0912,
+    "kind": "settlement",
+    "shortNote": "James Oglethorpe's Georgia colony; site of early Cherokee–Georgia diplomacy.",
+    "founding": "Founded in February 1733 by James Oglethorpe and 114 Trustees' colonists on a bluff overlooking the Savannah River. The Yamacraw chief Tomochichi welcomed the colonists and brokered the land grant.",
+    "nativeEvents": [
+      { "year": "1734", "event": "Tomochichi traveled with Oglethorpe to England, where he met King George II and successfully negotiated for protection of his people's land." },
+      { "year": "1736", "event": "Cherokee delegations begin meeting Georgia officials at Savannah seeking the British alliance against Spanish Florida and the French." },
+      { "year": "1739", "event": "Oglethorpe negotiates the Treaty of Coweta with Creek leaders at Coweta Town on the Chattahoochee River, securing the Creek alliance against Spain. The Cherokee maintained a separate alliance with Georgia through direct negotiations at Savannah." }
+    ],
+    "today": "Savannah, GA",
+    "source": "New Georgia Encyclopedia, Georgia Historical Society"
+  },
+  {
+    "id": "augusta",
+    "name": "Augusta",
+    "state": "GA",
+    "foundedYear": 1736,
+    "lat": 33.4735,
+    "lon": -82.0105,
+    "kind": "settlement",
+    "shortNote": "Frontier deerskin trade post; site of repeated Cherokee–Creek land cessions.",
+    "founding": "Founded by James Oglethorpe in 1736 as a frontier trading post at the head of navigation on the Savannah River. Within a decade it was the deerskin-trade hub of the Southeast.",
+    "nativeEvents": [
+      { "year": "1763", "event": "Congress of Augusta — first major British–Indigenous conference after the French and Indian War. Cherokee, Creek, Choctaw, Chickasaw, and Catawba leaders meet British governors to redraw boundaries." },
+      { "year": "1773", "event": "Treaty of Augusta — Cherokee and Creek cede roughly 2 million acres to Georgia to pay off accumulated debts to British traders. Land becomes \"the Ceded Lands.\"" },
+      { "year": "1783", "event": "Second Treaty of Augusta forces additional Cherokee and Creek cessions after the American Revolution." }
+    ],
+    "today": "Augusta, GA",
+    "source": "New Georgia Encyclopedia"
+  },
+  {
+    "id": "fort-loudoun",
+    "name": "Fort Loudoun",
+    "state": "TN",
+    "foundedYear": 1756,
+    "lat": 35.5980,
+    "lon": -84.2050,
+    "kind": "fort",
+    "shortNote": "British fort deep in Overhill Cherokee country. Surrendered to the Cherokee in 1760.",
+    "founding": "Built in 1756 by South Carolina and Virginia at the invitation of Cherokee leaders Attakullakulla and Old Hop, in exchange for British trade and protection during the French and Indian War.",
+    "nativeEvents": [
+      { "year": "1758–1761", "event": "Anglo-Cherokee War — Virginia frontiersmen kill Cherokee warriors returning from fighting alongside the British, triggering Cherokee retaliation and a full-scale war." },
+      { "year": "August 1760", "event": "Cherokee under Standing Turkey and Oconostota besiege Fort Loudoun. The garrison surrenders after starvation; many soldiers are killed during the retreat at Cane Creek." },
+      { "year": "1761", "event": "British scorched-earth campaign under Colonel James Grant burns 15 Middle and Lower Cherokee towns and 1,500 acres of cornfields in retaliation, ending the war on British terms." }
+    ],
+    "today": "Fort Loudoun State Historic Area (reconstruction of the fort)",
+    "source": "Fort Loudoun State Historic Area, Tennessee State Parks"
+  },
+  {
+    "id": "sycamore-shoals",
+    "name": "Sycamore Shoals",
+    "state": "TN",
+    "foundedYear": 1772,
+    "lat": 36.3434,
+    "lon": -82.2462,
+    "kind": "settlement",
+    "shortNote": "Watauga settlement; site of the 1775 Transylvania Purchase that sold Kentucky out from under the Cherokee Nation.",
+    "founding": "The Watauga Association was formed here in 1772 by settlers leasing land from the Cherokee — illegally under the 1763 Royal Proclamation. It became one of the first independent American governments outside the colonies.",
+    "nativeEvents": [
+      { "year": "March 1775", "event": "Transylvania Purchase — Richard Henderson and the Transylvania Company convene a treaty council and pay a handful of Cherokee chiefs (Attakullakulla, Oconostota, Savanukah) for nearly all of Kentucky. The chiefs had no authority from the National Council to sell the land." },
+      { "year": "March 1775", "event": "Dragging Canoe walks out of the council, warning the Americans that Kentucky would be \"a dark and bloody ground.\" He spent the next 17 years trying to make good on it." },
+      { "year": "September 1780", "event": "The \"Overmountain Men\" — frontier militia from Watauga, including future Cherokee enemies John Sevier and Isaac Shelby — muster at Sycamore Shoals before marching to defeat Loyalist forces at the Battle of Kings Mountain." }
+    ],
+    "today": "Sycamore Shoals State Historic Park",
+    "source": "Sycamore Shoals State Historic Park, Tennessee State Parks; Tennessee Encyclopedia"
+  },
+  {
+    "id": "boonesborough",
+    "name": "Boonesborough",
+    "state": "KY",
+    "foundedYear": 1775,
+    "lat": 37.8923,
+    "lon": -84.2691,
+    "kind": "settlement",
+    "shortNote": "Daniel Boone's settlement on land sold at Sycamore Shoals — the \"dark and bloody ground.\"",
+    "founding": "Founded in April 1775 by Daniel Boone for the Transylvania Company, immediately after the Sycamore Shoals purchase. Boone cut the Wilderness Road from Tennessee to bring settlers in.",
+    "nativeEvents": [
+      { "year": "1776", "event": "Cherokee, Shawnee, and Delaware coordinated attacks on Kentucky settlements as part of Dragging Canoe's wider war. Boone's daughter Jemima is briefly captured by a Cherokee–Shawnee party near the fort." },
+      { "year": "February 1778", "event": "Daniel Boone himself is captured by a Shawnee war party under Chief Blackfish, adopted into the tribe, and lives among the Shawnee for several months before escaping." },
+      { "year": "September 1778", "event": "Siege of Boonesborough — Blackfish and roughly 400 Shawnee, supported by British officers, besiege the fort for ten days. Boone's defense holds." }
+    ],
+    "today": "Fort Boonesborough State Park",
+    "source": "Fort Boonesborough State Park, Kentucky State Parks; Encyclopedia of Kentucky"
+  },
+  {
+    "id": "fort-nashborough",
+    "name": "Fort Nashborough",
+    "state": "TN",
+    "foundedYear": 1779,
+    "lat": 36.1627,
+    "lon": -86.7816,
+    "kind": "settlement",
+    "shortNote": "Founded in the middle of the Chickamauga War; constant target of Dragging Canoe's raids.",
+    "founding": "Founded in late 1779 by James Robertson and 250 settlers on a Cumberland River bluff. Robertson chose a site he knew the Chickamauga Cherokee considered theirs, and the settlement was attacked almost immediately.",
+    "nativeEvents": [
+      { "year": "April 2, 1781", "event": "Battle of the Bluffs — Chickamauga Cherokee under Dragging Canoe attack Fort Nashborough. The settlers' dogs reportedly save the day. Several settlers are killed." },
+      { "year": "1780–1794", "event": "Constant Cherokee, Shawnee, and Creek raids on Cumberland settlements. Hundreds of settlers and an unknown number of Indigenous fighters die. The settlement nearly collapses several times." },
+      { "year": "1788", "event": "The Cumberland Compact reorganizes the settlement into Davidson County under North Carolina, but raids by the Five Lower Towns continue until 1794." }
+    ],
+    "today": "Nashville, TN (state capital)",
+    "source": "Tennessee Encyclopedia; Tennessee State Library and Archives"
+  },
+  {
+    "id": "knoxville",
+    "name": "Knoxville",
+    "state": "TN",
+    "foundedYear": 1791,
+    "lat": 35.9606,
+    "lon": -83.9207,
+    "kind": "settlement",
+    "shortNote": "Capital of the Southwest Territory, founded next to Chota the same year the Treaty of Holston \"guaranteed\" Cherokee land forever.",
+    "founding": "Founded in 1791 by Territorial Governor William Blount as the capital of the Southwest Territory. Built at White's Fort, twenty-five miles from the Cherokee capital of Chota.",
+    "nativeEvents": [
+      { "year": "July 2, 1791", "event": "Treaty of Holston signed at White's Fort (the future Knoxville). The United States \"solemnly guarantees\" Cherokee lands and promises a $1,000 annuity. Broken within a decade." },
+      { "year": "1792", "event": "Chickamauga Cherokee under John Watts plan an assault on Knoxville but turn back after their war chief Cheonoah is killed." },
+      { "year": "1796", "event": "Knoxville becomes the first capital of the new state of Tennessee, on land that had been Cherokee five years earlier." }
+    ],
+    "today": "Knoxville, TN",
+    "source": "Tennessee Encyclopedia"
+  },
+  {
+    "id": "tellico-blockhouse",
+    "name": "Tellico Blockhouse",
+    "state": "TN",
+    "foundedYear": 1794,
+    "lat": 35.6027,
+    "lon": -84.2627,
+    "kind": "fort",
+    "shortNote": "U.S. federal Indian agency for the Cherokee Nation; site of multiple cession treaties.",
+    "founding": "Built in 1794 by the United States across the Little Tennessee River from the Cherokee town of Tellico, as the federal Indian agency for the Cherokee Nation under the Treaty of Holston.",
+    "nativeEvents": [
+      { "year": "November 7–8, 1794", "event": "Tellico Blockhouse Conference — John Watts and the Chickamauga Cherokee agree to peace, ending eighteen years of armed resistance to American expansion." },
+      { "year": "1798", "event": "First Treaty of Tellico signed here. The U.S. extracts another large land cession by promising to guarantee what remained \"forever.\"" },
+      { "year": "1804–1806", "event": "U.S. Agent Return J. Meigs negotiates four more cession treaties at Tellico, often by bribing individual chiefs — including Doublehead, who would be executed by Major Ridge under Cherokee blood law for unauthorized land sales." }
+    ],
+    "today": "Tellico Blockhouse archaeological site, near Vonore, TN",
+    "source": "Fort Loudoun State Historic Area, Tennessee State Parks; Tennessee Encyclopedia"
+  },
+  {
+    "id": "maryville",
+    "name": "Maryville",
+    "state": "TN",
+    "foundedYear": 1795,
+    "lat": 35.7565,
+    "lon": -83.9705,
+    "kind": "settlement",
+    "shortNote": "Founded on freshly-ceded Cherokee land. Named for Mary Grainger Blount, wife of Governor William Blount.",
+    "founding": "Founded in 1795 as the seat of Blount County on land ceded by the Cherokee at the Treaty of Holston four years earlier. Named for Mary Grainger Blount, wife of Territorial Governor William Blount.",
+    "nativeEvents": [
+      { "year": "1795", "event": "Established on freshly-ceded Cherokee land from the Treaty of Holston (1791). Settlers moved onto land that had been Cherokee country four years earlier." },
+      { "year": "1819", "event": "Maryville College founded. Among its early Presbyterian missions was outreach to the Cherokee, and the college would later admit Cherokee students." }
+    ],
+    "today": "Maryville, TN",
+    "source": "Tennessee Encyclopedia"
+  },
+  {
+    "id": "asheville",
+    "name": "Asheville",
+    "state": "NC",
+    "foundedYear": 1797,
+    "lat": 35.5951,
+    "lon": -82.5515,
+    "kind": "settlement",
+    "shortNote": "Buncombe County seat established at the eastern edge of the Cherokee Middle Towns.",
+    "founding": "Founded in 1797 as the Buncombe County seat in the western North Carolina mountains, immediately east of Cherokee Middle and Out Town country. Originally called Morristown, renamed for North Carolina governor Samuel Ashe in 1797.",
+    "nativeEvents": [
+      { "year": "1838–39", "event": "During the Trail of Tears, several hundred Cherokee escaped the Army roundup by hiding in the rugged mountains south and west of Asheville. They became the nucleus of the Eastern Band of Cherokee Indians." },
+      { "year": "1840s–1860s", "event": "Will Thomas, a white merchant raised by the Cherokee chief Yonaguska, used his Asheville-area trading network and political influence to legally purchase land that became the Qualla Boundary." }
+    ],
+    "today": "Asheville, NC",
+    "source": "NCpedia, State Library of North Carolina"
+  },
+  {
+    "id": "athens-ga",
+    "name": "Athens",
+    "state": "GA",
+    "foundedYear": 1801,
+    "lat": 33.9519,
+    "lon": -83.3576,
+    "kind": "settlement",
+    "shortNote": "University of Georgia town; later a center of Georgia anti-Cherokee politics.",
+    "founding": "Founded in 1801 around the new University of Georgia (chartered 1785), at the western edge of Georgia settlement. Both the town and the university were built on land taken from the Creek and Cherokee.",
+    "nativeEvents": [
+      { "year": "1802", "event": "Georgia Compact — Georgia cedes its western land claims to the federal government in exchange for a U.S. promise to extinguish all Indigenous title within Georgia \"as soon as possible.\" That promise becomes the legal pretext for Cherokee removal three decades later." },
+      { "year": "1830", "event": "Georgia governor George R. Gilmer (a UGA alumnus) and the Athens-based political class push the Indian Removal Act through Congress." }
+    ],
+    "today": "Athens, GA (home of the University of Georgia)",
+    "source": "New Georgia Encyclopedia"
+  },
+  {
+    "id": "huntsville",
+    "name": "Huntsville",
+    "state": "AL",
+    "foundedYear": 1805,
+    "lat": 34.7304,
+    "lon": -86.5861,
+    "kind": "settlement",
+    "shortNote": "First permanent English-speaking settlement in Alabama, on land taken from the Chickasaw and bordering Cherokee country.",
+    "founding": "Founded in 1805 by John Hunt at a spring on land just acquired from the Chickasaw at the Treaty of 1805. Located between Cherokee territory to the north and Creek territory to the south.",
+    "nativeEvents": [
+      { "year": "1813–14", "event": "Creek War — Andrew Jackson stages his army at Huntsville before marching to fight the Red Stick Creek at Horseshoe Bend. Cherokee warriors fighting as U.S. allies pass through Huntsville on their way to that battle." },
+      { "year": "1819", "event": "Huntsville becomes the first capital of the new state of Alabama. Most of the state was still Creek, Cherokee, Chickasaw, and Choctaw country." }
+    ],
+    "today": "Huntsville, AL",
+    "source": "Encyclopedia of Alabama, Alabama Humanities Alliance"
+  },
+  {
+    "id": "ross-landing",
+    "name": "Ross's Landing",
+    "state": "TN",
+    "foundedYear": 1816,
+    "lat": 35.0456,
+    "lon": -85.3097,
+    "kind": "settlement",
+    "shortNote": "John Ross's trading post; later one of the main embarkation points for the Trail of Tears.",
+    "founding": "Established in 1816 as a trading post, ferry, and warehouse by John Ross — a 26-year-old Cherokee businessman who would be elected Principal Chief of the Cherokee Nation in 1828.",
+    "nativeEvents": [
+      { "year": "1816–1838", "event": "Operates as a Cherokee-owned ferry and trading post in the heart of the Cherokee Nation. John Ross uses the profits to fund his political work for Cherokee sovereignty." },
+      { "year": "June 1838", "event": "Three water-route detachments depart from Ross's Landing during the Trail of Tears, carrying roughly 2,800 Cherokee west by steamboat and barge down the Tennessee River. Conditions are so bad that hundreds die before they leave the South." },
+      { "year": "1839", "event": "After removal, Ross's Landing becomes a small white settlement. By 1839 it is renamed Chattanooga." }
+    ],
+    "today": "Chattanooga, TN (riverfront marker at the original landing)",
+    "source": "Tennessee Encyclopedia; Chattanooga History Center"
+  },
+  {
+    "id": "dahlonega",
+    "name": "Dahlonega",
+    "state": "GA",
+    "foundedYear": 1828,
+    "lat": 34.5328,
+    "lon": -83.9849,
+    "kind": "settlement",
+    "shortNote": "Gold rush boomtown founded inside Cherokee territory after the 1828 strike.",
+    "founding": "The Cherokee had long known about the gold here — the place name ᏓᎶᏂᎨ (Dalonige) means \"yellow\" in Cherokee. After Benjamin Parks's 1828 strike, 10,000 to 15,000 white prospectors flooded onto Cherokee land illegally. Georgia formalized the theft in 1833 by creating Lumpkin County with Dahlonega as the seat, on land the Cherokee still legally owned.",
+    "nativeEvents": [
+      { "year": "1828–1832", "event": "First major gold rush in U.S. history brings 10,000–15,000 white prospectors illegally onto Cherokee land. Georgia passes laws forbidding Cherokee from mining their own gold." },
+      { "year": "1832", "event": "Sixth Georgia Land Lottery distributes 18,309 \"land lots\" and 35,000 \"gold lots\" of Cherokee land to white Georgians. Cherokee families lose their homes to lottery winners while still living in them." },
+      { "year": "1838", "event": "U.S. Mint branch opens at Dahlonega the same year the Cherokee are forced west. The mint operates until 1861." }
+    ],
+    "today": "Dahlonega, GA (Dahlonega Gold Museum State Historic Site)",
+    "source": "New Georgia Encyclopedia; Dahlonega Gold Museum State Historic Site"
+  },
+  {
+    "id": "terminus-atlanta",
+    "name": "Terminus",
+    "state": "GA",
+    "foundedYear": 1837,
+    "lat": 33.7490,
+    "lon": -84.3880,
+    "kind": "settlement",
+    "shortNote": "Founded as a railroad terminus on land taken from the Cherokee at New Echota.",
+    "founding": "Established in 1837 by Stephen Long of the U.S. Army Topographical Engineers as the southeastern terminus of the Western & Atlantic Railroad. The land had been Cherokee until the Treaty of New Echota (December 1835).",
+    "nativeEvents": [
+      { "year": "1837", "event": "Founded on land ceded by the Treaty of New Echota — a treaty signed by about 500 Cherokee against the will of a National Council representing 16,000." },
+      { "year": "1843", "event": "Renamed Marthasville for the daughter of former Georgia Governor Wilson Lumpkin, a leading architect of Cherokee removal." },
+      { "year": "1845", "event": "Renamed Atlanta (chartered as a city in 1847). Built directly atop former Cherokee lands; nothing of the Cherokee landscape was preserved." }
+    ],
+    "today": "Atlanta, GA",
+    "source": "New Georgia Encyclopedia, Atlanta History Center"
+  },
+  {
+    "id": "washington-dc",
+    "name": "Washington",
+    "state": "DC",
+    "foundedYear": 1790,
+    "lat": 38.9072,
+    "lon": -77.0369,
+    "kind": "settlement",
+    "shortNote": "Federal capital where the Indian Removal Act was debated, passed, and signed — and where the Cherokee won two Supreme Court cases that were never enforced.",
+    "founding": "Established in 1790 by the Residence Act as the permanent capital of the United States. Built on land ceded by Maryland and Virginia on the Potomac River, itself Piscataway and Nacotchtank territory.",
+    "nativeEvents": [
+      { "year": "1830", "event": "Indian Removal Act passed by Congress (House 102-97 or 101-97 depending on the source, Senate 28-19) and signed by President Jackson. Authorized the forced relocation of all southeastern Indigenous nations." },
+      { "year": "1831", "event": "Cherokee Nation v. Georgia argued before the Supreme Court. Chief Justice Marshall rules the Cherokee are a 'domestic dependent nation' — not foreign, but not subject to state law." },
+      { "year": "1832", "event": "Worcester v. Georgia — Marshall rules Cherokee territory is sovereign and Georgia law has no force there. Jackson never enforced the ruling. He is often quoted as saying 'John Marshall has made his decision; now let him enforce it,' but this is almost certainly apocryphal. What Jackson actually wrote was that the decision 'fell still born.'" }
+    ],
+    "today": "Washington, D.C. (U.S. capital)",
+    "source": "Library of Congress; National Archives"
+  },
+  {
+    "id": "milledgeville",
+    "name": "Milledgeville",
+    "state": "GA",
+    "foundedYear": 1803,
+    "lat": 33.0801,
+    "lon": -83.2321,
+    "kind": "settlement",
+    "shortNote": "Georgia state capital 1804\u20131868. The legislature that passed anti-Cherokee laws and authorized the land lottery met here.",
+    "founding": "Founded in 1803 as the new Georgia state capital, replacing Louisville. Named for Governor John Milledge. The Georgia General Assembly met here for the entire removal era.",
+    "nativeEvents": [
+      { "year": "1828\u20131831", "event": "Georgia legislature passes a series of laws extending state jurisdiction over Cherokee territory, nullifying Cherokee laws, and making it illegal for Cherokee to testify against whites in court." },
+      { "year": "1832", "event": "Georgia Land Lottery authorized here \u2014 18,309 land lots and 35,000 gold lots of Cherokee land distributed to white Georgians by lottery. Cherokee families were evicted from their homes by lottery winners." }
+    ],
+    "today": "Milledgeville, GA (Georgia's Old Governor's Mansion is a museum)",
+    "source": "New Georgia Encyclopedia"
+  },
+  {
+    "id": "greenville-sc",
+    "name": "Greenville",
+    "state": "SC",
+    "foundedYear": 1786,
+    "lat": 34.8526,
+    "lon": -82.3940,
+    "kind": "settlement",
+    "shortNote": "Frontier settlement built on former Cherokee Lower Town territory, ceded at DeWitt\u2019s Corner in 1777.",
+    "founding": "Settled in the 1770s and incorporated in 1786 on land that had been Cherokee Lower Town territory until the Treaty of DeWitt\u2019s Corner (1777). Named for Revolutionary War general Nathanael Greene.",
+    "nativeEvents": [
+      { "year": "1776\u20131777", "event": "The Cherokee Lower Towns (Keowee, Seneca, Estatoe, Tugaloo) that once surrounded this area were permanently destroyed by Major Andrew Williamson\u2019s militia in 1776. The land was ceded at DeWitt\u2019s Corner in May 1777." },
+      { "year": "1786", "event": "Greenville County established on the ceded Lower Town lands. White settlers occupied the same river valleys where Cherokee communities had lived for centuries." }
+    ],
+    "today": "Greenville, SC",
+    "source": "South Carolina Encyclopedia"
+  },
+  {
+    "id": "rome-ga",
+    "name": "Rome",
+    "state": "GA",
+    "foundedYear": 1834,
+    "lat": 34.2570,
+    "lon": -85.1647,
+    "kind": "settlement",
+    "shortNote": "Built directly on top of the Cherokee town of Etowah (Hightower) at the confluence of the Etowah and Oostanaula rivers.",
+    "founding": "Founded in 1834 at the confluence of the Etowah and Oostanaula rivers \u2014 the exact site of the Cherokee town Etowah (Hightower), which had been a major settlement and the capital of the Etowah judicial district. The Cherokee were still living here when the city was platted.",
+    "nativeEvents": [
+      { "year": "1793", "event": "Battle of Hightower \u2014 John Sevier attacks the Cherokee town at this site. War chief Kingfisher is killed. The town is burned but rebuilt by Cherokee women." },
+      { "year": "1832", "event": "Cherokee families at Hightower lose their homes in the Georgia Land Lottery. White lottery winners move onto Cherokee farms while the Cherokee are still living in them." },
+      { "year": "1834", "event": "Rome is formally founded on the Cherokee town site. Cherokee residents are forced out. The city\u2019s founders named it Rome because the seven hills reminded them of the original \u2014 ignoring the Cherokee name the place already had." }
+    ],
+    "today": "Rome, GA",
+    "source": "New Georgia Encyclopedia; Chieftains Museum/Major Ridge Home"
+  },
+  {
+    "id": "canton-ga",
+    "name": "Canton",
+    "state": "GA",
+    "foundedYear": 1833,
+    "lat": 34.2368,
+    "lon": -84.4908,
+    "kind": "settlement",
+    "shortNote": "Seat of 'Cherokee County' \u2014 a county named after the people Georgia had just removed from it.",
+    "founding": "Founded in 1833 as the seat of Cherokee County, Georgia \u2014 created from former Cherokee territory. The county was named after the Cherokee Nation, whose citizens were still living there and would not be forcibly removed for another five years.",
+    "nativeEvents": [
+      { "year": "1832", "event": "Cherokee County created by the Georgia legislature from land distributed in the Georgia Land Lottery. Cherokee families still occupied their farms throughout the county." },
+      { "year": "1838", "event": "U.S. Army rounds up remaining Cherokee families in Cherokee County for the Trail of Tears. The county kept the Cherokee name after removing every Cherokee person from it." }
+    ],
+    "today": "Canton, GA (seat of Cherokee County \u2014 the county still bears the name)",
+    "source": "New Georgia Encyclopedia"
+  },
+  {
+    "id": "marietta-ga",
+    "name": "Marietta",
+    "state": "GA",
+    "foundedYear": 1834,
+    "lat": 33.9526,
+    "lon": -84.5499,
+    "kind": "settlement",
+    "shortNote": "Founded on Cherokee land distributed by the Georgia Land Lottery. Named for the wife of a U.S. senator who supported removal.",
+    "founding": "Founded in 1834 as the seat of Cobb County on land taken from the Cherokee in the Georgia Land Lottery. Named for Mary Cobb, wife of U.S. Senator Thomas Willis Cobb, a supporter of Indian removal.",
+    "nativeEvents": [
+      { "year": "1832", "event": "Cobb County created from Cherokee land distributed in the Georgia Land Lottery. Cherokee families are evicted by lottery winners." },
+      { "year": "1838", "event": "Remaining Cherokee in the area rounded up by U.S. troops for the Trail of Tears." }
+    ],
+    "today": "Marietta, GA",
+    "source": "New Georgia Encyclopedia"
+  },
+  {
+    "id": "gainesville-ga",
+    "name": "Gainesville",
+    "state": "GA",
+    "foundedYear": 1821,
+    "lat": 34.2979,
+    "lon": -83.8241,
+    "kind": "settlement",
+    "shortNote": "Northeast Georgia frontier town established on the edge of Cherokee territory.",
+    "founding": "Founded in 1821 as the seat of Hall County, on the frontier between Georgia settlements and the Cherokee Nation. Named for General Edmund P. Gaines.",
+    "nativeEvents": [
+      { "year": "1828", "event": "The Dahlonega gold rush begins just 20 miles to the north, bringing thousands of white prospectors through Gainesville on their way to illegally mine Cherokee land." },
+      { "year": "1838", "event": "Gainesville serves as a staging area for U.S. troops during the Cherokee roundup." }
+    ],
+    "today": "Gainesville, GA",
+    "source": "New Georgia Encyclopedia"
+  },
+  {
+    "id": "philadelphia",
+    "name": "Philadelphia",
+    "state": "PA",
+    "foundedYear": 1682,
+    "lat": 39.9526,
+    "lon": -75.1652,
+    "kind": "settlement",
+    "shortNote": "U.S. capital 1790\u20131800. Cherokee delegations negotiated here during the federal period.",
+    "founding": "Founded in 1682 by William Penn on Lenape territory. Served as the U.S. capital from 1790 to 1800, during which time the federal government negotiated multiple treaties with the Cherokee Nation.",
+    "nativeEvents": [
+      { "year": "1785\u20131800", "event": "Cherokee delegations traveled to Philadelphia during the federal period to negotiate treaties and protest settler encroachment on guaranteed Cherokee lands. The federal government repeatedly promised to enforce treaty boundaries and repeatedly failed." },
+      { "year": "1791", "event": "Treaty of Holston negotiations included correspondence with federal officials in Philadelphia, who authorized the 'perpetual guarantee' of Cherokee territory." }
+    ],
+    "today": "Philadelphia, PA",
+    "source": "Encyclopedia of Greater Philadelphia; Library of Congress"
+  }
+]

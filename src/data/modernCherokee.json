@@ -1,0 +1,83 @@
+[
+  {
+    "id": "cn-hq",
+    "name": "Cherokee Nation Headquarters",
+    "kind": "government",
+    "lat": 35.9148,
+    "lon": -94.9688,
+    "description": "Capital of the Cherokee Nation. The largest tribal nation in the United States with over 466,000 citizens. Chief Chuck Hoskin Jr. leads a government with its own judicial system, 17-member Tribal Council, hospitals, housing authority, and businesses generating over $3 billion annually.",
+    "source": "Cherokee Nation (cherokee.org)"
+  },
+  {
+    "id": "cherokee-phoenix-office",
+    "name": "Cherokee Phoenix",
+    "kind": "media",
+    "lat": 35.915,
+    "lon": -94.962,
+    "description": "Tribal newspaper founded in 1828 by Elias Boudinot at New Echota — the first Native American newspaper in history. It was shut down by Georgia in 1834. Revived in 1977 and still publishing today in both English and Cherokee syllabary.",
+    "source": "Cherokee Phoenix (cherokeephoenix.org)"
+  },
+  {
+    "id": "cherokee-immersion",
+    "name": "Cherokee Language Immersion School",
+    "kind": "education",
+    "lat": 35.913,
+    "lon": -94.977,
+    "description": "Cherokee Nation Immersion Charter School teaches students entirely in Cherokee (ᏣᎳᎩᎯ ᎠᏰᎵ). Founded in 2001 to revitalize the language after UNESCO classified Cherokee as \"definitely endangered.\" Enrollment has grown every year since opening.",
+    "source": "Cherokee Nation Language Program"
+  },
+  {
+    "id": "cn-hospital",
+    "name": "W.W. Hastings Indian Hospital",
+    "kind": "health",
+    "lat": 35.912,
+    "lon": -94.950,
+    "description": "Indian Health Service hospital serving Cherokee citizens. The Cherokee Nation also operates its own health system with clinics across 14 counties in northeastern Oklahoma.",
+    "source": "Cherokee Nation Health Services"
+  },
+  {
+    "id": "cherokee-heritage-center",
+    "name": "Cherokee Heritage Center",
+    "kind": "cultural",
+    "lat": 35.870,
+    "lon": -94.989,
+    "description": "Museum and cultural center in Park Hill, OK. Includes the Cherokee National History Museum, a recreated 1710 Cherokee village (Diligwa), and Adams Corner Rural Village. Also houses the Trail of Tears exhibit.",
+    "source": "Cherokee Heritage Center, Cherokee National Historical Society"
+  },
+  {
+    "id": "qualla-ebci",
+    "name": "Eastern Band Tribal Council",
+    "kind": "government",
+    "lat": 35.474,
+    "lon": -83.313,
+    "description": "Government of the Eastern Band of Cherokee Indians on the Qualla Boundary. The EBCI has approximately 16,000 enrolled members and governs 56,000 acres in the Great Smoky Mountains — the original Cherokee homeland. Principal Chief Michell Hicks leads the government.",
+    "source": "Eastern Band of Cherokee Indians (ebci.com)"
+  },
+  {
+    "id": "moi",
+    "name": "Museum of the Cherokee Indian",
+    "kind": "cultural",
+    "lat": 35.478,
+    "lon": -83.312,
+    "description": "Opened in 1948, the museum tells the Cherokee story from 13,000 years ago to the present. Renovated in 2022 with exhibits designed by Cherokee scholars and artists. Located in Cherokee, NC, on the Qualla Boundary.",
+    "source": "Museum of the Cherokee Indian"
+  },
+  {
+    "id": "kituwah-academy",
+    "name": "Kituwah Academy",
+    "kind": "education",
+    "lat": 35.484,
+    "lon": -83.318,
+    "description": "Cherokee language immersion school operated by the Eastern Band. Children learn to read, write, and speak Cherokee as their first language. Named for Kituwah, the Mother Town — the most sacred site in Cherokee history.",
+    "source": "EBCI Kituwah Academy"
+  },
+  {
+    "id": "ukb-hq",
+    "name": "United Keetoowah Band",
+    "kind": "government",
+    "lat": 35.927,
+    "lon": -94.963,
+    "description": "The United Keetoowah Band of Cherokee Indians is the third federally recognized Cherokee tribe, with about 14,000 members. Headquartered in Tahlequah, the UKB traces its political identity to the Keetoowah Society, a traditionalist group that opposed the Treaty of New Echota and slavery.",
+    "source": "United Keetoowah Band (ukb-nsn.gov)"
+  }
+]

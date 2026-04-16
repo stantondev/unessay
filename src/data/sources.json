@@ -1,0 +1,96 @@
+{
+  "cherokeeAuthored": [
+    { "citation": "Justice, Daniel Heath (Cherokee Nation). Our Fire Survives the Storm. University of Minnesota Press, 2006." },
+    { "citation": "Justice, Daniel Heath. Why Indigenous Literatures Matter. Wilfrid Laurier University Press, 2018." },
+    { "citation": "Reed, Julie L. (Cherokee Nation). Serving the Nation: Cherokee Sovereignty and Social Welfare, 1800\u20131907. University of Oklahoma Press, 2016." },
+    { "citation": "Cherokee Phoenix (Modern): cherokeephoenix.org" },
+    { "citation": "Cherokee Nation: cherokee.org" }
+  ],
+  "coreAcademic": [
+    { "citation": "Perdue, Theda. Cherokee Women: Gender and Culture Change, 1700\u20131835. University of Nebraska Press, 1998." },
+    { "citation": "Perdue, Theda, and Michael D. Green. The Cherokee Nation and the Trail of Tears. Viking/Penguin, 2007." },
+    { "citation": "McLoughlin, William G. Cherokee Renascence in the New Republic. Princeton University Press, 1986." },
+    { "citation": "McLoughlin, William G. After the Trail of Tears. University of North Carolina Press, 1993." },
+    { "citation": "Ehle, John. Trail of Tears: The Rise and Fall of the Cherokee Nation. Anchor Books, 1988." },
+    { "citation": "Mankiller, Wilma, and Michael Wallis. Mankiller: A Chief and Her People. St. Martin's Press, 1993." },
+    { "citation": "Miles, Tiya. The House on Diamond Hill: A Cherokee Plantation Story. University of North Carolina Press, 2010." },
+    { "citation": "Conley, Robert J. The Cherokee Nation: A History. University of New Mexico Press, 2005." },
+    { "citation": "Stremlau, Rose. Sustaining the Cherokee Family. University of North Carolina Press, 2011." }
+  ],
+  "populationAndLand": [
+    { "citation": "Thornton, Russell. American Indian Holocaust and Survival. University of Oklahoma Press, 1987." },
+    { "citation": "Denevan, William. The Native Population of the Americas in 1492. University of Wisconsin Press, 1976." },
+    { "citation": "Farrell, Justin, et al. \u201cEffects of Land Dispossession and Forced Migration on Indigenous Peoples in North America.\u201d Science 374 (2021)." }
+  ],
+  "primarySources": [
+    { "citation": "Cherokee Phoenix Archives (1828\u20131834): Library of Congress / Chronicling America" },
+    { "citation": "John Ross Papers: Gilcrease Museum, Tulsa, OK" },
+    { "citation": "Treaty Texts: Yale Avalon Project; Oklahoma State University (treaties.okstate.edu)" },
+    { "citation": "General Winfield Scott\u2019s Orders: University of Tennessee Digital Collections" },
+    { "citation": "Cherokee Census Rolls: National Archives M1773" }
+  ],
+  "settlerTownFoundings": [
+    { "citation": "Historic Jamestowne, Jamestown Rediscovery / NPS Colonial National Historical Park (Jamestown, VA, 1607)" },
+    { "citation": "Colonial Williamsburg Foundation; Encyclopedia Virginia (Williamsburg, VA, 1632/1699)" },
+    { "citation": "South Carolina Encyclopedia, University of South Carolina Press (Charles Town/Charleston, SC, 1670)" },
+    { "citation": "New Georgia Encyclopedia, Georgia Historical Society (Savannah, GA, 1733; Augusta, GA, 1736; Athens, GA, 1801; Dahlonega, GA, 1833; Terminus/Atlanta, GA, 1837)" },
+    { "citation": "Fort Loudoun State Historic Area, Tennessee State Parks (Fort Loudoun, TN, 1756; Tellico Blockhouse, TN, 1794)" },
+    { "citation": "Sycamore Shoals State Historic Park, Tennessee State Parks; Tennessee Encyclopedia (Sycamore Shoals, TN, 1772)" },
+    { "citation": "Fort Boonesborough State Park, Kentucky State Parks; Encyclopedia of Kentucky (Boonesborough, KY, 1775)" },
+    { "citation": "Tennessee Encyclopedia; Tennessee State Library and Archives (Fort Nashborough/Nashville, 1779; Knoxville, 1791; Maryville, 1795; Ross\u2019s Landing/Chattanooga, 1816)" },
+    { "citation": "NCpedia, State Library of North Carolina (Asheville, NC, 1797)" },
+    { "citation": "Encyclopedia of Alabama, Alabama Humanities Alliance (Huntsville, AL, 1805)" }
+  ],
+  "courseTextbook": {
+    "citation": "Dunbar-Ortiz, Roxanne. An Indigenous Peoples' History of the United States. Beacon Press, 2014."
+  },
+  "courseSources": [
+    {
+      "unit": "Unit 1: America's Master Narrative",
+      "sources": [
+        "Columbus journals (1492) \u2014 Doctrine of Discovery framework",
+        "Bartolom\u00e9 de Las Casas (1542) \u2014 documents exploitation",
+        "Dunbar-Ortiz, Introduction and Chapter 1"
+      ]
+    },
+    {
+      "unit": "Unit 2: Conflict and War",
+      "sources": [
+        "French and Indian War materials \u2014 Cherokee alliance context",
+        "Indians of the Eastern Woodlands \u2014 Cherokee cultural context"
+      ]
+    },
+    {
+      "unit": "Unit 3: Cherokee Land Cases",
+      "sources": [
+        "\"The Cherokees vs. Andrew Jackson\" (course reading)",
+        "Cherokee Nation v. State of Georgia, Court Opinion",
+        "A Former Commissioner of Indian Affairs Denounces the Failure to Keep Whites off Cherokee Lands",
+        "A Letter Protesting the Treaty of New Echota",
+        "General Winfield Scott to the Cherokee Nation",
+        "Slave Descendants Seek Equal Rights from the Cherokee Nation"
+      ]
+    },
+    {
+      "unit": "Unit 4: Native Eradication",
+      "sources": [
+        "Dunbar-Ortiz, \"Indian Country\" and \"US Triumphalism\" chapters",
+        "Sand Creek materials \u2014 parallel example of military violence"
+      ]
+    },
+    {
+      "unit": "Unit 5: Fighting for Recognition",
+      "sources": [
+        "1961 Declaration of Indian Purpose",
+        "American Indian Movement materials",
+        "Self-determination framework"
+      ]
+    },
+    {
+      "unit": "Unit 6: Standing Rock",
+      "sources": [
+        "Treaty rights framework \u2014 connects Cherokee treaty history to contemporary sovereignty"
+      ]
+    }
+  ]
+}

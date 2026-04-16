@@ -1,0 +1,112 @@
+[
+  {
+    "id": "treaty-1721",
+    "year": 1721,
+    "date": "1721",
+    "name": "Treaty with Governor Nicholson",
+    "location": "Charles Town, SC",
+    "ceded": "First recorded Cherokee land cession to British",
+    "detail": "A Cherokee delegation met with Governor Francis Nicholson of South Carolina, establishing British claims over Cherokee territory. This set the pattern for over a century of land cessions.",
+    "sqMilesRemaining": 40000,
+    "territoryKey": "precontact"
+  },
+  {
+    "id": "treaty-1777a",
+    "year": 1777,
+    "date": "May 20, 1777",
+    "name": "Treaty of DeWitt's Corner",
+    "location": "Abbeville County, SC",
+    "ceded": "Nearly all remaining South Carolina lands",
+    "detail": "First forced cession after military defeat in the 1776 campaign. Dragging Canoe refused to accept this treaty and established the Chickamauga Cherokee as a breakaway resistance faction.",
+    "sqMilesRemaining": 35000,
+    "territoryKey": "1777"
+  },
+  {
+    "id": "treaty-1777b",
+    "year": 1777,
+    "date": "July 20, 1777",
+    "name": "Treaty of Long Island of Holston",
+    "location": "Long Island, Holston River",
+    "ceded": "All lands east of Blue Ridge in NC/VA; claims north of Nolachucky River",
+    "detail": "Settlers immediately violated the new boundaries, a pattern that would repeat with every subsequent treaty.",
+    "sqMilesRemaining": 32000,
+    "territoryKey": "1777"
+  },
+  {
+    "id": "treaty-1785",
+    "year": 1785,
+    "date": "November 28, 1785",
+    "name": "Treaty of Hopewell",
+    "location": "Hopewell Plantation, near Clemson, SC",
+    "ceded": "Confirmed prior cessions; first U.S.\u2013Cherokee treaty",
+    "detail": "The new United States government guaranteed Cherokee lands \u2014 then flagrantly violated its own treaty. Over 500 white families settled illegally on Cherokee territory.",
+    "sqMilesRemaining": 30000,
+    "territoryKey": "1785"
+  },
+  {
+    "id": "treaty-1791",
+    "year": 1791,
+    "date": "July 2, 1791",
+    "name": "Treaty of Holston",
+    "location": "White's Fort (present-day Knoxville, TN)",
+    "ceded": "All claims east of Clinch River",
+    "detail": "Introduced the U.S. \"civilization program\" and a $1,000 annuity. The U.S. promised to \"guarantee the remainder forever.\"",
+    "sqMilesRemaining": 27000,
+    "territoryKey": "1791"
+  },
+  {
+    "id": "treaty-1798",
+    "year": 1798,
+    "date": "October 2, 1798",
+    "name": "Treaty of Tellico",
+    "location": "Tellico Blockhouse, TN",
+    "ceded": "East TN between Clinch River, Cumberland Plateau, and Tennessee/Little Tennessee Rivers",
+    "detail": "Again promised to \"continue guarantee forever\" \u2014 broken within six years.",
+    "sqMilesRemaining": 23000,
+    "territoryKey": "1798"
+  },
+  {
+    "id": "treaty-1804-06",
+    "year": 1806,
+    "date": "1804\u20131806",
+    "name": "Treaties of 1804, 1805, 1806",
+    "location": "Various",
+    "ceded": "Multiple rapid cessions including Federal Road right-of-way",
+    "detail": "Negotiated by U.S. Agent Return J. Meigs through bribery of individual chiefs. The 1805 treaty included a Federal Road right-of-way through Cherokee territory. Chief Doublehead was killed by fellow Cherokee for selling land without authorization.",
+    "sqMilesRemaining": 18000,
+    "territoryKey": "1806"
+  },
+  {
+    "id": "treaty-1814",
+    "year": 1814,
+    "date": "August 9, 1814",
+    "name": "Treaty of Fort Jackson",
+    "location": "Fort Jackson, AL",
+    "ceded": "Approximately 4 million acres of Cherokee land (claimed as Creek territory)",
+    "detail": "Cherokee warriors fought alongside Andrew Jackson as allies at the Battle of Horseshoe Bend. Jackson then demanded Cherokee land anyway, claiming it was Creek territory.",
+    "sqMilesRemaining": 14000,
+    "territoryKey": "1814"
+  },
+  {
+    "id": "treaty-1816-19",
+    "year": 1819,
+    "date": "1816\u20131819",
+    "name": "Treaties of 1816, 1817, 1819",
+    "location": "Various",
+    "ceded": "Approximately 4 million additional acres (1819 alone)",
+    "detail": "The 1817 treaty was the first with explicit removal provisions. Approximately 1,500\u20132,000 Cherokee voluntarily emigrated west. Afterward, the Cherokee Council declared: \"Not one more foot of land.\"",
+    "sqMilesRemaining": 10000,
+    "territoryKey": "1819"
+  },
+  {
+    "id": "treaty-1835",
+    "year": 1835,
+    "date": "December 29, 1835",
+    "name": "Treaty of New Echota",
+    "location": "New Echota, GA (Cherokee national capital)",
+    "ceded": "ALL remaining Cherokee territory east of the Mississippi",
+    "detail": "Signed by approximately 500 Cherokee out of a nation of 17,000. NOT authorized by the Cherokee government or Principal Chief John Ross. The U.S. Senate ratified it 31\u201315 \u2014 exactly one vote above the two-thirds threshold required. This treaty authorized the forced removal known as the Trail of Tears.",
+    "sqMilesRemaining": 0,
+    "territoryKey": "1835"
+  }
+]

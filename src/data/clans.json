@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Aniwaya",
+    "english": "Wolf",
+    "syllabary": "\u13a0\u13c9\u13e9\u13ef",
+    "role": "Largest clan; War Chiefs and protectors of the people"
+  },
+  {
+    "name": "Anigilohi",
+    "english": "Long Hair / Wind",
+    "syllabary": "\u13a0\u13c9\u13a9\u13b6\u13af",
+    "role": "Peace Chiefs; responsible for adopting outsiders into the nation"
+  },
+  {
+    "name": "Anisahoni",
+    "english": "Blue / Panther",
+    "syllabary": "\u13a0\u13c9\u13cc\u13b0\u13c9",
+    "role": "Keepers of children's medicines; oldest known subdivision"
+  },
+  {
+    "name": "Aniwodi",
+    "english": "Paint (Red Paint)",
+    "syllabary": "\u13a0\u13c9\u13ec\u13d7",
+    "role": "Medicine people; smallest and most secretive clan"
+  },
+  {
+    "name": "Anikawi",
+    "english": "Deer",
+    "syllabary": "\u13a0\u13c9\u13a7\u13eb",
+    "role": "Fast runners, hunters, and messengers"
+  },
+  {
+    "name": "Anitsisqua",
+    "english": "Bird",
+    "syllabary": "\u13a0\u13c9\u13e5\u13cd\u13a6",
+    "role": "Messengers between earth and heaven; keepers of sacred feathers"
+  },
+  {
+    "name": "Anigatagewi",
+    "english": "Wild Potato",
+    "syllabary": "\u13a0\u13c9\u13a4\u13d9\u13a8\u13eb",
+    "role": "Keepers of the land; gatherers and farmers"
+  }
+]

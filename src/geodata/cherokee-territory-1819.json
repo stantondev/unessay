@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cherokee Territory after Treaties of 1816-1819",
+        "period": "Post-1819",
+        "note": "First treaty with removal provisions (1817). Cherokee Council declared 'not one more foot of land.'"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-83.50, 35.40],
+          [-83.60, 35.10],
+          [-83.80, 34.80],
+          [-84.00, 34.50],
+          [-84.30, 34.40],
+          [-84.60, 34.30],
+          [-84.90, 34.40],
+          [-85.10, 34.60],
+          [-85.10, 34.80],
+          [-85.00, 35.00],
+          [-84.80, 35.20],
+          [-84.50, 35.30],
+          [-84.20, 35.40],
+          [-83.90, 35.45],
+          [-83.50, 35.40]
+        ]]
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+.map-container {
+  flex: 1;
+  position: relative;
+  min-width: 0;
+}
+
+/* Mapbox's internal containers collapse to height:0 because their only
+   children are absolute-positioned. Force full height so the canvas has
+   a stable box to paint into. */
+.map-container .mapboxgl-map,
+.map-container .mapboxgl-canvas-container {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+}
+
+/* Force the canvas onto its own compositor layer so WebGL frames get
+   presented reliably. */
+.map-container .mapboxgl-canvas {
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+
+.mapboxgl-popup-content {
+  background: #1f2937 !important;
+  color: #f9fafb !important;
+  border-radius: 8px !important;
+  padding: 12px 16px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5) !important;
+  border: 1px solid #374151 !important;
+}
+
+.mapboxgl-popup-close-button {
+  color: #9ca3af !important;
+  font-size: 18px !important;
+  padding: 4px 8px !important;
+}
+
+.mapboxgl-popup-close-button:hover {
+  color: #f9fafb !important;
+  background: transparent !important;
+}
+
+.mapboxgl-popup-tip {
+  border-top-color: #1f2937 !important;
+}
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+  border-top-color: #1f2937 !important;
+}
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip {
+  border-bottom-color: #1f2937 !important;
+}
+
+.mapboxgl-ctrl-group {
+  background: #1f2937 !important;
+  border: 1px solid #374151 !important;
+}
+
+.mapboxgl-ctrl-group button {
+  background: transparent !important;
+  border-color: #374151 !important;
+}
+
+.mapboxgl-ctrl-group button:hover {
+  background: #374151 !important;
+}
+
+.mapboxgl-ctrl-group button .mapboxgl-ctrl-icon {
+  filter: invert(1);
+}

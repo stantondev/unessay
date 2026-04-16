@@ -1,0 +1,74 @@
+[
+  {
+    "id": "blythe-ferry",
+    "name": "Blythe Ferry",
+    "location": "Meigs County, TN",
+    "significance": "Tennessee River crossing used by 9 overland detachments carrying approximately 9,839 people",
+    "lat": 35.38,
+    "lon": -84.95
+  },
+  {
+    "id": "mantle-rock",
+    "name": "Mantle Rock",
+    "location": "Livingston County, KY",
+    "significance": "Natural sandstone arch (188 ft long, ~30 ft high) where detachments sheltered while waiting to cross the Ohio River. The Hildebrand detachment camped here for approximately two weeks.",
+    "lat": 37.15,
+    "lon": -88.37
+  },
+  {
+    "id": "berrys-ferry",
+    "name": "Berry's Ferry / Golconda",
+    "location": "Golconda, IL",
+    "significance": "Ohio River crossing point into southern Illinois",
+    "lat": 37.37,
+    "lon": -88.49
+  },
+  {
+    "id": "trail-of-tears-state-park",
+    "name": "Trail of Tears State Park",
+    "location": "Near Cape Girardeau, MO",
+    "significance": "Mississippi River crossing site. Now a Missouri state park commemorating the removal.",
+    "lat": 37.45,
+    "lon": -89.46
+  },
+  {
+    "id": "waterloo-landing",
+    "name": "Waterloo Landing",
+    "location": "Waterloo, AL",
+    "significance": "Water route transfer point on the Tennessee River",
+    "lat": 34.92,
+    "lon": -87.66
+  },
+  {
+    "id": "hopkinsville",
+    "name": "Hopkinsville",
+    "location": "Hopkinsville, KY",
+    "significance": "Burial site of White Path and Fly Smith, Cherokee leaders who died during the march",
+    "lat": 36.87,
+    "lon": -87.49
+  },
+  {
+    "id": "mrs-webbers-place",
+    "name": "Mrs. Webber's Place",
+    "location": "Near Stilwell, OK",
+    "significance": "Primary arrival and disbandment site in Indian Territory for overland detachments",
+    "lat": 35.81,
+    "lon": -94.63
+  },
+  {
+    "id": "tahlequah",
+    "name": "Tahlequah",
+    "location": "Tahlequah, OK",
+    "significance": "New Cherokee capital established 1839; remains the Cherokee Nation headquarters today",
+    "lat": 35.92,
+    "lon": -94.97
+  },
+  {
+    "id": "fort-coffee",
+    "name": "Fort Coffee",
+    "location": "Fort Coffee, OK",
+    "significance": "Water route terminus in Indian Territory",
+    "lat": 35.37,
+    "lon": -94.39
+  }
+]

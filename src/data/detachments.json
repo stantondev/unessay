@@ -1,0 +1,142 @@
+{
+  "context": {
+    "background": "After disastrous Army-conducted water removals (approximately 2,800 departed, only ~2,273 arrived), General Scott suspended Army-managed removal and granted Principal Chief John Ross's request for Cherokee-managed emigration at $65.88 per capita.",
+    "totalDeaths": "2,000\u20134,000 (National Park Service; Smithsonian National Museum of the American Indian)",
+    "documentedDeaths": 561,
+    "undocumentedNote": "Four detachments did not file official reports. Camp deaths (~1,500+) preceded the march.",
+    "causes": "Whooping cough, typhus, dysentery, cholera, measles, pneumonia, exposure, starvation",
+    "conditions": "The winter of 1838\u201339 was the worst on record in Tennessee. The Ohio and Mississippi Rivers froze, trapping detachments for weeks."
+  },
+  "detachments": [
+    {
+      "id": 1,
+      "conductor": "Hair Conrad / Daniel Colston",
+      "departed": "October 5, 1838",
+      "people": 710,
+      "arrived": "January 4, 1839",
+      "deaths": 57,
+      "route": "northern-overland",
+      "notes": null
+    },
+    {
+      "id": 2,
+      "conductor": "Elijah Hicks",
+      "departed": "October 4, 1838",
+      "people": 809,
+      "arrived": "January 4, 1839",
+      "deaths": null,
+      "route": "northern-overland",
+      "notes": "White Path (Nuna-da-ut-sun'y), an elderly Cherokee leader, died en route near Hopkinsville, KY. His grave is still there."
+    },
+    {
+      "id": 3,
+      "conductor": "Rev. Jesse Bushyhead",
+      "departed": "October 16, 1838",
+      "people": 864,
+      "arrived": "February 27, 1839",
+      "deaths": null,
+      "route": "northern-overland",
+      "notes": "Detained one month at the Mississippi River crossing by ice."
+    },
+    {
+      "id": 4,
+      "conductor": "John Benge",
+      "departed": "October 1, 1838",
+      "people": 1079,
+      "arrived": "January 11, 1839",
+      "deaths": 33,
+      "route": "benge",
+      "notes": "Took the southern (Benge) route through northern Alabama."
+    },
+    {
+      "id": 5,
+      "conductor": "Situwakee / Rev. Evan Jones",
+      "departed": "October 19, 1838",
+      "people": 1205,
+      "arrived": "February 2, 1839",
+      "deaths": 71,
+      "route": "northern-overland",
+      "notes": "Rev. Evan Jones was a Baptist missionary who accompanied the detachment."
+    },
+    {
+      "id": 6,
+      "conductor": "Capt. Old Field / Rev. Stephen Foreman",
+      "departed": "October 10, 1838",
+      "people": 864,
+      "arrived": "February 2, 1839",
+      "deaths": 57,
+      "route": "northern-overland",
+      "notes": "Rev. Stephen Foreman was a Cherokee Presbyterian minister."
+    },
+    {
+      "id": 7,
+      "conductor": "Moses Daniel",
+      "departed": "October 23, 1838",
+      "people": 1031,
+      "arrived": "March 2, 1839",
+      "deaths": 48,
+      "route": "northern-overland",
+      "notes": null
+    },
+    {
+      "id": 8,
+      "conductor": "Choowalooka (Bark)",
+      "departed": null,
+      "people": null,
+      "arrived": null,
+      "deaths": null,
+      "route": "northern-overland",
+      "notes": "Not officially reported."
+    },
+    {
+      "id": 9,
+      "conductor": "James Brown",
+      "departed": "September 10, 1838",
+      "people": null,
+      "arrived": null,
+      "deaths": null,
+      "route": "northern-overland",
+      "notes": "Exact dates approximate."
+    },
+    {
+      "id": 10,
+      "conductor": "George Hicks",
+      "departed": "circa September\u2013October 1838",
+      "people": null,
+      "arrived": null,
+      "deaths": null,
+      "route": "northern-overland",
+      "notes": "Not officially reported. Departure date disputed across sources. George Hicks wrote a famous letter from the trail dated January 13, 1839."
+    },
+    {
+      "id": 11,
+      "conductor": "Richard Taylor",
+      "departed": "September 20, 1838",
+      "people": null,
+      "arrived": null,
+      "deaths": null,
+      "route": "northern-overland",
+      "notes": "Departed from Ross's Landing."
+    },
+    {
+      "id": 12,
+      "conductor": "Peter Hildebrand",
+      "departed": "November 5, 1838",
+      "people": 1766,
+      "arrived": "March 25, 1839",
+      "deaths": 55,
+      "route": "northern-overland",
+      "notes": "Largest and last overland detachment. Camped approximately two weeks at Mantle Rock, KY while waiting for the Ohio River to become passable."
+    },
+    {
+      "id": 13,
+      "conductor": "John Drew",
+      "departed": "December 5, 1838",
+      "people": 228,
+      "arrived": null,
+      "deaths": 12,
+      "route": "water",
+      "notes": "Water route. This party included Principal Chief John Ross and his wife Quatie Ross. Quatie Ross died February 1, 1839 aboard the steamboat Victoria near Little Rock, AR. Oral tradition holds she gave her blanket to a sick child and died of pneumonia. She is buried at Mount Holly Cemetery, Little Rock."
+    }
+  ]
+}

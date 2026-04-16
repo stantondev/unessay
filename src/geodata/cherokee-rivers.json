@@ -1,0 +1,109 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "englishName": "Tennessee River",
+        "cherokeeName": "Tanasi",
+        "syllabary": "ᏔᎾᏏ",
+        "note": "The Tennessee River takes its name from the Cherokee town of Tanasi. It was the main water route for Cherokee trade, travel, and raids for centuries."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.30, 35.05]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "englishName": "Little Tennessee River",
+        "cherokeeName": null,
+        "syllabary": null,
+        "note": "Cherokee towns along the Little Tennessee formed the Overhill division: Chota, Tanasi, Tuskegee, Tomotley, and Citico. Most are now submerged under Tellico Lake."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.12, 35.53]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "englishName": "Hiwassee River",
+        "cherokeeName": "Ayuhwasi",
+        "syllabary": null,
+        "note": "A major river of the Cherokee homeland, running from the southern Appalachians into the Tennessee River."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.40, 35.15]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "englishName": "French Broad River",
+        "cherokeeName": "Tah-kee-os-tee",
+        "syllabary": null,
+        "note": "One of the oldest rivers in the world. Ran through Middle and Out Town country in present-day North Carolina."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.70, 35.75]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "englishName": "Coosa River",
+        "cherokeeName": "Kusa",
+        "syllabary": null,
+        "note": "Formed by the junction of the Etowah and Oostanaula rivers at Rome, Georgia. A major artery of the Lower Towns and Creek country to the south."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.70, 34.20]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "englishName": "Etowah River",
+        "cherokeeName": "Itawa",
+        "syllabary": null,
+        "note": "Home to the Etowah Mounds, a major Mississippian-era ceremonial site later associated with Cherokee territory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.68, 34.22]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "englishName": "Tallapoosa River",
+        "cherokeeName": null,
+        "syllabary": null,
+        "note": "Site of the 1814 Battle of Horseshoe Bend, where Cherokee warriors fought alongside Jackson against the Red Stick Creeks."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.85, 32.90]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "englishName": "Oconaluftee River",
+        "cherokeeName": "Egwanulʔti",
+        "syllabary": null,
+        "note": "Flows through the ancestral lands of the Oconaluftee Cherokee, whose descendants form the core of the Eastern Band today."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.31, 35.52]
+      }
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "note": "Colonial claims c. 1750-1763. These are European fictions drawn over Indigenous nations who neither recognized nor consented to them. Cherokee, Creek, Choctaw, Chickasaw, and other nations actually controlled most of the ground inside these polygons. Boundaries are simplified for legibility at continental map zoom.",
+    "sources": [
+      "National Park Service, 'Indian Nations and French and Indian War Forts 1754-1760' map — used for the disputed territory boundary and French/British extents",
+      "John Mitchell, A Map of the British and French Dominions in North America (1755) — Library of Congress g3300.np000009, used in Treaty of Paris 1783 negotiations",
+      "D.W. Meinig, The Shaping of America, Vol. 1: Atlantic America, 1492-1800 (Yale, 1986)",
+      "Charles C. Royce, Indian Land Cessions in the United States (1899, Bureau of American Ethnology)",
+      "Library of Congress, Louisiana: European Explorations and the Louisiana Purchase collection",
+      "Royal Proclamation of 1763, full text"
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "spanish-florida",
+        "name": "Spanish Florida",
+        "nameLocal": "La Florida",
+        "power": "Spain",
+        "color": "#f97316",
+        "validFrom": 1513,
+        "validTo": 1763,
+        "summary": "The Spanish claim centered on St. Augustine (founded 1565) and Pensacola (founded 1698). By 1750, Spanish effective control had contracted to the Florida peninsula and a narrow Gulf coast strip.",
+        "history": "Spain had claimed Florida since Juan Ponce de León landed in 1513, but effective occupation shrank steadily as English and French powers encroached. The Spanish Apalachee missions in northern Florida were destroyed in 1704 by English-led raids during Queen Anne's War. Oglethorpe's founding of Georgia in 1733 pushed the effective northern boundary south to roughly the 31st parallel. In 1763, Spain lost all of Florida to Britain in the Treaty of Paris ending the French and Indian War.",
+        "source": "D.W. Meinig, The Shaping of America Vol. 1; Florida Department of State Spanish Colonial History collection"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-87.5, 30.4], [-87.0, 30.5], [-86.5, 30.5], [-86.0, 30.6],
+          [-85.5, 30.7], [-85.0, 30.8], [-84.5, 30.9], [-84.0, 30.8],
+          [-83.5, 30.7], [-83.0, 30.6], [-82.5, 30.5], [-82.0, 30.4],
+          [-81.7, 30.6], [-81.5, 30.4], [-81.3, 29.8], [-81.0, 29.2],
+          [-80.8, 28.5], [-80.5, 27.8], [-80.3, 27.0], [-80.1, 26.2],
+          [-80.1, 25.5], [-80.5, 25.1], [-81.0, 24.8], [-81.6, 24.5],
+          [-82.0, 24.7], [-82.2, 25.3], [-82.1, 26.0], [-82.4, 26.7],
+          [-82.7, 27.4], [-82.9, 28.1], [-83.1, 28.9], [-83.6, 29.5],
+          [-84.2, 29.8], [-84.9, 29.8], [-85.6, 29.9], [-86.2, 30.1],
+          [-86.8, 30.2], [-87.3, 30.2], [-87.5, 30.4]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "french-louisiana",
+        "name": "French Louisiana",
+        "nameLocal": "La Louisiane",
+        "power": "France",
+        "color": "#2563eb",
+        "validFrom": 1682,
+        "validTo": 1763,
+        "summary": "The French colonial sphere centered on the Great Lakes, Mississippi Valley, and Gulf of Mexico coast. On paper France claimed the entire Mississippi watershed; in practice, French authority extended only a few miles around scattered forts and missions.",
+        "history": "French fur traders, missionaries, and soldiers established a chain of forts from Quebec south along the Mississippi, including New Orleans (1718) and Mobile (1702). Actual French control extended only a few miles around each fort — the vast interior was governed by Cherokee, Shawnee, Illinois, Osage, Caddo, and other Indigenous nations. The area east of the Mississippi, particularly the Ohio Valley, was contested with Britain and considered disputed territory until the French and Indian War (1754-1763) resolved the question. France lost all its mainland North American territory in 1763: the eastern half to Britain, the western half (Louisiana proper) transferred secretly to Spain in 1762.",
+        "source": "NPS 'Indian Nations and French and Indian War Forts 1754-1760' map; Library of Congress 'A Question of Boundaries'; Mitchell 1755 map; Meinig, Shaping of America Vol. 1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-89.3, 29.0], [-90.5, 29.2], [-91.8, 29.5], [-93.0, 29.7],
+          [-94.2, 29.5], [-94.7, 29.7], [-95.5, 30.5], [-96.5, 31.5],
+          [-97.5, 32.5], [-98.5, 33.8], [-99.5, 35.0], [-100.0, 36.2],
+          [-100.2, 37.5], [-100.0, 39.0], [-99.5, 40.5], [-98.8, 42.0],
+          [-98.0, 43.5], [-97.0, 44.8], [-95.5, 46.0], [-93.5, 46.8],
+          [-91.5, 47.2], [-89.5, 47.5], [-87.5, 47.5], [-85.5, 47.0],
+          [-84.0, 46.5], [-83.5, 45.8], [-83.0, 45.0], [-82.5, 44.0],
+          [-82.8, 43.0], [-82.5, 42.0], [-83.0, 41.7], [-84.0, 41.8],
+          [-85.0, 41.6], [-86.0, 41.0], [-87.0, 40.3], [-87.8, 39.2],
+          [-88.2, 38.0], [-88.5, 36.8], [-88.8, 35.5], [-88.8, 34.3],
+          [-88.7, 33.3], [-88.5, 32.3], [-88.2, 31.3], [-88.0, 30.5],
+          [-88.2, 30.0], [-88.8, 29.9], [-89.3, 29.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "disputed-territory",
+        "name": "Disputed Territory",
+        "nameLocal": null,
+        "power": "Contested",
+        "color": "#a3a39e",
+        "validFrom": 1700,
+        "validTo": 1763,
+        "summary": "The vast contested zone between French Louisiana and the British colonies, including the Ohio Valley, the Appalachian uplands, and most of the Cherokee homeland. Neither France nor Britain controlled this ground — Indigenous nations did.",
+        "history": "For much of the 18th century, the trans-Appalachian region was disputed on European maps and fought over on the ground. Neither France nor Britain had effective authority here; the Ohio Valley, Kentucky, Tennessee, and the western Carolinas were governed by Cherokee, Shawnee, Delaware, and other nations. The French and Indian War (1754-1763) was fought specifically to resolve this disputed claim — triggered in 1754 by British attempts to build forts in the Ohio Valley at Pittsburgh. Britain won the war and inherited the entire disputed region, immediately issuing the 1763 Proclamation to forbid colonial settlement west of the Appalachians — an attempt to keep the 'disputed' status quo for Indigenous nations. Settlers ignored it.",
+        "source": "National Park Service, 'Indian Nations and French and Indian War Forts 1754-1760' map — the green 'disputed territory' zone shown between French (orange) and British (salmon) territory. This representation follows the NPS depiction. The eastern boundary of this polygon traces the same Eastern Continental Divide that the 1763 Proclamation Line follows — the two should appear as identical lines on the map."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-83.0, 42.0], [-83.5, 41.5], [-84.0, 41.0], [-84.5, 40.5],
+          [-85.0, 40.0], [-85.5, 39.5], [-86.0, 38.8], [-86.3, 38.0],
+          [-86.5, 37.0], [-86.8, 36.0], [-87.0, 35.2], [-86.8, 34.5],
+          [-86.2, 33.8], [-85.5, 33.3], [-84.7, 31.0],
+          [-84.5, 31.4], [-84.3, 31.8], [-84.4, 32.2], [-84.5, 32.6],
+          [-84.4, 33.0], [-84.3, 33.4], [-84.1, 33.7], [-83.8, 34.0],
+          [-83.5, 34.3], [-83.2, 34.6], [-82.9, 35.0], [-82.6, 35.4],
+          [-82.3, 35.8], [-82.0, 36.2], [-81.7, 36.6], [-81.3, 37.0],
+          [-80.9, 37.4], [-80.5, 37.8], [-80.2, 38.1], [-79.8, 38.5],
+          [-79.5, 38.8], [-79.2, 39.2], [-78.8, 39.6], [-78.5, 40.0],
+          [-78.2, 40.5], [-77.8, 40.9], [-78.2, 41.5], [-78.5, 42.0],
+          [-78.9, 42.5], [-80.0, 42.5], [-81.5, 42.3], [-83.0, 42.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "british-colonies",
+        "name": "British Thirteen Colonies",
+        "nameLocal": null,
+        "power": "Britain",
+        "color": "#dc2626",
+        "validFrom": 1607,
+        "validTo": 1835,
+        "summary": "Effective British colonial settlement from Jamestown (1607) onward, concentrated east of the Appalachian crest between Georgia and Maine.",
+        "history": "While the British Crown claimed the interior as far west as the Mississippi (and on some maps to the Pacific), effective colonial government, taxation, and settlement ended at the Appalachian crest. Cherokee towns over the mountains on the Little Tennessee River were technically inside the claimed boundary of Virginia but were governed by the Cherokee Nation. Britain took control of all French and Spanish territory east of the Mississippi in 1763.",
+        "source": "Mitchell 1755 map; Meinig, Shaping of America Vol. 1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-84.7, 31.0],
+          [-84.5, 31.4], [-84.3, 31.8], [-84.4, 32.2], [-84.5, 32.6],
+          [-84.4, 33.0], [-84.3, 33.4], [-84.1, 33.7], [-83.8, 34.0],
+          [-83.5, 34.3], [-83.2, 34.6], [-82.9, 35.0], [-82.6, 35.4],
+          [-82.3, 35.8], [-82.0, 36.2], [-81.7, 36.6], [-81.3, 37.0],
+          [-80.9, 37.4], [-80.5, 37.8], [-80.2, 38.1], [-79.8, 38.5],
+          [-79.5, 38.8], [-79.2, 39.2], [-78.8, 39.6], [-78.5, 40.0],
+          [-78.2, 40.5], [-77.8, 40.9], [-78.2, 41.5], [-78.5, 42.0],
+          [-78.9, 42.5], [-79.0, 42.8],
+          [-77.5, 43.2], [-76.0, 43.6], [-74.5, 44.3], [-73.3, 44.9],
+          [-72.5, 45.0], [-71.3, 45.3], [-70.5, 46.0], [-69.5, 47.0],
+          [-68.3, 47.4], [-67.8, 47.2], [-67.0, 45.5], [-66.9, 44.8],
+          [-68.2, 44.0], [-69.5, 43.7], [-70.5, 43.0], [-70.7, 42.5],
+          [-70.3, 41.7], [-71.2, 41.3], [-72.0, 41.0], [-73.0, 40.8],
+          [-73.8, 40.5], [-74.2, 39.8], [-74.8, 39.2], [-75.3, 38.5],
+          [-75.8, 37.8], [-76.0, 37.0], [-76.3, 36.6], [-76.0, 35.8],
+          [-75.5, 35.2], [-76.5, 34.6], [-77.5, 34.0], [-78.5, 33.8],
+          [-79.2, 33.2], [-80.0, 32.7], [-80.8, 32.0], [-81.3, 31.3],
+          [-81.5, 30.7], [-82.5, 30.9], [-83.5, 31.0], [-84.7, 31.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "proclamation-line-1763",
+        "name": "Proclamation Line of 1763",
+        "nameLocal": null,
+        "power": "Britain",
+        "color": "#f59e0b",
+        "validFrom": 1763,
+        "validTo": 1783,
+        "summary": "The boundary King George III declared on October 7, 1763, reserving all land west of the Appalachian crest for Indigenous nations. The line followed the Eastern Continental Divide but was never surveyed and was continuously violated by settlers.",
+        "history": "Issued after the French and Indian War, the Royal Proclamation forbade British colonists from settling west of the line without explicit Crown permission. It was meant to stabilize relations with Indigenous nations who had sided with the French. Colonists immediately violated it, and the line was pushed westward in a series of treaties — Fort Stanwix (1768), Hard Labor (1768), Lochaber (1770), and Augusta (1773) — giving settlers access to Kentucky and parts of present-day West Virginia. The line was one of the grievances that led to the American Revolution.",
+        "source": "Royal Proclamation of October 7, 1763; Encyclopedia Virginia; Mount Vernon Digital Encyclopedia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-78.9, 42.5], [-78.5, 42.0], [-78.2, 41.5], [-77.8, 40.9],
+          [-78.2, 40.5], [-78.5, 40.0], [-78.8, 39.6], [-79.2, 39.2],
+          [-79.5, 38.8], [-79.8, 38.5], [-80.2, 38.1], [-80.5, 37.8],
+          [-80.9, 37.4], [-81.3, 37.0], [-81.7, 36.6], [-82.0, 36.2],
+          [-82.3, 35.8], [-82.6, 35.4], [-82.9, 35.0], [-83.2, 34.6],
+          [-83.5, 34.3], [-83.8, 34.0], [-84.1, 33.7], [-84.3, 33.4],
+          [-84.4, 33.0], [-84.5, 32.6], [-84.4, 32.2], [-84.3, 31.8],
+          [-84.5, 31.4], [-84.7, 31.0]
+        ]
+      }
+    }
+  ]
+}

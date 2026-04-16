@@ -1,0 +1,45 @@
+{
+  "title": "A Family Thread",
+  "subtitle": "One family's connection to Cherokee history \u2014 what is known, what is remembered, and what remains an open question",
+  "introduction": "Threaded through this history is a personal story \u2014 one that is partly documented, partly oral tradition, and partly open question. It shows how the Trail of Tears didn't just move people; it erased identities. The open questions are themselves part of the history of displacement.",
+  "sections": [
+    {
+      "id": "denisha",
+      "title": "Denisha (Dyonicie) Jane Wall",
+      "content": "The creator's third great-grandmother, Denisha (Dyonicie) Jane Wall, was born in 1828 or 1832 \u2014 records conflict \u2014 in what is now Lawrence County, Missouri. She died in 1902 in Mountain Grove, Wright County, Missouri. In family oral tradition, she is remembered as a full-blood Cherokee who experienced the Trail of Tears as a young child.",
+      "mapConnections": [
+        { "label": "Birthplace area", "lat": 36.97, "lon": -93.83, "note": "Lawrence County, MO (county not established until 1845; the area was unsettled Osage territory in the 1820s\u20131830s)" },
+        { "label": "Later residence", "lat": 37.56, "lon": -92.12, "note": "Pulaski County, MO (1860 Census)" },
+        { "label": "Final residence", "lat": 37.13, "lon": -92.26, "note": "Wright County / Mountain Grove, MO (1880 Census; died 1902)" }
+      ]
+    },
+    {
+      "id": "what-records-show",
+      "title": "What the Records Show",
+      "content": "Both of Denisha's parents are listed as Unknown on her Ancestry profile \u2014 no birth parents are documented. Her name 'Dyonicie' is French/Greek in origin (a phonetic spelling of Dionysia), not Cherokee \u2014 suggesting she was named by whoever raised her, not by her birth family. Her birthplace (Lawrence County, Missouri) did not exist as a county until 1845 and was unsettled Osage territory in the 1820s\u20131830s, meaning the location was described retroactively using later place-names. She appears in the 1860 census in Pulaski County, MO, and the 1880 census in Wright County, MO."
+    },
+    {
+      "id": "what-tradition-holds",
+      "title": "What Family Tradition Holds",
+      "content": "Family oral tradition holds that Denisha was a full-blood Cherokee and that she experienced the Trail of Tears. If born in 1832, she would have been approximately 6 years old during the 1838 removal \u2014 young enough that 'baby' could drift across generations of retelling. The Cherokee connection could also relate to earlier displacements: the Western Cherokee ('Old Settlers') were forced from their Arkansas reservation in 1828\u201329, and Cherokee settlement in the Missouri/Arkansas border region was significant in this period.",
+      "mapConnections": [
+        { "label": "Trail of Tears through Pulaski Co.", "lat": 37.83, "lon": -92.20, "note": "Waynesville, MO \u2014 Cherokee detachments camped here. Denisha later lived in this county." },
+        { "label": "Hildebrand detachment route", "lat": 37.13, "lon": -92.26, "note": "Wright County \u2014 the Hildebrand detachment passed through this area" },
+        { "label": "Western Cherokee reservation", "lat": 35.80, "lon": -93.50, "note": "Arkansas reservation (1817\u20131828) near the Missouri border" }
+      ]
+    },
+    {
+      "id": "larue-connection",
+      "title": "What the LaRue Side Reveals",
+      "content": "Denisha married Anthony Francis Marion LaRue (1827\u20131886), a man of French Huguenot descent whose family migrated from Virginia through the Appalachian corridor into Missouri. The LaRue surname appears on the 1924 Baker Roll of the Eastern Band of Cherokee Indians: Martha LaRue, Samuel J. LaRue, and Theodore J. LaRue \u2014 all accepted. Multiple independent genealogical queries connect LaRue families to Cherokee ancestry across different branches and regions. Anthony Thomas LaRue \u2014 Denisha and Anthony's own son \u2014 is referenced in Cherokee genealogy queries. This suggests Cherokee heritage may have run through both sides of the family, not just Denisha's.",
+      "mapConnections": []
+    },
+    {
+      "id": "what-this-means",
+      "title": "What This Means",
+      "content": "A Cherokee child with unknown parents and a European name given by her adoptive community is not a weaker story than the simplified version \u2014 it is a more powerful one. It shows how removal didn't just move people; it erased identities. The open questions are themselves part of the history: this is what happens when a nation's records, families, and naming traditions are disrupted by forced displacement.",
+      "note": "The creator is actively researching this family connection and welcomes any leads or corrections. The Baker Roll application files (NARA Microfilm M2104) for the three enrolled LaRues are the most promising next step for documentary verification."
+    }
+  ],
+  "familyLine": "Denisha (Dyonicie) Jane Wall \u2192 married Anthony Francis Marion LaRue \u2192 daughter Nancy A. LaRue \u2192 married Thomas Hill \u2192 Hill family line \u2192 the creator"
+}

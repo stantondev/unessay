@@ -1,0 +1,75 @@
+{
+  "nations": [
+    {
+      "id": "cherokee-nation",
+      "name": "Cherokee Nation",
+      "location": "Tahlequah, OK",
+      "lat": 35.92,
+      "lon": -94.97,
+      "enrollment": "466,000+",
+      "enrollmentNote": "Largest of 574 federally recognized tribes (2024 data: 466,118 citizens)",
+      "territory": "14-county reservation in northeastern Oklahoma (~7,000 sq mi)",
+      "territoryNote": "Reservation status affirmed 2020\u201321 following the McGirt v. Oklahoma decision",
+      "citizenship": "Lineal descent from the Dawes Roll; no blood quantum requirement",
+      "chief": "Chuck Hoskin Jr. (elected 2019, reelected 2023)",
+      "economicImpact": "$3.1 billion annually; $1.2 billion in wages and benefits",
+      "distribution": "~283,000 in Oklahoma; ~29,400 in Texas; ~28,000 in California; citizens in all 50 states",
+      "capital": "Tahlequah, OK (capital since 1839)"
+    },
+    {
+      "id": "ebci",
+      "name": "Eastern Band of Cherokee Indians",
+      "location": "Cherokee, NC",
+      "lat": 35.47,
+      "lon": -83.31,
+      "enrollment": "~16,000",
+      "enrollmentNote": "Stewards of the original Cherokee homeland in the Smoky Mountains",
+      "territory": "Qualla Boundary (~56,000+ acres) in western North Carolina",
+      "territoryNote": "The original homeland \u2014 descendants of those who avoided removal",
+      "citizenship": "1/16 minimum blood quantum + descent from 1924 Baker Roll",
+      "chief": null,
+      "economicImpact": null,
+      "distribution": null,
+      "capital": "Cherokee, NC (Qualla Boundary)"
+    },
+    {
+      "id": "ukb",
+      "name": "United Keetoowah Band of Cherokee Indians",
+      "location": "Tahlequah, OK",
+      "lat": 35.92,
+      "lon": -94.97,
+      "enrollment": "~14,000",
+      "enrollmentNote": "Strong traditional cultural practices",
+      "territory": "Headquartered in Tahlequah, OK",
+      "territoryNote": null,
+      "citizenship": "1/4 minimum blood quantum",
+      "chief": null,
+      "economicImpact": null,
+      "distribution": null,
+      "capital": "Tahlequah, OK"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1996,
+      "event": "EBCI purchases 309 acres at Kituwah, the Mother Town",
+      "significance": "Return of the most sacred Cherokee site to Cherokee ownership"
+    },
+    {
+      "year": 2021,
+      "event": "Cherokee Nation Supreme Court affirms Freedmen citizenship rights",
+      "significance": "Nash/Vann ruling ensuring descendants of Cherokee Freedmen have full citizenship"
+    },
+    {
+      "year": 2024,
+      "event": "Cherokee Nation enrollment surpasses 466,000",
+      "significance": "Continued growth of the largest tribal nation in the United States"
+    },
+    {
+      "year": 2026,
+      "date": "February 26, 2026",
+      "event": "Noquisiyi (Nikwasi) Mound deed officially transferred back to EBCI",
+      "significance": "First Indigenous mound returned to tribal ownership in North Carolina; over 200 years since Cherokee last held ownership"
+    }
+  ]
+}

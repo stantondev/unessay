@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cherokee Territory after Treaty of Fort Jackson (1814)",
+        "period": "Post-Fort Jackson",
+        "note": "Lost ~4 million acres claimed by Jackson as Creek territory despite Cherokee fighting as his allies"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-83.40, 35.50],
+          [-83.50, 35.20],
+          [-83.60, 34.90],
+          [-83.80, 34.60],
+          [-84.00, 34.40],
+          [-84.30, 34.30],
+          [-84.70, 34.20],
+          [-85.00, 34.30],
+          [-85.30, 34.40],
+          [-85.40, 34.60],
+          [-85.40, 34.80],
+          [-85.30, 35.00],
+          [-85.10, 35.20],
+          [-84.80, 35.40],
+          [-84.50, 35.50],
+          [-84.20, 35.55],
+          [-83.80, 35.55],
+          [-83.40, 35.50]
+        ]]
+      }
+    }
+  ]
+}
