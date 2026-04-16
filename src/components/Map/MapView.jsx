@@ -2133,7 +2133,7 @@ export default function MapView() {
       const isToday = scene.chapter === 'Today';
       if (m.getLayer('historical-trails-label')) {
         if (isToday) {
-          m.setLayoutProperty('historical-trails-label', 'text-field', ['get', 'modernEquivalent']);
+          m.setLayoutProperty('historical-trails-label', 'text-field', ['get', 'modernLabel']);
           m.setLayoutProperty('historical-trails-label', 'symbol-spacing', 300);
           m.setLayoutProperty('historical-trails-label', 'text-size', ['interpolate', ['linear'], ['zoom'], 3, 8, 6, 11, 8, 13]);
         } else {

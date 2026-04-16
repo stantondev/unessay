@@ -10,6 +10,7 @@
         "color": "#c084fc",
         "summary": "The major pre-contact Indigenous trading and war path running from present-day New York through the Cherokee homeland into Creek country.",
         "history": "Used by Cherokee war parties to raid the Shawnee north and the Creek south for centuries. Cherokee, Shawnee, Creek, Catawba, and Iroquois traders all walked this path. Daniel Boone followed the Warpath's Kentucky branch to become the first non-Cherokee to cross the Cumberland Gap in 1775 — cutting a settler road directly through Cherokee land.",
+        "modernLabel": "I-81 / US-11W / US-25",
         "modernEquivalent": "Much of the Warpath is now paved. Portions correspond to US Route 11W, US Route 25, US Route 421, and parts of Interstate 81 through Tennessee and Virginia.",
         "length": "~800 miles (New York to Alabama)"
       },
@@ -44,6 +45,7 @@
         "color": "#facc15",
         "summary": "The first legal wagon road through Cherokee territory, chartered in 1813 to compete with the Federal Road.",
         "history": "Built by the state of Tennessee specifically to divert travel away from Cherokee-controlled territory while still benefiting from the trade it generated. Toll collection began at Niles' Ferry on the Tennessee River. Ironically, the Unicoi Turnpike became one of the primary removal routes — the Bell Detachment and others departed from Fort Butler along this corridor in 1838.",
+        "modernLabel": "GA-17 / GA-75 / NC-106",
         "modernEquivalent": "Portions are now GA Route 17, GA Route 75, and NC Route 106 through the Nantahala Mountains. A historic marker stands at the Unicoi Gap crossing on GA 75.",
         "length": "~140 miles (Tellico, TN to Traveler's Rest, GA)"
       },
@@ -70,6 +72,7 @@
         "color": "#f87171",
         "summary": "Authorized by the 1805 Treaty of Washington, the Federal Road cut straight through the heart of Cherokee territory connecting Athens, Georgia to Nashville, Tennessee.",
         "history": "The U.S. extracted the right-of-way as part of a land cession negotiated by Agent Return J. Meigs. The road brought settlers, traders, and stagecoach service — by 1811 you could travel from Washington D.C. to New Orleans in about 20 days. Georgia politicians later cited white settlements along the Federal Road as justification for claiming jurisdiction over Cherokee territory. Many Cherokee removal detachments departed from Ross's Landing along this road in 1838.",
+        "modernLabel": "US-411 / I-75",
         "modernEquivalent": "Roughly corresponds to modern US Route 411 and portions of Interstate 75 through north Georgia and east Tennessee. Small sections in rural Georgia still follow the original trace.",
         "length": "~200 miles (Athens, GA to Nashville, TN)"
       },
@@ -103,6 +106,7 @@
         "color": "#60a5fa",
         "summary": "The Great Trading Path (also called the Carolina Road) connected Virginia colonists with Cherokee, Catawba, and other southeastern Indigenous nations.",
         "history": "Established in the 1670s by Virginia traders carrying guns, rum, and cloth west in exchange for deerskins. It was the primary corridor by which smallpox reached Cherokee towns in 1738, killing roughly half the Cherokee population. The path shaped the economic dependence of Cherokee towns on European trade goods for a century before removal.",
+        "modernLabel": "I-85 / US-29",
         "modernEquivalent": "Much of the northern Trading Path became US Route 29, the 'Seminole Trail,' running from Washington, D.C. to Atlanta. Portions are now Interstate 85 through Virginia and North Carolina.",
         "length": "~500 miles (Virginia to Cherokee country)"
       },
@@ -133,6 +137,7 @@
         "color": "#fb923c",
         "summary": "The first wagon road from Knoxville west across the Cumberland Plateau to the Nashville settlements, cleared in 1787–88 under Peter Avery.",
         "history": "Authorized by the North Carolina legislature to connect the isolated Cumberland settlements with East Tennessee. Cherokee and Chickamauga warriors attacked the road so frequently that travelers could only cross in large armed convoys, often organized by James Robertson. Over 300 people were reportedly killed on the Trace in its first decade. It became a symbol of the constant low-grade frontier war between Cherokee and settlers.",
+        "modernLabel": "I-40 / US-70",
         "modernEquivalent": "Portions of US Route 70 and US Route 70N follow the general route across the Cumberland Plateau. Interstate 40 runs roughly parallel. Several towns along I-40 still mark the historic road with highway signs.",
         "length": "~200 miles (Knoxville to Nashville)"
       },
