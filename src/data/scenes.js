@@ -81,9 +81,10 @@ const MAP = {
 const LAYERS = {
   // Full homeland view — everything visible, neighboring tribes for context
   homeland: ['territory-current', 'territory-ghost', 'towns', 'population-dots', 'historical-trails', 'cherokee-rivers', 'settler-towns', 'neighboring-tribes'],
-  // Generic treaty scene — towns + dots + trails AND colonial claims so the
-  // encroaching white world is always visible at the edge of the frame
-  territory: ['territory-current', 'territory-ghost', 'towns', 'population-dots', 'historical-trails', 'colonial-claims', 'settler-towns'],
+  // Generic treaty scene — towns + dots + trails AND colonial claims AND
+  // neighboring tribes so the Cherokee story is always shown in its full
+  // context: other Indigenous nations AND the encroaching white world
+  territory: ['territory-current', 'territory-ghost', 'towns', 'population-dots', 'historical-trails', 'colonial-claims', 'settler-towns', 'neighboring-tribes'],
   // Opening land acknowledgment — territory outline + neighboring nations for context
   territoryOnly: ['territory-current', 'territory-ghost', 'neighboring-tribes', 'historical-trails'],
   // Trails-focused view — towns visible so you see the network connecting them
@@ -95,17 +96,17 @@ const LAYERS = {
   // Proclamation Line 1763 — continental view with British colonies and the line
   proclamationLine: ['territory-current', 'territory-ghost', 'towns', 'colonial-claims', 'proclamation-line', 'settler-towns', 'neighboring-tribes', 'historical-trails'],
   // Battle scene — territory + battle visualization (zones, arrows, marker)
-  battle: ['territory-current', 'territory-ghost', 'towns', 'historical-trails', 'battle-sites', 'settler-towns'],
+  battle: ['territory-current', 'territory-ghost', 'towns', 'historical-trails', 'battle-sites', 'settler-towns', 'neighboring-tribes'],
   // Trail of Tears — ghost homeland + routes + forts + migrating dots.
   // Towns stay visible as destroyed/lost so you see what's being emptied.
   // Settler towns show the encroaching world that caused this.
   // Historical trails persist — these are the same roads the detachments marched on.
-  removal: ['territory-ghost', 'routes', 'forts', 'waypoints', 'population-dots', 'towns', 'settler-towns', 'historical-trails'],
+  removal: ['territory-ghost', 'routes', 'forts', 'waypoints', 'population-dots', 'towns', 'settler-towns', 'historical-trails', 'neighboring-tribes'],
   // Today — ghost outline + present-day Cherokee lands + modern landmarks.
   // Destroyed Cherokee towns still visible as ruins. Settler towns show what
   // replaced them. Historical trails show as modern highways. Modern Cherokee
   // landmarks show sovereignty today.
-  today: ['territory-ghost', 'present-day', 'modern-cherokee', 'towns', 'settler-towns', 'historical-trails'],
+  today: ['territory-ghost', 'present-day', 'modern-cherokee', 'towns', 'settler-towns', 'historical-trails', 'neighboring-tribes'],
 };
 
 export const SCENES = [

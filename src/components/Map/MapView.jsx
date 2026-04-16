@@ -1758,6 +1758,7 @@ export default function MapView() {
         'waypoints-circle',
         'settler-towns-icon', 'settler-towns-circle',
         'modern-cherokee-circle',
+        'neighboring-tribes-fill',
       ];
       clickLayers.forEach((layerId) => {
         m.on('click', layerId, (e) => {
@@ -1801,6 +1802,16 @@ export default function MapView() {
                 <h3 style="margin:0 0 4px;font-size:16px;color:#fef2f2;font-family:Georgia,serif">${props.name}</h3>
                 <div style="font-size:11px;color:#fecaca;margin-bottom:8px">${props.location}</div>
                 <div style="font-size:13px;line-height:1.55;color:#d1d5db;padding-top:8px;border-top:1px solid rgba(248,113,113,0.2)">${props.notes}</div>
+              </div>
+            `;
+          } else if (layerId === 'neighboring-tribes-fill') {
+            const color = props.color || '#94a3b8';
+            html = `
+              <div style="max-width:360px;padding:4px">
+                <div style="font-size:9px;color:${color};text-transform:uppercase;letter-spacing:0.1em;margin-bottom:4px;font-weight:700">Neighboring Nation</div>
+                <h3 style="margin:0 0 2px;font-size:18px;color:#f9fafb;font-family:Georgia,serif;line-height:1.2">${props.name}</h3>
+                <div style="font-size:10px;color:#94a3b8;margin-bottom:8px;font-style:italic">${props.language} language family${props.population ? ' · Population ' + props.population : ''}</div>
+                <div style="font-size:13px;line-height:1.55;color:#e5e7eb;padding-top:8px;border-top:1px solid rgba(148,163,184,0.2)">${props.description}</div>
               </div>
             `;
           } else if (layerId === 'modern-cherokee-circle') {

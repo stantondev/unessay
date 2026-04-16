@@ -34,15 +34,16 @@
         "id": "chickasaw",
         "name": "Chickasaw",
         "language": "Muskogean",
-        "description": "A powerful nation controlling the upper Mississippi and Tennessee river valleys in present-day western Tennessee, northern Mississippi, and western Kentucky. The Chickasaw were renowned warriors who defeated every European army sent against them. Forcibly removed to Indian Territory in the 1830s. The Chickasaw Nation is headquartered in Ada, OK today.",
+        "description": "A powerful nation controlling the upper Mississippi, Tennessee, and Cumberland river valleys in present-day western Tennessee, northern Mississippi, western Kentucky, and north-central Tennessee (including the Nashville area). The Chickasaw were renowned warriors who defeated every European army sent against them. The Cumberland Valley — where settlers founded Fort Nashborough in 1779 — was their primary hunting ground, contested with the Cherokee and Shawnee. Forcibly removed to Indian Territory in the 1830s. The Chickasaw Nation is headquartered in Ada, OK today.",
         "population": "~4,000 (c. 1700)",
         "color": "#0891b2"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [[
-          [-90.5, 36.5], [-88.5, 36.5], [-87.5, 35.5], [-87.5, 34.5],
-          [-88.0, 33.5], [-89.5, 33.5], [-90.5, 34.0], [-90.5, 36.5]
+          [-90.5, 36.8], [-86.0, 36.8], [-85.8, 36.0], [-86.5, 35.2],
+          [-87.5, 34.5], [-88.0, 33.5], [-89.5, 33.5], [-90.5, 34.0],
+          [-90.5, 36.8]
         ]]
       }
     },
@@ -89,7 +90,7 @@
         "id": "shawnee",
         "name": "Shawnee",
         "language": "Algonquian",
-        "description": "An Algonquian-speaking nation of the Ohio Valley and Kentucky. The Shawnee were the Cherokee's most important military allies during the Chickamauga War (1776-1794) — Dragging Canoe coordinated attacks with Shawnee leaders. Tecumseh, the great Shawnee leader, attempted to build a pan-Indigenous confederacy in the early 1800s. The Shawnee were removed to Indian Territory in stages throughout the 1800s. Three Shawnee tribes are federally recognized in Oklahoma today.",
+        "description": "An Algonquian-speaking nation of the Ohio Valley and Kentucky, with hunting ranges extending south into the Cumberland Valley of Tennessee. The Shawnee contested the Cumberland area with the Cherokee and Chickasaw, and raided Fort Nashborough throughout the 1780s. They were the Cherokee's most important military allies during the Chickamauga War (1776-1794) — Dragging Canoe coordinated attacks with Shawnee leaders. Tecumseh, the great Shawnee leader, attempted to build a pan-Indigenous confederacy in the early 1800s. The Shawnee were removed to Indian Territory in stages throughout the 1800s. Three Shawnee tribes are federally recognized in Oklahoma today.",
         "population": "~10,000 (c. 1700, dispersed)",
         "color": "#059669"
       },
@@ -97,7 +98,8 @@
         "type": "Polygon",
         "coordinates": [[
           [-85.0, 40.5], [-81.5, 40.5], [-81.0, 39.5], [-82.0, 38.0],
-          [-83.5, 37.5], [-85.5, 37.5], [-86.5, 38.5], [-85.0, 40.5]
+          [-83.5, 36.5], [-85.5, 36.2], [-86.8, 36.5], [-87.0, 37.5],
+          [-86.5, 38.5], [-85.0, 40.5]
         ]]
       }
     },
