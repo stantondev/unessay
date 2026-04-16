@@ -2124,11 +2124,15 @@ export default function MapView() {
       settlerSource.setData(settlerTownsForYear(scene.effectiveYear));
     }
 
-    // 4c. Trail labels — swap between Cherokee trail names and modern highway
-    // equivalents on the Today scene so the user sees how old roads became interstates.
+    // 4c. Trail appearance — adapt to the current chapter:
+    //   Before/Treaties: full-color Cherokee trail names
+    //   Removal: dimmed so they don't compete with Trail of Tears routes
+    //   Today: modern highway equivalents (I-81, I-85, etc.)
     try {
+      const isRemoval = scene.chapter === 'Removal';
+      const isToday = scene.chapter === 'Today';
       if (m.getLayer('historical-trails-label')) {
-        if (scene.chapter === 'Today') {
+        if (isToday) {
           m.setLayoutProperty('historical-trails-label', 'text-field', ['get', 'modernEquivalent']);
           m.setLayoutProperty('historical-trails-label', 'symbol-spacing', 300);
           m.setLayoutProperty('historical-trails-label', 'text-size', ['interpolate', ['linear'], ['zoom'], 3, 8, 6, 11, 8, 13]);
@@ -2137,6 +2141,16 @@ export default function MapView() {
           m.setLayoutProperty('historical-trails-label', 'symbol-spacing', 500);
           m.setLayoutProperty('historical-trails-label', 'text-size', ['interpolate', ['linear'], ['zoom'], 5, 9, 9, 12]);
         }
+      }
+      // Dim trails during removal so the Trail of Tears routes are the focus
+      if (m.getLayer('historical-trails-line')) {
+        m.setPaintProperty('historical-trails-line', 'line-opacity', isRemoval ? 0.35 : 0.85);
+      }
+      if (m.getLayer('historical-trails-glow')) {
+        m.setPaintProperty('historical-trails-glow', 'line-opacity', isRemoval ? 0.06 : 0.15);
+      }
+      if (m.getLayer('historical-trails-label')) {
+        m.setPaintProperty('historical-trails-label', 'text-opacity', isRemoval ? 0.35 : 0.7);
       }
     } catch (e) {
       // Layer may not exist yet during initial load

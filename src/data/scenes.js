@@ -99,7 +99,8 @@ const LAYERS = {
   // Trail of Tears — ghost homeland + routes + forts + migrating dots.
   // Towns stay visible as destroyed/lost so you see what's being emptied.
   // Settler towns show the encroaching world that caused this.
-  removal: ['territory-ghost', 'routes', 'forts', 'waypoints', 'population-dots', 'towns', 'settler-towns'],
+  // Historical trails persist — these are the same roads the detachments marched on.
+  removal: ['territory-ghost', 'routes', 'forts', 'waypoints', 'population-dots', 'towns', 'settler-towns', 'historical-trails'],
   // Today — ghost outline + present-day Cherokee lands + modern landmarks.
   // Destroyed Cherokee towns still visible as ruins. Settler towns show what
   // replaced them. Historical trails show as modern highways. Modern Cherokee
