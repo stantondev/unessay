@@ -152,8 +152,8 @@
     "lat": 36.1627,
     "lon": -86.7816,
     "kind": "settlement",
-    "shortNote": "Founded in the middle of the Chickamauga War; constant target of Dragging Canoe's raids.",
-    "founding": "Founded in late 1779 by James Robertson and 250 settlers on a Cumberland River bluff. Robertson chose a site he knew the Chickamauga Cherokee considered theirs, and the settlement was attacked almost immediately.",
+    "shortNote": "Founded on contested Cumberland hunting grounds; constant target of Chickamauga Cherokee, Chickasaw, and Shawnee raids.",
+    "founding": "Founded in late 1779 by James Robertson and 250 settlers on a Cumberland River bluff. The Cumberland Valley was a contested hunting ground shared by the Cherokee, Chickasaw, and Shawnee — none of whom had agreed to settlement there. The main Cherokee Nation had reluctantly ceded eastern claims to the Cumberland at the Treaty of Lochaber (1770), but Dragging Canoe's Chickamauga faction rejected all such cessions. Raids began almost immediately.",
     "nativeEvents": [
       { "year": "April 2, 1781", "event": "Battle of the Bluffs — Chickamauga Cherokee under Dragging Canoe attack Fort Nashborough. The settlers' dogs reportedly save the day. Several settlers are killed." },
       { "year": "1780–1794", "event": "Constant Cherokee, Shawnee, and Creek raids on Cumberland settlements. Hundreds of settlers and an unknown number of Indigenous fighters die. The settlement nearly collapses several times." },
