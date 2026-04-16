@@ -17,7 +17,8 @@
         "language": "Muskogean",
         "description": "A confederacy of towns along the Coosa, Tallapoosa, and Chattahoochee rivers in present-day Alabama and Georgia. The Creek Confederacy was the Cherokee's largest neighbor and frequent rival. The Red Stick Creek War (1813-14) ended at Horseshoe Bend, where Cherokee warriors fought alongside Andrew Jackson. The Creek were forcibly removed to Indian Territory in the 1830s. The Muscogee Nation is headquartered in Okmulgee, OK today.",
         "population": "~20,000 (c. 1700)",
-        "color": "#d97706"
+        "color": "#d97706",
+        "removedYear": 1837
       },
       "geometry": {
         "type": "Polygon",
@@ -36,7 +37,8 @@
         "language": "Muskogean",
         "description": "A powerful nation controlling the upper Mississippi, Tennessee, and Cumberland river valleys in present-day western Tennessee, northern Mississippi, western Kentucky, and north-central Tennessee (including the Nashville area). The Chickasaw were renowned warriors who defeated every European army sent against them. The Cumberland Valley — where settlers founded Fort Nashborough in 1779 — was their primary hunting ground, contested with the Cherokee and Shawnee. Forcibly removed to Indian Territory in the 1830s. The Chickasaw Nation is headquartered in Ada, OK today.",
         "population": "~4,000 (c. 1700)",
-        "color": "#0891b2"
+        "color": "#0891b2",
+        "removedYear": 1838
       },
       "geometry": {
         "type": "Polygon",
@@ -55,7 +57,8 @@
         "language": "Muskogean",
         "description": "One of the largest southeastern nations, occupying present-day central and southern Mississippi. The Choctaw were the first nation removed under the Indian Removal Act (1830-33), suffering devastating losses on the march west. Pushmataha, their greatest chief, died in Washington D.C. while negotiating against removal. The Choctaw Nation is headquartered in Durant, OK today.",
         "population": "~15,000 (c. 1700)",
-        "color": "#7c3aed"
+        "color": "#7c3aed",
+        "removedYear": 1833
       },
       "geometry": {
         "type": "Polygon",
@@ -74,7 +77,9 @@
         "language": "Siouan",
         "description": "A Siouan-speaking nation on the Catawba River in present-day South Carolina and North Carolina. Traditional enemies of the Cherokee, the Catawba were devastated by smallpox (losing roughly 90% of their population by 1760) and warfare with the Iroquois. Unlike most southeastern nations, the Catawba were never removed — they remained in South Carolina. The Catawba Indian Nation is federally recognized and headquartered near Rock Hill, SC today.",
         "population": "~5,000 (c. 1700)",
-        "color": "#db2777"
+        "color": "#db2777",
+        "removedYear": null,
+        "removedNote": "Never removed. Remained in South Carolina; federally recognized today as the Catawba Indian Nation."
       },
       "geometry": {
         "type": "Polygon",
@@ -92,7 +97,8 @@
         "language": "Algonquian",
         "description": "An Algonquian-speaking nation of the Ohio Valley and Kentucky, with hunting ranges extending south into the Cumberland Valley of Tennessee. The Shawnee contested the Cumberland area with the Cherokee and Chickasaw, and raided Fort Nashborough throughout the 1780s. They were the Cherokee's most important military allies during the Chickamauga War (1776-1794) — Dragging Canoe coordinated attacks with Shawnee leaders. Tecumseh, the great Shawnee leader, attempted to build a pan-Indigenous confederacy in the early 1800s. The Shawnee were removed to Indian Territory in stages throughout the 1800s. Three Shawnee tribes are federally recognized in Oklahoma today.",
         "population": "~10,000 (c. 1700, dispersed)",
-        "color": "#059669"
+        "color": "#059669",
+        "removedYear": 1795
       },
       "geometry": {
         "type": "Polygon",
@@ -111,7 +117,8 @@
         "language": "Language isolate",
         "description": "A linguistically unique people — the Yuchi language is unrelated to any other known language. They lived along the Tennessee River in eastern Tennessee before being pushed south into Creek territory by colonial pressure. The Yuchi were removed to Indian Territory with the Creek. Today the Yuchi Tribe is working toward separate federal recognition; fewer than 5 fluent Yuchi speakers remain.",
         "population": "~2,000 (c. 1700)",
-        "color": "#ca8a04"
+        "color": "#ca8a04",
+        "removedYear": 1715
       },
       "geometry": {
         "type": "Polygon",
@@ -129,7 +136,8 @@
         "language": "Algonquian",
         "description": "A confederacy of roughly 30 Algonquian-speaking nations in the Virginia tidewater, led by Wahunsenacawh (Chief Powhatan). The confederacy fought two wars against the Jamestown colonists (1610-14, 1622-32) before being destroyed by colonial expansion. Seven Virginia tribes descending from the Powhatan received federal recognition in 2018.",
         "population": "~14,000 (c. 1607)",
-        "color": "#6366f1"
+        "color": "#6366f1",
+        "removedYear": 1646
       },
       "geometry": {
         "type": "Polygon",
@@ -147,7 +155,8 @@
         "language": "Iroquoian",
         "description": "An Iroquoian-speaking nation (linguistically related to the Cherokee) in eastern North Carolina. After losing the Tuscarora War (1711-15) to colonial forces, most Tuscarora migrated north to New York and joined the Iroquois Confederacy as the Sixth Nation. A remnant community remained in North Carolina.",
         "population": "~5,000 (c. 1700)",
-        "color": "#0284c7"
+        "color": "#0284c7",
+        "removedYear": 1722
       },
       "geometry": {
         "type": "Polygon",

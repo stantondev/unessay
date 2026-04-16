@@ -2163,6 +2163,20 @@ export default function MapView() {
       if (m.getLayer('historical-trails-label')) {
         m.setPaintProperty('historical-trails-label', 'text-opacity', isRemoval ? 0.35 : 0.7);
       }
+
+      // 4d. Neighboring tribes — filter by year so each tribe disappears at
+      // its removal year (Powhatan 1646, Yuchi 1715, Tuscarora 1722,
+      // Shawnee 1795, Choctaw 1833, Muscogee 1837, Chickasaw 1838).
+      // Catawba has removedYear: null — never removed, stays through Today.
+      const sceneYear = scene.effectiveYear || 1700;
+      const tribeFilter = [
+        'any',
+        ['==', ['get', 'removedYear'], null],
+        ['>=', ['coalesce', ['get', 'removedYear'], 9999], sceneYear],
+      ];
+      if (m.getLayer('neighboring-tribes-fill')) m.setFilter('neighboring-tribes-fill', tribeFilter);
+      if (m.getLayer('neighboring-tribes-line')) m.setFilter('neighboring-tribes-line', tribeFilter);
+      if (m.getLayer('neighboring-tribes-label')) m.setFilter('neighboring-tribes-label', tribeFilter);
     } catch (e) {
       // Layer may not exist yet during initial load
     }

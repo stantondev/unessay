@@ -106,7 +106,7 @@ const LAYERS = {
   // Destroyed Cherokee towns still visible as ruins. Settler towns show what
   // replaced them. Historical trails show as modern highways. Modern Cherokee
   // landmarks show sovereignty today.
-  today: ['territory-ghost', 'present-day', 'modern-cherokee', 'towns', 'settler-towns', 'historical-trails'],
+  today: ['territory-ghost', 'present-day', 'modern-cherokee', 'towns', 'settler-towns', 'historical-trails', 'neighboring-tribes'],
 };
 
 export const SCENES = [
