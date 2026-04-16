@@ -85,15 +85,15 @@ const LAYERS = {
   // encroaching white world is always visible at the edge of the frame
   territory: ['territory-current', 'territory-ghost', 'towns', 'population-dots', 'historical-trails', 'colonial-claims', 'settler-towns'],
   // Opening land acknowledgment — territory outline + neighboring nations for context
-  territoryOnly: ['territory-current', 'territory-ghost', 'neighboring-tribes'],
+  territoryOnly: ['territory-current', 'territory-ghost', 'neighboring-tribes', 'historical-trails'],
   // Trails-focused view — towns visible so you see the network connecting them
   territoryWithTrails: ['territory-current', 'territory-ghost', 'towns', 'historical-trails', 'cherokee-rivers', 'settler-towns', 'neighboring-tribes'],
   // Close-up on Kituwah — towns + rivers, no dots (too zoomed in)
-  kituwah: ['territory-current', 'territory-ghost', 'towns', 'cherokee-rivers', 'neighboring-tribes'],
+  kituwah: ['territory-current', 'territory-ghost', 'towns', 'cherokee-rivers', 'neighboring-tribes', 'historical-trails'],
   // Colonial powers surround Cherokee country — continental backdrop view
-  colonial: ['territory-current', 'territory-ghost', 'towns', 'colonial-claims', 'settler-towns', 'neighboring-tribes'],
+  colonial: ['territory-current', 'territory-ghost', 'towns', 'colonial-claims', 'settler-towns', 'neighboring-tribes', 'historical-trails'],
   // Proclamation Line 1763 — continental view with British colonies and the line
-  proclamationLine: ['territory-current', 'territory-ghost', 'towns', 'colonial-claims', 'proclamation-line', 'settler-towns', 'neighboring-tribes'],
+  proclamationLine: ['territory-current', 'territory-ghost', 'towns', 'colonial-claims', 'proclamation-line', 'settler-towns', 'neighboring-tribes', 'historical-trails'],
   // Battle scene — territory + battle visualization (zones, arrows, marker)
   battle: ['territory-current', 'territory-ghost', 'towns', 'historical-trails', 'battle-sites', 'settler-towns'],
   // Trail of Tears — ghost homeland + routes + forts + migrating dots.
