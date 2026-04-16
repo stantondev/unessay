@@ -2025,8 +2025,21 @@ export default function MapView() {
       const { living, lost } = computeTownsForScene(scene.territoryKey, scene.effectiveYear);
       if (townsSource) townsSource.setData(living);
       if (townsLostSource) townsLostSource.setData(lost);
+    } else if (scene.chapter === 'Removal' || scene.chapter === 'Today') {
+      // Removal and Today scenes: show ALL Cherokee towns as destroyed/lost.
+      // The towns didn't vanish — they were emptied. The user should see every
+      // dark burnt icon across the ghost territory to understand what was taken.
+      const year = scene.effectiveYear || 1838;
+      const allTowns = [
+        ...NON_CHICKAMAUGA_TOWNS,
+        ...CHICKAMAUGA_TOWNS,
+        ...YEAR_GATED_TOWNS,
+        ...ALWAYS_SHOW_TOWNS,
+      ].filter((t) => !t.foundedYear || t.foundedYear <= year);
+      if (townsSource) townsSource.setData(buildTownsGeoJSON([]));
+      if (townsLostSource) townsLostSource.setData(buildTownsGeoJSON(allTowns));
     } else {
-      // Removal / Today / other scenes without a territoryKey: hide both sets
+      // Other scenes without a territoryKey: hide both sets
       if (townsSource) townsSource.setData(buildTownsGeoJSON([]));
       if (townsLostSource) townsLostSource.setData(buildTownsGeoJSON([]));
     }

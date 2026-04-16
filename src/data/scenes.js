@@ -96,10 +96,14 @@ const LAYERS = {
   proclamationLine: ['territory-current', 'territory-ghost', 'towns', 'colonial-claims', 'proclamation-line', 'settler-towns'],
   // Battle scene — territory + battle visualization (zones, arrows, marker)
   battle: ['territory-current', 'territory-ghost', 'towns', 'historical-trails', 'battle-sites', 'settler-towns'],
-  // Trail of Tears — ghost homeland + routes + forts + migrating dots
-  removal: ['territory-ghost', 'routes', 'forts', 'waypoints', 'population-dots', 'settler-towns'],
-  // Today — ghost outline + present-day Cherokee Nation + EBCI + modern landmarks
-  today: ['territory-ghost', 'present-day', 'modern-cherokee'],
+  // Trail of Tears — ghost homeland + routes + forts + migrating dots.
+  // Towns stay visible as destroyed/lost so you see what's being emptied.
+  // Settler towns show the encroaching world that caused this.
+  removal: ['territory-ghost', 'routes', 'forts', 'waypoints', 'population-dots', 'towns', 'settler-towns'],
+  // Today — ghost outline + present-day Cherokee lands + modern landmarks.
+  // Destroyed Cherokee towns still visible as ruins. Settler towns show what
+  // replaced them. Modern Cherokee landmarks show sovereignty today.
+  today: ['territory-ghost', 'present-day', 'modern-cherokee', 'towns', 'settler-towns'],
 };
 
 export const SCENES = [
