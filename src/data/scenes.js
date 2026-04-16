@@ -79,21 +79,21 @@ const MAP = {
 // Settler towns are year-filtered (built into the source data) so the same
 // 'settler-towns' group can appear in every chapter without anachronisms.
 const LAYERS = {
-  // Full homeland view — everything visible
-  homeland: ['territory-current', 'territory-ghost', 'towns', 'population-dots', 'historical-trails', 'cherokee-rivers', 'settler-towns'],
+  // Full homeland view — everything visible, neighboring tribes for context
+  homeland: ['territory-current', 'territory-ghost', 'towns', 'population-dots', 'historical-trails', 'cherokee-rivers', 'settler-towns', 'neighboring-tribes'],
   // Generic treaty scene — towns + dots + trails AND colonial claims so the
   // encroaching white world is always visible at the edge of the frame
   territory: ['territory-current', 'territory-ghost', 'towns', 'population-dots', 'historical-trails', 'colonial-claims', 'settler-towns'],
-  // Opening land acknowledgment — just the territory outline, no people/places yet
-  territoryOnly: ['territory-current', 'territory-ghost'],
+  // Opening land acknowledgment — territory outline + neighboring nations for context
+  territoryOnly: ['territory-current', 'territory-ghost', 'neighboring-tribes'],
   // Trails-focused view — towns visible so you see the network connecting them
-  territoryWithTrails: ['territory-current', 'territory-ghost', 'towns', 'historical-trails', 'cherokee-rivers', 'settler-towns'],
+  territoryWithTrails: ['territory-current', 'territory-ghost', 'towns', 'historical-trails', 'cherokee-rivers', 'settler-towns', 'neighboring-tribes'],
   // Close-up on Kituwah — towns + rivers, no dots (too zoomed in)
-  kituwah: ['territory-current', 'territory-ghost', 'towns', 'cherokee-rivers'],
+  kituwah: ['territory-current', 'territory-ghost', 'towns', 'cherokee-rivers', 'neighboring-tribes'],
   // Colonial powers surround Cherokee country — continental backdrop view
-  colonial: ['territory-current', 'territory-ghost', 'towns', 'colonial-claims', 'settler-towns'],
+  colonial: ['territory-current', 'territory-ghost', 'towns', 'colonial-claims', 'settler-towns', 'neighboring-tribes'],
   // Proclamation Line 1763 — continental view with British colonies and the line
-  proclamationLine: ['territory-current', 'territory-ghost', 'towns', 'colonial-claims', 'proclamation-line', 'settler-towns'],
+  proclamationLine: ['territory-current', 'territory-ghost', 'towns', 'colonial-claims', 'proclamation-line', 'settler-towns', 'neighboring-tribes'],
   // Battle scene — territory + battle visualization (zones, arrows, marker)
   battle: ['territory-current', 'territory-ghost', 'towns', 'historical-trails', 'battle-sites', 'settler-towns'],
   // Trail of Tears — ghost homeland + routes + forts + migrating dots.
@@ -102,8 +102,9 @@ const LAYERS = {
   removal: ['territory-ghost', 'routes', 'forts', 'waypoints', 'population-dots', 'towns', 'settler-towns'],
   // Today — ghost outline + present-day Cherokee lands + modern landmarks.
   // Destroyed Cherokee towns still visible as ruins. Settler towns show what
-  // replaced them. Modern Cherokee landmarks show sovereignty today.
-  today: ['territory-ghost', 'present-day', 'modern-cherokee', 'towns', 'settler-towns'],
+  // replaced them. Historical trails show as modern highways. Modern Cherokee
+  // landmarks show sovereignty today.
+  today: ['territory-ghost', 'present-day', 'modern-cherokee', 'towns', 'settler-towns', 'historical-trails'],
 };
 
 export const SCENES = [

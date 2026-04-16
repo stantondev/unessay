@@ -14,6 +14,7 @@ import { SCENES } from '../../data/scenes';
 import presentCherokeeNation from '../../geodata/present-cherokee-nation.json';
 import presentQuallaBoundary from '../../geodata/present-qualla-boundary.json';
 import historicalTrails from '../../geodata/historical-trails.json';
+import neighboringTribes from '../../geodata/neighboring-tribes.json';
 import cherokeeRivers from '../../geodata/cherokee-rivers.json';
 import colonialClaims from '../../geodata/colonial-claims.json';
 import battleSites from '../../geodata/battle-sites.json';
@@ -798,6 +799,50 @@ export default function MapView() {
       // correct historical moments (Spanish Florida vanishes after 1763,
       // etc.). The layers are placed UNDER the Cherokee content so they
       // form a contextual backdrop, not a foreground element.
+      // =====================================================================
+      // NEIGHBORING TRIBES — ancestral territories of southeastern Indigenous
+      // nations surrounding the Cherokee. Shown in the Before chapter to give
+      // context: the Cherokee were one nation among many, not isolated.
+      // =====================================================================
+      m.addSource('neighboring-tribes', { type: 'geojson', data: neighboringTribes });
+      m.addLayer({
+        id: 'neighboring-tribes-fill',
+        type: 'fill',
+        source: 'neighboring-tribes',
+        paint: {
+          'fill-color': ['get', 'color'],
+          'fill-opacity': 0.12,
+        },
+      });
+      m.addLayer({
+        id: 'neighboring-tribes-line',
+        type: 'line',
+        source: 'neighboring-tribes',
+        paint: {
+          'line-color': ['get', 'color'],
+          'line-width': 1.5,
+          'line-opacity': 0.4,
+          'line-dasharray': [4, 3],
+        },
+      });
+      m.addLayer({
+        id: 'neighboring-tribes-label',
+        type: 'symbol',
+        source: 'neighboring-tribes',
+        layout: {
+          'text-field': ['get', 'name'],
+          'text-size': ['interpolate', ['linear'], ['zoom'], 3, 10, 6, 14, 8, 16],
+          'text-font': ['DIN Pro Medium', 'Arial Unicode MS Regular'],
+          'text-allow-overlap': false,
+        },
+        paint: {
+          'text-color': ['get', 'color'],
+          'text-halo-color': 'rgba(0,0,0,0.85)',
+          'text-halo-width': 2,
+          'text-opacity': 0.7,
+        },
+      });
+
       m.addSource('colonial-claims', { type: 'geojson', data: colonialClaims });
       m.addLayer({
         id: 'colonial-claims-fill',
@@ -1847,6 +1892,29 @@ export default function MapView() {
       });
 
       // Click handler for historical trails — show rich context popup
+      // Click handler for neighboring tribe territories
+      m.on('click', 'neighboring-tribes-fill', (e) => {
+        if (!e.features?.length) return;
+        const feature = e.features[0];
+        const props = feature.properties;
+        if (popupRef.current) popupRef.current.remove();
+        const tribeColor = props.color || '#94a3b8';
+        const html = `
+          <div style="max-width:360px;padding:6px 4px 4px">
+            <div style="font-size:9px;color:${tribeColor};text-transform:uppercase;letter-spacing:0.1em;margin-bottom:4px;font-weight:700">Neighboring Nation</div>
+            <h3 style="margin:0 0 2px;font-size:17px;color:#f9fafb;font-family:Georgia,serif;line-height:1.2">${props.name}</h3>
+            <div style="font-size:10px;color:#94a3b8;margin-bottom:8px">${props.language} · ${props.population}</div>
+            <div style="font-size:13px;line-height:1.55;color:#e5e7eb">${props.description}</div>
+          </div>
+        `;
+        popupRef.current = new mapboxgl.Popup({ closeButton: true, maxWidth: '360px', className: 'custom-popup' })
+          .setLngLat(e.lngLat)
+          .setHTML(html)
+          .addTo(m);
+      });
+      m.on('mouseenter', 'neighboring-tribes-fill', () => { m.getCanvas().style.cursor = 'pointer'; });
+      m.on('mouseleave', 'neighboring-tribes-fill', () => { m.getCanvas().style.cursor = ''; });
+
       m.on('click', 'historical-trails-line', (e) => {
         if (!e.features?.length) return;
         const feature = e.features[0];
@@ -2056,6 +2124,24 @@ export default function MapView() {
       settlerSource.setData(settlerTownsForYear(scene.effectiveYear));
     }
 
+    // 4c. Trail labels — swap between Cherokee trail names and modern highway
+    // equivalents on the Today scene so the user sees how old roads became interstates.
+    try {
+      if (m.getLayer('historical-trails-label')) {
+        if (scene.chapter === 'Today') {
+          m.setLayoutProperty('historical-trails-label', 'text-field', ['get', 'modernEquivalent']);
+          m.setLayoutProperty('historical-trails-label', 'symbol-spacing', 300);
+          m.setLayoutProperty('historical-trails-label', 'text-size', ['interpolate', ['linear'], ['zoom'], 3, 8, 6, 11, 8, 13]);
+        } else {
+          m.setLayoutProperty('historical-trails-label', 'text-field', ['get', 'name']);
+          m.setLayoutProperty('historical-trails-label', 'symbol-spacing', 500);
+          m.setLayoutProperty('historical-trails-label', 'text-size', ['interpolate', ['linear'], ['zoom'], 5, 9, 9, 12]);
+        }
+      }
+    } catch (e) {
+      // Layer may not exist yet during initial load
+    }
+
     // 4. Fly camera to scene's map state with cinematic timing.
     // Use padding to tell Mapbox the right 470px is covered by the scene panel,
     // so the scene's center coordinates will be centered in the *visible* area
@@ -2093,6 +2179,7 @@ const LAYER_GROUPS = {
   'routes': ['routes-line', 'routes-glow'],
   'historical-trails': ['historical-trails-glow', 'historical-trails-line', 'historical-trails-label'],
   'cherokee-rivers': ['cherokee-rivers-label'],
+  'neighboring-tribes': ['neighboring-tribes-fill', 'neighboring-tribes-line', 'neighboring-tribes-label'],
   'colonial-claims': ['colonial-claims-fill', 'colonial-claims-line', 'colonial-claims-label'],
   'proclamation-line': ['colonial-line-glow', 'colonial-line-main', 'colonial-line-label'],
   'battle-sites': [
