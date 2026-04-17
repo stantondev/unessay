@@ -41,6 +41,13 @@ export default function AppHeader() {
       <div className="app-header-actions">
         <button
           className="header-action-btn"
+          onClick={() => dispatch({ type: 'TOGGLE_FEEDBACK' })}
+          title="Report an inaccuracy or suggest an addition"
+        >
+          Feedback
+        </button>
+        <button
+          className="header-action-btn"
           onClick={() => dispatch({ type: 'TOGGLE_SOURCES' })}
         >
           Sources

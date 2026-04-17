@@ -3,6 +3,7 @@ import MapView from './components/Map/MapView';
 import ScenePanel from './components/Story/ScenePanel';
 import SceneTimeline from './components/Story/SceneTimeline';
 import SourcesPanel from './components/Sources/SourcesPanel';
+import FeedbackPanel from './components/Feedback/FeedbackPanel';
 import AppHeader from './components/Navigation/AppHeader';
 import './App.css';
 
@@ -17,6 +18,7 @@ export default function App() {
         </div>
         <SceneTimeline />
         <SourcesPanel />
+        <FeedbackPanel />
       </div>
     </AppProvider>
   );

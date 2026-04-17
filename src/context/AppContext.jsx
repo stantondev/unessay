@@ -16,6 +16,7 @@ const initialState = {
     waypoints: true,
   },
   sourcesOpen: false,
+  feedbackOpen: false,
 };
 
 function reducer(state, action) {
@@ -42,6 +43,8 @@ function reducer(state, action) {
       };
     case 'TOGGLE_SOURCES':
       return { ...state, sourcesOpen: !state.sourcesOpen };
+    case 'TOGGLE_FEEDBACK':
+      return { ...state, feedbackOpen: !state.feedbackOpen };
     default:
       return state;
   }
