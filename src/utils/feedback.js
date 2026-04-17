@@ -10,20 +10,20 @@
 
 // Your Google Form's /viewform URL — looks like:
 // https://docs.google.com/forms/d/e/1FAIpQLS.../viewform
-export const GOOGLE_FORM_URL = '';
+export const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSeSD4EDsrt9cwbDFZqoFsOgfAVKqQC0FnH8g34VcQ_n_XAjqg/viewform';
 
 // Entry IDs from your Google Form — see FEEDBACK_SETUP.md for how to find them.
 // If left blank, the form will still open but won't pre-fill scene context.
 export const GOOGLE_FORM_ENTRY_IDS = {
-  feedbackType: '',  // e.g. 'entry.1234567890' for the "Type of feedback" field
-  sceneId: '',       // e.g. 'entry.2345678901' for "Scene ID"
-  sceneTitle: '',    // e.g. 'entry.3456789012' for "Scene Title"
-  sceneYear: '',     // e.g. 'entry.4567890123' for "Scene Year"
-  pageUrl: '',       // e.g. 'entry.5678901234' for "Page URL"
+  feedbackType: 'entry.279254671',  // "Type of feedback" field
+  sceneId: 'entry.973479794',       // "Scene ID"
+  sceneTitle: 'entry.1365227664',   // "Scene Title"
+  sceneYear: 'entry.1349484851',    // "Scene Year"
+  pageUrl: 'entry.664359528',       // "Page URL"
 };
 
 // Fallback contact methods — work regardless of Google Form setup
-export const FEEDBACK_EMAIL = 'stanton.melvin@example.com'; // TODO: replace with your real email
+export const FEEDBACK_EMAIL = 'stantonlmelvin@gmail.com'; // 
 export const GITHUB_ISSUES_URL = 'https://github.com/stantondev/unessay/issues/new';
 
 /**
