@@ -98,7 +98,8 @@
         "description": "An Algonquian-speaking nation of the Ohio Valley and Kentucky, with hunting ranges extending south into the Cumberland Valley of Tennessee. The Shawnee contested the Cumberland area with the Cherokee and Chickasaw, and raided Fort Nashborough throughout the 1780s. They were the Cherokee's most important military allies during the Chickamauga War (1776-1794) — Dragging Canoe coordinated attacks with Shawnee leaders. Tecumseh, the great Shawnee leader, attempted to build a pan-Indigenous confederacy in the early 1800s. The Shawnee were removed to Indian Territory in stages throughout the 1800s. Three Shawnee tribes are federally recognized in Oklahoma today.",
         "population": "~10,000 (c. 1700, dispersed)",
         "color": "#059669",
-        "removedYear": 1795
+        "removedYear": 1832,
+        "removedNote": "Lost southern claims at the Treaty of Greenville (1795); ceded Ohio lands at Fort Meigs (1817); removed to Indian Territory in stages, with major removals beginning in 1832."
       },
       "geometry": {
         "type": "Polygon",
@@ -118,7 +119,8 @@
         "description": "A linguistically unique people — the Yuchi language is unrelated to any other known language. They lived along the Tennessee River in eastern Tennessee before being pushed south into Creek territory by colonial pressure. The Yuchi were removed to Indian Territory with the Creek. Today the Yuchi Tribe is working toward separate federal recognition; fewer than 5 fluent Yuchi speakers remain.",
         "population": "~2,000 (c. 1700)",
         "color": "#ca8a04",
-        "removedYear": 1715
+        "removedYear": 1836,
+        "removedNote": "Displaced south into Creek territory after the 1715 Yamasee War; forcibly removed to Indian Territory with the Creek in the 1830s."
       },
       "geometry": {
         "type": "Polygon",
@@ -137,7 +139,8 @@
         "description": "A confederacy of roughly 30 Algonquian-speaking nations in the Virginia tidewater, led by Wahunsenacawh (Chief Powhatan). The confederacy fought two wars against the Jamestown colonists (1610-14, 1622-32) before being destroyed by colonial expansion. Seven Virginia tribes descending from the Powhatan received federal recognition in 2018.",
         "population": "~14,000 (c. 1607)",
         "color": "#6366f1",
-        "removedYear": 1646
+        "removedYear": null,
+        "removedNote": "Not removed from Virginia. The 1646 treaty confined the Powhatan to reservations; the Pamunkey and Mattaponi reservations remain among the oldest in the U.S. Seven Virginia tribes descending from the Powhatan received federal recognition in 2018."
       },
       "geometry": {
         "type": "Polygon",
@@ -156,7 +159,8 @@
         "description": "An Iroquoian-speaking nation (linguistically related to the Cherokee) in eastern North Carolina. After losing the Tuscarora War (1711-15) to colonial forces, most Tuscarora migrated north to New York and joined the Iroquois Confederacy as the Sixth Nation. A remnant community remained in North Carolina.",
         "population": "~5,000 (c. 1700)",
         "color": "#0284c7",
-        "removedYear": 1722
+        "removedYear": 1722,
+        "removedNote": "After defeat in the Tuscarora War (1711\u20131715), most migrated north to join the Iroquois Confederacy as the Sixth Nation by 1722. A remnant community remained in North Carolina."
       },
       "geometry": {
         "type": "Polygon",

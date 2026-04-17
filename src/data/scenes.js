@@ -171,7 +171,7 @@ export const SCENES = [
     eyebrow: 'Paths and Rivers',
     title: 'Roads That Existed Before the Roads',
     narrative:
-      'The Cherokee homeland was laced with well-worn foot trails and waterways that had carried people, trade goods, and news for centuries. The Great Indian Warpath ran nearly 800 miles from present-day New York into Creek country, passing directly through Cherokee towns. The Trading Path carried deerskins east to Virginia — and carried smallpox back in 1738. Spring hunting and winter trade followed paths the land itself had shaped. Click any trail on the map to see what it is today.',
+      'The Cherokee homeland was laced with well-worn foot trails and waterways that had carried people, trade goods, and news for centuries. The Great Indian Warpath ran nearly 800 miles from present-day New York into Creek country, passing directly through Cherokee towns. The Trading Path carried deerskins east to Charles Town — and carried smallpox back in 1738. Spring hunting and winter trade followed paths the land itself had shaped. Click any trail on the map to see what it is today.',
     map: MAP.homelandWide,
     layers: LAYERS.territoryWithTrails,
     territoryKey: 'precontact',
@@ -299,7 +299,7 @@ export const SCENES = [
     eyebrow: 'Dragging Canoe\u2019s War',
     title: 'They Were Not Defeated',
     narrative:
-      'Refusing the 1777 treaties, Dragging Canoe led roughly a thousand Cherokee south to the Tennessee River gorge. From the Five Lower Towns — Running Water, Nickajack, Long Island, Crow Town, and Lookout Mountain — the Chickamauga Cherokee fought the United States for eighteen years. They allied with the Shawnee, Creek, and the Western Confederacy, raided frontier settlements, sacked forts, and repulsed federal expeditions. The war lasted longer than the Revolution itself. Dragging Canoe died in 1792, exhausted from war. Two years later his successor John Watts negotiated a peace at Tellico Blockhouse — not a surrender, but a ceasefire on Chickamauga terms. The descendants of these fighters — including Major Ridge, John Ross, and Stand Watie — would lead the Cherokee Nation through the next half century. The Cherokee lost land. They were never defeated.',
+      'Refusing the 1777 treaties, Dragging Canoe led roughly a thousand Cherokee south to the Tennessee River gorge. From the Five Lower Towns — Running Water, Nickajack, Long Island, Crow Town, and Lookout Mountain — the Chickamauga Cherokee fought the United States for eighteen years. They allied with the Shawnee, Creek, and the Western Confederacy, raided frontier settlements, sacked forts, and repulsed federal expeditions. The war lasted longer than the Revolution itself. Dragging Canoe died in March 1792, exhausted from war. In September 1794, Major James Ore led U.S. forces that destroyed Nickajack and Running Water. Two months later, John Watts made peace at Tellico Blockhouse — ending eighteen years of Chickamauga resistance. The descendants of these fighters — Major Ridge, John Ross, and Stand Watie — would lead the Cherokee Nation through the next half century. The Cherokee lost land. They were never defeated.',
     map: MAP.fiveLowerTowns,
     layers: LAYERS.territory,
     territoryKey: '1785',
@@ -415,7 +415,7 @@ export const SCENES = [
     eyebrow: 'The Blood Law',
     title: 'A Nation Polices Its Own',
     narrative:
-      'Chief Doublehead had taken bribes from U.S. Agent Return J. Meigs and signed away large tracts of Cherokee land at the Meigs treaties without authorization from the Cherokee Council. On August 9, 1807, at his store on the Hiwassee River, three Cherokee — Major Ridge, Alexander Saunders, and James Vann — executed him under Cherokee law. The killings were not vigilantism; they were the lawful enforcement of the Cherokee blood law against unauthorized land cession. This was sovereignty in action: the Cherokee enforcing their own legal system against their own powerful members. The same law would condemn Major Ridge himself, thirty-two years later, for signing the Treaty of New Echota.',
+      'Chief Doublehead had taken secret personal land reserves and payments from U.S. Agent Return J. Meigs and signed away large tracts of Cherokee land without authorization from the Cherokee Council. On August 9, 1807, at his store on the Hiwassee River, a Cherokee party led by Major Ridge, Alexander Saunders, and John Rogers carried out his execution under Cherokee law. James Vann had organized the operation but was not present at the killing. The act was not vigilantism; it was the lawful enforcement of the Cherokee blood law against unauthorized land cession. This was sovereignty in action: the Cherokee enforcing their own legal system against their own powerful members. The same law would condemn Major Ridge himself, thirty-two years later, for signing the Treaty of New Echota.',
     map: MAP.cherokeeRemnant,
     layers: LAYERS.territory,
     territoryKey: '1806',
@@ -430,11 +430,11 @@ export const SCENES = [
     eyebrow: 'Battle of Horseshoe Bend',
     title: 'Cherokee Warriors Fight for Jackson',
     narrative:
-      'On the Tallapoosa River, Cherokee warriors under Junaluska and Gideon Morgan fought alongside Andrew Jackson against the Red Stick Creeks. While Jackson\u2019s line attacked from the front, Cherokee fighters swam across the river to seize Creek canoes and attack from the rear — a maneuver credited with turning the battle. Junaluska personally saved Jackson\u2019s life. The Cherokee killed and were killed in service to Jackson\u2019s war. Jackson would later lead the federal government in forcing Junaluska\u2019s own people from their homes.',
+      'On the Tallapoosa River, Cherokee warriors under Junaluska and Gideon Morgan fought alongside Andrew Jackson against the Red Stick Creeks. While Jackson\u2019s line attacked from the front, Cherokee fighters swam across the river to seize Creek canoes and attack from the rear — a maneuver credited by Cherokee historians and many scholars with turning the battle. According to Cherokee tradition, Junaluska personally saved Jackson\u2019s life. The Cherokee killed and were killed in service to Jackson\u2019s war. Jackson would later lead the federal government in forcing Junaluska\u2019s own people from their homes. Junaluska himself walked the Trail of Tears, then walked back to North Carolina; in 1847 the state finally granted him citizenship and land.',
     quote: {
       text: 'If I had known that Jackson would drive us from our homes, I would have killed him that day at the Horseshoe.',
-      attribution: 'Junaluska, as later recorded',
-      source: 'NCpedia, Biography of Junaluska (traditional attribution)',
+      attribution: 'Junaluska, as preserved in Cherokee oral tradition',
+      source: 'NCpedia, Biography of Junaluska (attribution preserved in oral tradition, not in contemporaneous 1814 sources)',
     },
     map: MAP.horseshoeBend,
     layers: LAYERS.battle,
@@ -508,7 +508,7 @@ export const SCENES = [
     eyebrow: 'Sequoyah\u2019s Gift',
     title: 'A Written Language in One Generation',
     narrative:
-      'Sequoyah (George Guess), working alone for twelve years from his home at Tuskegee on the Little Tennessee, completed the Cherokee syllabary — 85 characters representing every syllable of the spoken language. He demonstrated it publicly with his young daughter Ayoka in 1821. Within a few years, literacy rates among the Cherokee exceeded those of surrounding white populations. He had given his nation something that almost no other Indigenous nation in the world possessed: a writing system invented by one of its own people, in a single generation.',
+      'Sequoyah (George Gist), born at Tuskegee on the Little Tennessee around 1770, worked alone for about twelve years to develop the Cherokee syllabary — 85 characters, one for every syllable of the spoken language. He had moved west with the Old Settlers by about 1818 and completed the system in Arkansas. He returned east and demonstrated it with his young daughter Ayoka before the Cherokee National Council, which approved it in 1821. Within a few years, literacy rates among the Cherokee exceeded those of surrounding white populations. He had given his nation something almost no other Indigenous nation in the world possessed: a writing system invented by one of its own people, in a single generation.',
     map: MAP.treaties,
     layers: LAYERS.territory,
     territoryKey: '1819',
@@ -523,7 +523,7 @@ export const SCENES = [
     eyebrow: 'Constitution and Newspaper',
     title: 'A Sovereign Nation, on Paper',
     narrative:
-      'At the new Cherokee national capital of New Echota in north Georgia, the Cherokee National Convention ratified a written constitution modeled on the U.S. Constitution — three branches of government, a bicameral legislature, an elected Principal Chief. The next year, John Ross would be elected Principal Chief under the new constitution. Months after the constitution was signed, Elias Boudinot published the first issue of the Cherokee Phoenix at New Echota — the first Indigenous newspaper in North America, printed in both English and the Cherokee syllabary. The Cherokee were not just resisting removal; they were becoming a modern nation-state on their own terms.',
+      'At the new Cherokee national capital of New Echota in north Georgia, the Cherokee National Convention ratified a written constitution modeled on the U.S. Constitution — three branches of government, a bicameral legislature (National Committee and National Council), and an elected Principal Chief. John Ross, one of the constitution\u2019s principal drafters, was elected the first Principal Chief under the new government in October 1828. Months after the constitution was signed, Elias Boudinot published the first issue of the Cherokee Phoenix at New Echota — the first Native American newspaper, printed in both English and the Cherokee syllabary. The Cherokee were not just resisting removal; they were becoming a modern nation-state on their own terms.',
     map: MAP.newEchotaCapital,
     layers: LAYERS.territory,
     territoryKey: '1819',
@@ -538,7 +538,7 @@ export const SCENES = [
     eyebrow: 'Complication',
     title: 'A Nation That Held People in Bondage',
     narrative:
-      'Cherokee history cannot be told as a story of simple victims. The 1827 Cherokee Constitution explicitly barred people of African descent from citizenship. Principal Chief John Ross owned approximately 20 enslaved people; Major Ridge owned more. Cherokee Freedmen — descendants of people enslaved by Cherokee citizens — were only recognized as full Cherokee Nation citizens after a 2017 federal court ruling in Cherokee Nation v. Nash.',
+      'Cherokee history cannot be told as a story of simple victims. The 1827 Cherokee Constitution explicitly barred people of African descent from citizenship. Principal Chief John Ross enslaved about 20 people; Major Ridge at least 21; Joseph Vann of Spring Place enslaved more than 100 \u2014 the largest Cherokee slaveholder. The 1866 Treaty with the Cherokee (imposed after the Civil War) freed all enslaved people in the Nation and granted Cherokee Freedmen citizenship. A 2007 Cherokee constitutional amendment stripped Freedmen of that citizenship. In 2017, a federal court in Cherokee Nation v. Nash restored their citizenship rights \u2014 confirming they had been citizens for 141 years and could not be disenrolled.',
     map: MAP.cherokeeRemnant,
     layers: LAYERS.territory,
     territoryKey: '1819',
@@ -640,9 +640,9 @@ export const SCENES = [
     year: 'December 29, 1835',
     effectiveYear: 1835,
     eyebrow: 'Treaty of New Echota',
-    title: 'About 500 Men, a Nation of 16,000',
+    title: 'Twenty Men, a Nation of 16,000',
     narrative:
-      'Signed by approximately 500 Cherokee — out of a nation of roughly 16,000 — none of whom were authorized by the Cherokee government. Principal Chief John Ross was not present. The U.S. Senate ratified the treaty 31 to 15, passing by a single vote. It authorized the forced removal of every remaining Cherokee east of the Mississippi.',
+      'Signed by about 20 men of the Treaty Party faction — Major Ridge, John Ridge, Elias Boudinot, Stand Watie, and others — at a meeting of roughly 300 to 500 Cherokee in attendance. None of the signers had authority from the Cherokee National Council, which represented the 16,000+ Cherokee opposed to removal. Principal Chief John Ross was not present. On May 23, 1836, the U.S. Senate ratified the treaty 31 to 15 — one vote above the two-thirds threshold required. It authorized the forced removal of every remaining Cherokee east of the Mississippi.',
     quote: {
       text: 'A spurious Delegation, in violation of a special injunction of the general council of the nation, proceeded to Washington City with this pretended treaty.',
       attribution: 'Principal Chief John Ross, 1836',
@@ -767,11 +767,68 @@ export const SCENES = [
     eyebrow: 'Aftermath',
     title: 'The Treaty Party Killed',
     narrative:
-      'Three months after the last detachment arrived, Major Ridge, John Ridge, and Elias Boudinot — the leaders of the Treaty Party who had signed the Treaty of New Echota — were assassinated in a coordinated attack. Cherokee law made unauthorized land cessions a capital offense. The killings were not revenge; they were legal execution. The trauma would divide the Cherokee Nation for decades.',
+      'Three months after the last detachment arrived, Major Ridge, John Ridge, and Elias Boudinot — leaders of the Treaty Party who had signed the Treaty of New Echota — were assassinated in a coordinated attack. A fourth target, Stand Watie (Boudinot\u2019s brother), was warned by a friend and escaped. Cherokee law made unauthorized land cessions a capital offense — the same law Major Ridge himself had enforced against Doublehead in 1807. Watie would survive to lead the Confederate Cherokee during the Civil War. The factional wound between Ross\u2019s National Party and the Treaty Party would divide the Cherokee Nation until the Treaty of 1846 reconciled them.',
     map: MAP.tahlequah,
     layers: LAYERS.removal,
     migrationFrame: 5,
     removalStats: { marching: 12000, lostSoFar: 4000 },
+  },
+
+  // =========================================================================
+  // BRIDGE: 1839-2024 — The century between Removal and Today
+  // =========================================================================
+  {
+    id: 'reconciliation-and-civil-war',
+    chapter: CHAPTERS.REMOVAL,
+    year: '1846–1866',
+    yearSubtitle: 'Reconciliation, Civil War, and another imposed treaty',
+    effectiveYear: 1866,
+    eyebrow: 'After Removal',
+    title: 'A Nation Survives the Next Catastrophe',
+    narrative:
+      'The Treaty of 1846 reconciled John Ross\u2019s National Party, the Treaty Party, and the Old Settlers into a single Cherokee Nation in Indian Territory. For fifteen years the Cherokee rebuilt — constitution, courts, schools, the Cherokee Phoenix revived as the Cherokee Advocate. Then the Civil War split the Nation again. Stand Watie led the Confederate Cherokee and became a Confederate brigadier general; John Ross led the Union Cherokee after initial neutrality collapsed. One in four Cherokee died in the Civil War — a second demographic catastrophe within one generation. The 1866 Reconstruction Treaty, imposed by the United States as punishment for Confederate alliance, forced the Cherokee to free all enslaved people, grant Cherokee Freedmen citizenship, and cede land for railroads and other tribes\u2019 relocation. The Cherokee Nation survived. Again.',
+    map: MAP.tahlequah,
+    layers: LAYERS.removal,
+    stats: {
+      population: 14000,
+      note: 'Post-Civil War Cherokee population ~14,000 after war deaths',
+    },
+  },
+  {
+    id: 'allotment-and-statehood',
+    chapter: CHAPTERS.REMOVAL,
+    year: '1887–1907',
+    yearSubtitle: 'Allotment, the Dawes Act, and Oklahoma statehood',
+    effectiveYear: 1907,
+    eyebrow: 'Paper Erasure',
+    title: 'The Nation That Was Supposed to End',
+    narrative:
+      'The 1887 General Allotment (Dawes) Act broke tribal nations\u2019 communal landholdings into individual allotments and declared the "surplus" open to white settlement. The 1898 Curtis Act extended allotment to the Cherokee Nation over John Ross\u2019s successors\u2019 objections. Cherokee citizens were enrolled on the Dawes Rolls; each received about 110 acres — a fraction of what they had held in common. The "surplus" became white Oklahoma. The Cherokee government was dissolved by federal law in 1906. Oklahoma became a state on November 16, 1907, with no Cherokee Nation recognized. For sixty-four years the Cherokee had no federally recognized government, no elected Principal Chief, no sovereignty. The nation that had survived removal and civil war was, on paper, erased. It did not stay erased.',
+    map: MAP.tahlequah,
+    layers: LAYERS.removal,
+    stats: {
+      population: 40000,
+      note: '~40,000 Cherokee enrolled on the 1898\u20131907 Dawes Rolls',
+    },
+  },
+  {
+    id: 'revival',
+    chapter: CHAPTERS.REMOVAL,
+    year: '1970–2020',
+    yearSubtitle: 'Self-determination and sovereignty restored',
+    effectiveYear: 2020,
+    eyebrow: 'Revival',
+    title: 'The Chief the People Chose',
+    narrative:
+      'In 1970, the Principal Chiefs Act restored the Cherokee Nation\u2019s right to elect its own chief for the first time since 1906. W.W. Keeler was elected that year. In 1985, Wilma Mankiller became the first woman elected Principal Chief of the Cherokee Nation — a restoration of women\u2019s traditional political power in Cherokee life. The Nation rebuilt its government, courts, hospitals, housing, and schools. In 2020, the U.S. Supreme Court ruled in McGirt v. Oklahoma that the Muscogee reservation had never been disestablished — a decision with direct implications for the Cherokee Nation\u2019s reservation, which was also never formally disestablished. The Cherokee Nation today operates a $3 billion economy, runs its own hospitals and housing authority, and teaches Cherokee in immersion schools. The nation the United States tried to end in 1907 is, in 2024, the largest tribal nation in the country.',
+    map: MAP.today,
+    layers: LAYERS.today,
+    quote: {
+      text: 'The secret of our success is that we never, never give up.',
+      attribution: 'Wilma Mankiller, Principal Chief of the Cherokee Nation, 1985\u20131995',
+      source: 'Mankiller, Mankiller: A Chief and Her People (1993)',
+    },
+    stats: null,
   },
 
   // =========================================================================

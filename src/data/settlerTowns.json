@@ -28,7 +28,7 @@
     "shortNote": "Colonial Virginia capital, 1699–1780. Cherokee delegations were received here.",
     "founding": "Founded as Middle Plantation in 1632 between the James and York Rivers. After the Statehouse at Jamestown burned in 1698, the Virginia capital was moved here in 1699 and renamed Williamsburg in honor of King William III.",
     "nativeEvents": [
-      { "year": "1730", "event": "Sir Alexander Cuming brought a Cherokee delegation through Williamsburg en route to London, where they signed the Treaty of Whitehall pledging trade and alliance with Britain." },
+      { "year": "1730", "event": "Sir Alexander Cuming brought a Cherokee delegation through Williamsburg en route to London. The delegation signed articles of friendship with the British Crown (the 'Articles of Agreement' of 1730), and Cuming declared Moytoy of Great Tellico 'Emperor of the Cherokee' — a British colonial fiction, not an actual Cherokee political office." },
       { "year": "1755–1756", "event": "Negotiations with Attakullakulla and other Cherokee leaders here led to the Treaty of Broad River and the construction of Fort Loudoun in Overhill Cherokee country." },
       { "year": "1762", "event": "Lt. Henry Timberlake's Cherokee delegation, led by Ostenaco, visited Williamsburg before traveling on to London to meet King George III." }
     ],
@@ -288,7 +288,7 @@
     "id": "dahlonega",
     "name": "Dahlonega",
     "state": "GA",
-    "foundedYear": 1828,
+    "foundedYear": 1833,
     "lat": 34.5328,
     "lon": -83.9849,
     "kind": "settlement",
@@ -331,7 +331,7 @@
     "shortNote": "Federal capital where the Indian Removal Act was debated, passed, and signed — and where the Cherokee won two Supreme Court cases that were never enforced.",
     "founding": "Established in 1790 by the Residence Act as the permanent capital of the United States. Built on land ceded by Maryland and Virginia on the Potomac River, itself Piscataway and Nacotchtank territory.",
     "nativeEvents": [
-      { "year": "1830", "event": "Indian Removal Act passed by Congress (House 102-97 or 101-97 depending on the source, Senate 28-19) and signed by President Jackson. Authorized the forced relocation of all southeastern Indigenous nations." },
+      { "year": "1830", "event": "Indian Removal Act passed by Congress (House 102-97, Senate 28-19) and signed by President Jackson. Authorized the forced relocation of all southeastern Indigenous nations." },
       { "year": "1831", "event": "Cherokee Nation v. Georgia argued before the Supreme Court. Chief Justice Marshall rules the Cherokee are a 'domestic dependent nation' — not foreign, but not subject to state law." },
       { "year": "1832", "event": "Worcester v. Georgia — Marshall rules Cherokee territory is sovereign and Georgia law has no force there. Jackson never enforced the ruling. He is often quoted as saying 'John Marshall has made his decision; now let him enforce it,' but this is almost certainly apocryphal. What Jackson actually wrote was that the decision 'fell still born.'" }
     ],
