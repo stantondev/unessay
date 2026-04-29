@@ -1,0 +1,95 @@
+{
+  "artifacts": [
+    {
+      "id": "syllabary-chart",
+      "title": "The Cherokee Syllabary",
+      "subtitle": "85 characters — one for every syllable",
+      "kind": "chart",
+      "year": "completed 1821",
+      "image": "/artifacts/cherokee-syllabary-chart.png",
+      "aspect": "landscape",
+      "license": "Public Domain",
+      "artist": "Vectorized from Sequoyah's syllabary by Sakurambo, based on the standard modern ordering",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cherokee_Syllabary.svg",
+      "caption": "The syllabary Sequoyah invented. Within a few years of its 1821 approval, Cherokee literacy rates exceeded those of surrounding white populations — one of the very few widely successful writing systems in world history invented by a single individual from a previously non-literate community."
+    },
+    {
+      "id": "sequoyah-original",
+      "title": "Sequoyah's Original Syllabary",
+      "subtitle": "Hand-drafted characters, c. 1820",
+      "kind": "manuscript",
+      "year": "c. 1820",
+      "image": "/artifacts/sequoyah-original-syllabary.jpg",
+      "aspect": "portrait",
+      "license": "Public Domain",
+      "artist": "Sequoyah",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Original_Cherokee_Syllabary.jpg",
+      "caption": "Sequoyah's own hand. These are the characters as he first drew them — before the Cherokee Phoenix's printing press required the more geometric typeset forms that became standard. The shapes still echo the Roman, Greek, and Cyrillic letters Sequoyah saw in English missionary material, but the sounds they encode are purely Cherokee — no phonetic relationship to the originals."
+    },
+    {
+      "id": "cherokee-phoenix-first-issue",
+      "title": "Cherokee Phoenix, First Issue",
+      "subtitle": "February 21, 1828 · New Echota, Cherokee Nation",
+      "kind": "newspaper",
+      "year": "1828-02-21",
+      "image": "/artifacts/cherokee-phoenix-first-issue.jpg",
+      "aspect": "portrait",
+      "license": "Public Domain",
+      "artist": "Edited by Elias Boudinot; printed by Isaac H. Harris",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cherokee_Phoenix_first_issue.jpg",
+      "caption": "The first Native American newspaper. Each article was set in both English and the Cherokee syllabary — side-by-side, in parallel columns. This was not translation after the fact; it was simultaneous bilingual publication at a time when the United States was about to argue that the Cherokee were too \"uncivilized\" to govern themselves."
+    },
+    {
+      "id": "cherokee-constitution-1827",
+      "title": "Constitution of the Cherokee Nation",
+      "subtitle": "Signed July 24, ratified July 26, 1827 · New Echota",
+      "kind": "document",
+      "year": "1827",
+      "image": "/artifacts/cherokee-constitution-1827.jpg",
+      "aspect": "portrait",
+      "license": "CC BY-SA 4.0",
+      "artist": "Uploaded to Wikimedia Commons by Um Historiador, 2024",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1827_Cherokee_Constitution.jpg",
+      "caption": "Modeled on the U.S. Constitution. Three branches of government, a bicameral legislature (National Committee and National Council), and an elected Principal Chief. John Ross presided over the constitutional convention and was elected the first Principal Chief under it in October 1828."
+    },
+    {
+      "id": "jackson-removal-message-1830",
+      "title": "Jackson's Message on Indian Removal",
+      "subtitle": "December 6, 1830 · Second Annual Message to Congress",
+      "kind": "document",
+      "year": "1830-12-06",
+      "image": "/artifacts/jackson-removal-message-1830.jpg",
+      "aspect": "portrait",
+      "license": "Public Domain",
+      "artist": "U.S. National Archives",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:President_Andrew_Jackson%27s_Message_to_Congress_%22On_Indian_Removal%22,_12-06-1830,_Page_1-7_(6023478288).jpg",
+      "caption": "Seven months after signing the Indian Removal Act, Jackson defended the policy to Congress on racial terms: the land would be better used by a \"dense and civilized population\" than by \"a few savage hunters.\" The full original is in the National Archives."
+    },
+    {
+      "id": "cherokee-petition-1836",
+      "title": "Cherokee Petition in Protest of the New Echota Treaty",
+      "subtitle": "1836 · Signed by thousands",
+      "kind": "document",
+      "year": "1836",
+      "image": "/artifacts/cherokee-petition-1836.jpg",
+      "aspect": "portrait",
+      "license": "No known restrictions (NARA)",
+      "artist": "U.S. National Archives",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cherokee_Petition_in_Protest_of_the_New_Echota_Treaty,_1836_-_1836_(6069424727).jpg",
+      "caption": "Principal Chief John Ross collected approximately 16,000 signatures opposing the Treaty of New Echota — a larger number than were on the treaty itself by several orders of magnitude. He presented the petition to Congress. The Senate ratified the treaty anyway, by one vote above the two-thirds threshold."
+    },
+    {
+      "id": "new-echota-council-house",
+      "title": "New Echota Council House",
+      "subtitle": "Cherokee national capital, 1825–1838 · reconstruction photograph, 2017",
+      "kind": "photograph",
+      "year": "2017",
+      "image": "/artifacts/new-echota-council-house.jpg",
+      "aspect": "landscape",
+      "license": "CC0",
+      "artist": "Thomson200",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Council_House,_New_Echota,_GA_July_2017.jpg",
+      "caption": "The council house where the Cherokee Nation ratified its written constitution in 1827, where Elias Boudinot edited the Phoenix, and where General Scott arrived with 7,000 troops in May 1838. The site is now the New Echota State Historic Site in Georgia. The building is a reconstruction on the original foundation."
+    }
+  ]
+}

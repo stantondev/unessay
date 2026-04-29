@@ -1,0 +1,94 @@
+{
+  "_meta": {
+    "scope": "Curated external video content from Cherokee-led, Cherokee-adjacent, and PBS/public-broadcasting sources. Videos are embedded via YouTube's privacy-enhanced nocookie domain — only loaded on user click (facade pattern). Always attributed to the original channel, never re-hosted.",
+    "policy": "All video content remains with its original creators. Our embedding respects YouTube's terms of service and the content creators' rights. Views, revenue, and attribution flow to the original channels. No content is copied or re-hosted.",
+    "notes": [
+      "Cherokee Nation's official YouTube presence is /cherokeenation.",
+      "Eastern Band of Cherokee Indians publishes through the One Feather newspaper and the EBCI Kituwah Preservation channel.",
+      "PBS's American Experience 'We Shall Remain' series (2009) is widely used in Native American studies classrooms — Episode 3 is 'Trail of Tears.'",
+      "The Mankiller documentary (2017, dir. Valerie Red-Horse Mohl) had its television premiere on PBS Independent Lens in March 2018 for Women's History Month."
+    ]
+  },
+  "videos": {
+    "lets-talk-cherokee-s1e1": {
+      "id": "lets-talk-cherokee-s1e1",
+      "youtubeId": "rdqhCBI8MJk",
+      "title": "Let's Talk Cherokee: Season 1, Episode 1",
+      "channel": "Cherokee Nation",
+      "channelUrl": "https://www.youtube.com/cherokeenation",
+      "date": "Cherokee Nation Language Department series",
+      "kind": "Language Lesson",
+      "context": "Dr. Candessa Tehee teaches key Cherokee phrases in the Cherokee Nation's official language series. The language is taught the way it is lived — with humor, family, and everyday usage."
+    },
+    "whats-a-syllabary": {
+      "id": "whats-a-syllabary",
+      "youtubeId": "SCxDl0uM6uY",
+      "title": "What's a Syllabary? The Story of Sequoyah",
+      "channel": "Georgia Stories (Georgia Public Broadcasting)",
+      "channelUrl": "https://www.youtube.com/@GeorgiaStories",
+      "date": "Educational series",
+      "kind": "Educational Documentary",
+      "context": "Georgia Public Broadcasting's Georgia Stories explains how Sequoyah, a Cherokee man with Georgia ties, created a full writing system for his people's previously unwritten language — a feat almost no other individual in history has matched."
+    },
+    "exploring-sequoyah-syllabary": {
+      "id": "exploring-sequoyah-syllabary",
+      "youtubeId": "wVVjFMzHDR8",
+      "title": "Exploring Cherokee History: Sequoyah & The Syllabary",
+      "channel": "Cherokee Syllabary Bicentennial",
+      "date": "2021 — 200th anniversary of the syllabary",
+      "kind": "Cultural Documentary",
+      "context": "A celebration of the Cherokee Syllabary Bicentennial — 200 years of Cherokee writing, from Sequoyah's original 85 characters to Cherokee Nation immersion schools teaching the syllabary today."
+    },
+    "we-shall-remain-cherokee": {
+      "id": "we-shall-remain-cherokee",
+      "youtubeId": "Cd7OZAHVr7o",
+      "title": "American Experience — We Shall Remain: Trail of Tears",
+      "channel": "PBS American Experience",
+      "channelUrl": "https://www.pbs.org/wgbh/americanexperience/films/weshallremain/",
+      "date": "2009 · Episode 3 of 5",
+      "kind": "Documentary",
+      "context": "PBS's award-winning 'We Shall Remain' series tells the history of Indigenous nations in North America across five episodes. Episode 3 focuses entirely on the Cherokee Nation — the period covered by this chapter of the app."
+    },
+    "mankiller-interview-full": {
+      "id": "mankiller-interview-full",
+      "youtubeId": "PCKI8nFfPpU",
+      "title": "Wilma Mankiller: The First Female Chief of the Cherokee Nation — Full Interview",
+      "channel": "Archival interview",
+      "date": "Interview with Wilma Mankiller during her tenure as Principal Chief",
+      "kind": "Interview",
+      "context": "An extended interview with Wilma Mankiller — Principal Chief of the Cherokee Nation from 1985 to 1995 — discussing her life, her family's relocation to San Francisco, her return to Oklahoma, and her decade of rebuilding Cherokee governance."
+    },
+    "mankiller-trailer": {
+      "id": "mankiller-trailer",
+      "youtubeId": "sIUppVKoNvM",
+      "title": "MANKILLER — Official Trailer",
+      "channel": "Mankiller (2017 documentary) · dir. Valerie Red-Horse Mohl",
+      "channelUrl": "http://www.mankillerdoc.com/",
+      "date": "2017 · LA Film Festival premiere",
+      "kind": "Documentary Trailer",
+      "context": "Valerie Red-Horse Mohl's 2017 documentary 'Mankiller' premiered at the LA Film Festival and aired on PBS Independent Lens during Women's History Month 2018. Executive produced by Gale Anne Hurd. The trailer gives the feel of the Cherokee leader in her own voice and the voices of those who worked alongside her, including Gloria Steinem."
+    },
+    "cherokee-nation-channel": {
+      "id": "cherokee-nation-channel",
+      "youtubeId": null,
+      "externalUrl": "https://www.youtube.com/cherokeenation",
+      "title": "Cherokee Nation — Official YouTube Channel",
+      "channel": "Cherokee Nation (official)",
+      "channelUrl": "https://www.youtube.com/cherokeenation",
+      "date": "Updated continuously",
+      "kind": "Official Channel",
+      "context": "The Cherokee Nation's official YouTube presence — language lessons, State of the Nation addresses, Cherokee National Holiday coverage, immersion school footage, and cultural programming. For users who want to see contemporary Cherokee Nation life directly from the Nation itself."
+    },
+    "searching-for-sequoyah-pbs": {
+      "id": "searching-for-sequoyah-pbs",
+      "youtubeId": null,
+      "externalUrl": "https://www.pbs.org/video/searching-for-sequoyah-bdboom/",
+      "title": "Searching for Sequoyah",
+      "channel": "PBS · American Public Television",
+      "channelUrl": "https://www.pbs.org/video/searching-for-sequoyah-bdboom/",
+      "date": "2021 · 56 minutes",
+      "kind": "Documentary (PBS)",
+      "context": "Cherokee-led documentary following the mysteries of Sequoyah across history — and through the modern lives of some of Sequoyah's descendants, who continue his legacy as artists, storytellers, performers, and Cherokee-language teachers. Watch full on PBS."
+    }
+  }
+}

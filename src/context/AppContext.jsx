@@ -17,6 +17,10 @@ const initialState = {
   },
   sourcesOpen: false,
   feedbackOpen: false,
+  royceMapVisible: false,
+  royceMapOpacity: 0.72,
+  timelapseActive: false,
+  timelapseStage: 0,
 };
 
 function reducer(state, action) {
@@ -45,6 +49,16 @@ function reducer(state, action) {
       return { ...state, sourcesOpen: !state.sourcesOpen };
     case 'TOGGLE_FEEDBACK':
       return { ...state, feedbackOpen: !state.feedbackOpen };
+    case 'TOGGLE_ROYCE_MAP':
+      return { ...state, royceMapVisible: !state.royceMapVisible };
+    case 'SET_ROYCE_OPACITY':
+      return { ...state, royceMapOpacity: action.payload };
+    case 'START_TIMELAPSE':
+      return { ...state, timelapseActive: true, timelapseStage: 0 };
+    case 'SET_TIMELAPSE_STAGE':
+      return { ...state, timelapseStage: action.payload };
+    case 'STOP_TIMELAPSE':
+      return { ...state, timelapseActive: false, timelapseStage: 0 };
     default:
       return state;
   }

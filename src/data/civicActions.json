@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "scope": "Curated, verified ways to support Cherokee and Indigenous lives today — directly from Cherokee-led and Indigenous-led organizations wherever possible.",
+    "policy": "Donations flow directly to the organizations, not through this app. No affiliate links. No revenue sharing. Nothing is tracked or intermediated. These are civic-minded links to publicly-operated Cherokee and Indigenous institutions.",
+    "opener": "The Cherokee Nation, the Eastern Band of Cherokee Indians, and the United Keetoowah Band are sovereign nations that exist right now. If this project matters to you, the most meaningful response is not to remember the past — it is to support the living present."
+  },
+  "categories": [
+    {
+      "id": "donate",
+      "label": "Donate",
+      "intro": "Direct financial support to Cherokee-led and Indigenous-led organizations. All are 501(c)(3) nonprofits.",
+      "actions": [
+        {
+          "title": "Cherokee Nation Foundation",
+          "url": "https://www.cherokeenationfoundation.org/",
+          "tagline": "Scholarships for Cherokee Nation citizens",
+          "description": "Awarded more than $500,000 in scholarships for the 2025\u20132026 academic year, including language-fluency incentives. Supports Cherokee youth pursuing higher education.",
+          "cta": "Donate \u00b7 cherokeenationfoundation.org"
+        },
+        {
+          "title": "Cherokee Preservation Foundation",
+          "url": "https://cherokeepreservation.org/",
+          "tagline": "EBCI language, culture, and community programs",
+          "description": "Funds the Kituwah Preservation & Education Program, New Kituwah Academy immersion school, and cultural preservation across the Qualla Boundary. Primary funder of EBCI language revitalization work.",
+          "cta": "Donate \u00b7 cherokeepreservation.org"
+        },
+        {
+          "title": "Kituwah Preservation & Education Program (KPEP)",
+          "url": "https://ebcikpep.com/",
+          "tagline": "Direct support to EBCI language preservation",
+          "description": "The EBCI's in-house language program. Runs the Cherokee Speaker Archive Project, New Kituwah Academy curriculum, and cultural translation services. Contact info@ebcikpep.com for partnership.",
+          "cta": "Learn and support \u00b7 ebcikpep.com"
+        },
+        {
+          "title": "Native American Rights Fund (NARF)",
+          "url": "https://narf.org/support-us/",
+          "tagline": "Legal defense of Native rights and treaties",
+          "description": "Founded 1970; 4-star Charity Navigator rating. Fights in U.S. courts for tribal sovereignty, treaty rights, and Native representation. Represented the Cherokee Nation in reservation-affirmation cases post-McGirt.",
+          "cta": "Donate \u00b7 narf.org"
+        },
+        {
+          "title": "First Nations Development Institute",
+          "url": "https://www.firstnations.org/",
+          "tagline": "Native-led economic development grantmaker",
+          "description": "Grants to Native-led nonprofits across Indian Country for food sovereignty, youth development, entrepreneurship, and language. Cherokee Nation and EBCI have been grantees.",
+          "cta": "Donate \u00b7 firstnations.org"
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "Learn",
+      "intro": "Free and low-cost resources to deepen your own knowledge \u2014 directly from Cherokee sources.",
+      "actions": [
+        {
+          "title": "Cherokee Nation Dictionary App",
+          "url": "https://apps.apple.com/us/app/cherokee-nation-dictionary/id6748102942",
+          "secondaryUrl": "https://play.google.com/store/apps/details?id=com.kiwadigital.cherokeedictionary.app",
+          "tagline": "Free \u00b7 iPhone & Android",
+          "description": "Over 6,000 Cherokee words with native-speaker audio, syllabary, phonetics, grammar notes, and biographical info on first-language speakers. Built by the Cherokee Nation Language Department.",
+          "cta": "Download free"
+        },
+        {
+          "title": "Cherokee on Memrise",
+          "url": "https://www.memrise.com/en-us/",
+          "tagline": "20 lessons, ~1,000 words & phrases",
+          "description": "Free Cherokee language curriculum built in partnership with the Cherokee Nation Language Department. Video clips of spoken dialects included.",
+          "cta": "Start learning \u00b7 memrise.com"
+        },
+        {
+          "title": "Cherokee Phoenix",
+          "url": "https://www.cherokeephoenix.org/",
+          "tagline": "The Cherokee Nation's newspaper since 1828",
+          "description": "Founded by Elias Boudinot at New Echota; the oldest Native American newspaper. Suppressed in 1835, revived in 1977, still publishing. Subscribe or read free online.",
+          "cta": "Read and subscribe \u00b7 cherokeephoenix.org"
+        },
+        {
+          "title": "The One Feather (EBCI)",
+          "url": "https://theonefeather.com/",
+          "tagline": "Eastern Band's tribal newspaper",
+          "description": "EBCI's independent newspaper covering Qualla Boundary life, tribal politics, and cultural events. Covered the 2026 Nikwasi Mound deed return ceremony.",
+          "cta": "Read \u00b7 theonefeather.com"
+        },
+        {
+          "title": "Indian Country Today (ICT)",
+          "url": "https://ictnews.org/",
+          "tagline": "National Indigenous news outlet",
+          "description": "Pan-tribal journalism covering Native America \u2014 sovereignty, federal policy, culture, and contemporary Indigenous voices. Listened widely in Indian Country.",
+          "cta": "Read \u00b7 ictnews.org"
+        },
+        {
+          "title": "Reading list \u2014 Cherokee-authored",
+          "url": "https://www.cherokee.org/",
+          "tagline": "Start with Cherokee voices",
+          "description": "Daniel Heath Justice (Cherokee Nation), Our Fire Survives the Storm \u2022 Julie L. Reed (Cherokee Nation), Serving the Nation \u2022 Wilma Mankiller, A Chief and Her People \u2022 Robert J. Conley (UKB), The Cherokee Nation: A History.",
+          "cta": "Find at your library"
+        }
+      ]
+    },
+    {
+      "id": "visit",
+      "label": "Visit",
+      "intro": "Walk the places Cherokee people lived, died, resisted, and built. Admission fees support tribal and state preservation work.",
+      "actions": [
+        {
+          "title": "Museum of the Cherokee People",
+          "url": "https://motcp.org/",
+          "tagline": "Cherokee, NC \u00b7 Qualla Boundary",
+          "description": "Founded 1948 \u2014 one of the oldest continually-operating tribal museums in the United States. Located on the Qualla Boundary, the ancestral homeland of all Cherokees.",
+          "cta": "Plan visit \u00b7 motcp.org"
+        },
+        {
+          "title": "Kituwah Mound",
+          "url": "https://visitcherokeenc.com/play/attractions/kituwah-mother-town/",
+          "tagline": "Bryson City, NC \u00b7 The Mother Town",
+          "description": "5,000-year-old Cherokee platform mound; the spiritual center of the Cherokee people. Returned to EBCI ownership in 1996 after 200+ years. Free to visit during daylight hours.",
+          "cta": "Directions \u00b7 visitcherokeenc.com"
+        },
+        {
+          "title": "Nikwasi (Noquisiyi) Mound",
+          "url": "https://www.noquisi.org/",
+          "tagline": "Franklin, NC \u00b7 Returned 2026",
+          "description": "1,000-year-old platform mound; home of the Nunnehi. Deed transferred to EBCI on February 26, 2026, the first Indigenous mound formally returned to tribal ownership in North Carolina.",
+          "cta": "Learn more \u00b7 noquisi.org"
+        },
+        {
+          "title": "New Echota State Historic Site",
+          "url": "https://gastateparks.org/NewEchota",
+          "tagline": "Calhoun, GA \u00b7 Cherokee national capital 1825\u20131838",
+          "description": "The Cherokee capital where the 1827 Constitution was ratified, the Phoenix was first printed, and General Scott arrived with 7,000 troops in May 1838. Reconstructed council house on the original foundation.",
+          "cta": "Plan visit \u00b7 gastateparks.org"
+        },
+        {
+          "title": "Red Clay State Historic Park",
+          "url": "https://tnstateparks.com/parks/red-clay",
+          "tagline": "Cleveland, TN \u00b7 The last Cherokee capital in the East",
+          "description": "Where the Cherokee Nation continued to meet in council after Georgia extended state laws over Cherokee territory (1832\u20131838). \"Camp Ross\" \u2014 the final capital before removal.",
+          "cta": "Plan visit \u00b7 tnstateparks.com"
+        },
+        {
+          "title": "Trail of Tears National Historic Trail",
+          "url": "https://www.nps.gov/trte/index.htm",
+          "tagline": "NPS \u00b7 Nine states",
+          "description": "The National Park Service's certified multi-state trail network across nine states \u2014 Blythe Ferry, Mantle Rock, Trail of Tears State Park (MO), Fort Smith. Certified sites are open to the public with interpretive markers.",
+          "cta": "Find a site near you \u00b7 nps.gov/trte"
+        },
+        {
+          "title": "Cherokee Heritage Center",
+          "url": "https://www.cherokeeheritage.org/",
+          "tagline": "Tahlequah, OK \u00b7 Cherokee Nation cultural center",
+          "description": "Cherokee National Historical Society's heritage center in the Cherokee Nation capital. Includes the Trail of Tears Exhibit, Cherokee Family Research Center, and archival Cherokee newspapers.",
+          "cta": "Plan visit \u00b7 cherokeeheritage.org"
+        }
+      ]
+    },
+    {
+      "id": "acknowledge",
+      "label": "Acknowledge",
+      "intro": "Whatever your ZIP code, Indigenous nations lived there before you. Learn whose land you are on.",
+      "actions": [
+        {
+          "title": "Native Land Digital map",
+          "url": "https://native-land.ca/",
+          "tagline": "Type any place. See whose land it is.",
+          "description": "Interactive map by Native Land Digital \u2014 an Indigenous-led nonprofit mapping Indigenous territories, languages, and treaties across the Americas, Australia, and more. Enter any address to see which nation(s) historically occupied that land.",
+          "cta": "Explore the map \u00b7 native-land.ca"
+        },
+        {
+          "title": "Cherokee historical territory",
+          "url": "https://native-land.ca/maps/territories/cherokee/",
+          "tagline": "\u13e3\u13b3\u13a9\u13cf\u13b2\u13d7 Tsalaguwetiyi \u2014 Cherokee homeland",
+          "description": "See the ancestral 40,000-square-mile Cherokee homeland across modern Tennessee, North Carolina, Georgia, Alabama, South Carolina, Virginia, West Virginia, and Kentucky.",
+          "cta": "View Cherokee territory \u00b7 native-land.ca"
+        },
+        {
+          "title": "Cherokee Nation citizenship (for eligible descendants)",
+          "url": "https://www.cherokee.org/all-services/tribal-registration/",
+          "tagline": "Lineal descent from the Dawes Roll",
+          "description": "If you believe you descend from a Cherokee ancestor on the Dawes Roll (1898\u20131914), the Cherokee Nation Registration Office can guide you through documentation and enrollment. No blood quantum required.",
+          "cta": "Start the process \u00b7 cherokee.org"
+        }
+      ]
+    },
+    {
+      "id": "advocate",
+      "label": "Advocate",
+      "intro": "Cherokee sovereignty, Indigenous rights, and federal recognition are live policy fights. These Indigenous-led organizations drive them.",
+      "actions": [
+        {
+          "title": "IllumiNative",
+          "url": "https://illuminative.org/",
+          "tagline": "Native-led racial and social justice",
+          "description": "Founded by Crystal Echo Hawk. Fights Native invisibility in media, education, and policy; runs research on contemporary perceptions of Native peoples and supports Indigenous-led narrative work.",
+          "cta": "Support \u00b7 illuminative.org"
+        },
+        {
+          "title": "National Congress of American Indians (NCAI)",
+          "url": "https://www.ncai.org/",
+          "tagline": "Oldest, largest American Indian & Alaska Native advocacy org",
+          "description": "Founded 1944. Represents tribal governments and communities before Congress, the White House, and the courts. Cherokee Nation is a long-time member.",
+          "cta": "Learn \u00b7 ncai.org"
+        }
+      ]
+    }
+  ]
+}

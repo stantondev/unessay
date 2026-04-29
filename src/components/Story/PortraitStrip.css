@@ -1,0 +1,288 @@
+/* -------- inline portrait strip inside ScenePanel -------- */
+
+.portrait-strip {
+  margin: 18px 0 8px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: grid;
+  gap: 12px;
+}
+
+.portrait-strip--row {
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+
+.portrait-strip--grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.portrait-card {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 160ms ease, transform 160ms ease;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.portrait-card:hover,
+.portrait-card:focus-visible {
+  background: rgba(251, 191, 36, 0.06);
+  border-color: rgba(251, 191, 36, 0.28);
+  transform: translateY(-1px);
+}
+
+.portrait-card:focus-visible {
+  outline: 2px solid rgba(251, 191, 36, 0.5);
+  outline-offset: 2px;
+}
+
+.portrait-frame {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #1f2937;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+.portrait-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  display: block;
+  filter: saturate(0.92) contrast(1.02);
+}
+
+.portrait-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.portrait-name {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  color: #fef3c7;
+  line-height: 1.25;
+}
+
+.portrait-syllabary {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 12px;
+  color: #fbbf24;
+  font-weight: 500;
+  font-family: var(--font-display);
+}
+
+.portrait-dates {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: #94a3b8;
+  letter-spacing: 0.02em;
+}
+
+.portrait-role {
+  font-size: 11px;
+  line-height: 1.35;
+  color: var(--text-secondary);
+  opacity: 0.85;
+}
+
+/* -------- lightbox -------- */
+
+.portrait-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background: rgba(3, 6, 12, 0.82);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  animation: lightbox-fade 180ms ease;
+}
+
+@keyframes lightbox-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.portrait-lightbox-inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) minmax(280px, 1.1fr);
+  gap: 0;
+  width: 100%;
+  max-width: 960px;
+  max-height: 88vh;
+  background: rgba(10, 14, 22, 0.98);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.85);
+  overflow: hidden;
+  animation: lightbox-in 220ms cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+
+@keyframes lightbox-in {
+  from { opacity: 0; transform: scale(0.97) translateY(6px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.portrait-lightbox-close {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  transition: background 160ms ease;
+}
+
+.portrait-lightbox-close:hover {
+  background: rgba(239, 68, 68, 0.3);
+}
+
+.portrait-lightbox-image {
+  background: #000;
+  display: grid;
+  place-items: center;
+  min-height: 280px;
+  max-height: 88vh;
+  overflow: hidden;
+}
+
+.portrait-lightbox-image img {
+  width: 100%;
+  height: 100%;
+  max-height: 88vh;
+  object-fit: contain;
+  display: block;
+}
+
+.portrait-lightbox-body {
+  padding: 28px 32px;
+  overflow-y: auto;
+  max-height: 88vh;
+}
+
+.portrait-lightbox-name {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  color: #fef3c7;
+  margin: 0 0 4px;
+  line-height: 1.2;
+}
+
+.portrait-lightbox-syllabary {
+  font-size: 18px;
+  color: #fbbf24;
+  font-weight: 500;
+}
+
+.portrait-lightbox-pron {
+  margin-left: 8px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.portrait-lightbox-pron-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  background: rgba(251, 191, 36, 0.14);
+  border: 1px solid rgba(251, 191, 36, 0.32);
+  border-radius: 10px;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 600;
+  color: #fbbf24;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.portrait-lightbox-aka {
+  font-size: 13px;
+  color: #d1d5db;
+  font-style: italic;
+  margin: 0 0 4px;
+}
+
+.portrait-lightbox-dates {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: #94a3b8;
+  margin: 0 0 12px;
+}
+
+.portrait-lightbox-role {
+  font-size: 14px;
+  color: #fbbf24;
+  font-weight: 500;
+  margin: 0 0 14px;
+  line-height: 1.4;
+}
+
+.portrait-lightbox-notes {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  margin: 0 0 18px;
+}
+
+.portrait-lightbox-attribution {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.portrait-lightbox-attribution strong {
+  color: #d1d5db;
+  font-weight: 500;
+}
+
+.portrait-lightbox-source {
+  color: #fbbf24;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.portrait-lightbox-source:hover {
+  text-decoration: underline;
+}
+
+/* mobile: stack the lightbox */
+@media (max-width: 720px) {
+  .portrait-lightbox-inner {
+    grid-template-columns: 1fr;
+    max-height: 92vh;
+  }
+  .portrait-lightbox-image {
+    max-height: 50vh;
+  }
+  .portrait-lightbox-body {
+    max-height: 42vh;
+  }
+}

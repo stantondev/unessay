@@ -125,6 +125,9 @@ export const SCENES = [
     map: MAP.homelandWide,
     layers: LAYERS.territoryOnly,
     territoryKey: 'precontact',
+    pronunciationIds: ['tsalagi', 'aniyvwiya'],
+    showLanguageCard: true,
+    videoIds: ['lets-talk-cherokee-s1e1'],
     stats: null,
   },
   {
@@ -136,10 +139,11 @@ export const SCENES = [
     eyebrow: 'The Mother Town',
     title: 'ᎩᏚᏩ — Kituwah',
     narrative:
-      'Before anything else in this story, there was Kituwah. Archaeological evidence suggests nearly 5,000 years of continuous Cherokee habitation along this bend of the Tuckasegee River. Kituwah is the oldest Cherokee town — the Mother Town from which all others traced their origin, with a platform mound at its center that held the sacred fire kept continuously burning until Removal. Cherokee people call themselves Ani-Kituwagi, "People of Kituwah." The federal government forced Cherokee out of Kituwah during removal. In 1996, the Eastern Band of Cherokee Indians purchased 309 acres here and brought the Mother Town back into Cherokee hands.',
+      'Before anything else in this story, there was Kituwah. Archaeological evidence suggests nearly 5,000 years of continuous Cherokee habitation along this bend of the Tuckasegee River. Kituwah is traditionally considered the Mother Town — the spiritual origin-place from which Cherokee people trace themselves, with a platform mound at its center that held the sacred fire until Removal. Cherokee people call themselves Ani-Kituwagi, "People of Kituwah." The federal government forced Cherokee out of Kituwah during removal. In 1996, the Eastern Band of Cherokee Indians purchased 309 acres here and brought the Mother Town back into Cherokee hands.',
     map: MAP.kituwah,
     layers: LAYERS.kituwah,
     territoryKey: 'precontact',
+    pronunciationIds: ['kituwah', 'ani-kituwagi'],
     stats: null,
   },
   {
@@ -155,6 +159,8 @@ export const SCENES = [
     map: MAP.homeland,
     layers: LAYERS.homeland,
     territoryKey: 'precontact',
+    portraitIds: ['attakullakulla'],
+    pronunciationIds: ['attakullakulla', 'chota', 'tanasi', 'nikwasi'],
     stats: {
       population: 32000,
       sqMiles: 40000,
@@ -338,15 +344,12 @@ export const SCENES = [
     eyebrow: 'The Ghigau',
     title: 'Nanyehi — Nancy Ward',
     narrative:
-      'Nanyehi (c.1738–1822), known to Americans as Nancy Ward, was the Beloved Woman of Chota — the only female voting member of the Cherokee General Council. At the Treaty of Hopewell she spoke directly to U.S. commissioners. Decades later, in 1817, facing accelerating cessions, she addressed the National Council to argue against surrendering any more land.',
-    quote: {
-      text: 'Your mothers, your sisters ask and beg of you not to part with any more of our lands.',
-      attribution: 'Nanyehi (Nancy Ward), Address to the Cherokee Council, 1817',
-      source: 'Reproduced in NCpedia and Tennessee Encyclopedia',
-    },
+      'Nanyehi (c.1738–1822), known to Americans as Nancy Ward, was the Ghigau — Beloved Woman of Chota — which gave her the only voting seat on the Cherokee General Council held by a woman. At the Treaty of Hopewell she spoke directly to U.S. commissioners. Decades later, in May 1817, facing accelerating cessions, she and twelve other women of the Women\u2019s Council sent a written plea to the National Council — read aloud by her son — arguing against surrendering any more land.',
     map: MAP.treaties,
     layers: LAYERS.territory,
     territoryKey: '1785',
+    pronunciationIds: ['nanyehi', 'ghigau', 'chota'],
+    oralHistoryIds: ['nanyehi-1817'],
     stats: null,
   },
   {
@@ -419,6 +422,9 @@ export const SCENES = [
     map: MAP.cherokeeRemnant,
     layers: LAYERS.territory,
     territoryKey: '1806',
+    atmosphere: 'blood',
+    portraitIds: ['major-ridge'],
+    pronunciationIds: ['doublehead', 'major-ridge-name'],
     stats: null,
   },
   {
@@ -431,14 +437,13 @@ export const SCENES = [
     title: 'Cherokee Warriors Fight for Jackson',
     narrative:
       'On the Tallapoosa River, Cherokee warriors under Junaluska and Gideon Morgan fought alongside Andrew Jackson against the Red Stick Creeks. While Jackson\u2019s line attacked from the front, Cherokee fighters swam across the river to seize Creek canoes and attack from the rear — a maneuver credited by Cherokee historians and many scholars with turning the battle. According to Cherokee tradition, Junaluska personally saved Jackson\u2019s life. The Cherokee killed and were killed in service to Jackson\u2019s war. Jackson would later lead the federal government in forcing Junaluska\u2019s own people from their homes. Junaluska himself walked the Trail of Tears, then walked back to North Carolina; in 1847 the state finally granted him citizenship and land.',
-    quote: {
-      text: 'If I had known that Jackson would drive us from our homes, I would have killed him that day at the Horseshoe.',
-      attribution: 'Junaluska, as preserved in Cherokee oral tradition',
-      source: 'NCpedia, Biography of Junaluska (attribution preserved in oral tradition, not in contemporaneous 1814 sources)',
-    },
     map: MAP.horseshoeBend,
     layers: LAYERS.battle,
     territoryKey: '1806',
+    atmosphere: 'blood',
+    portraitIds: ['junaluska', 'andrew-jackson'],
+    pronunciationIds: ['junaluska'],
+    oralHistoryIds: ['junaluska-oral-tradition'],
     stats: null,
   },
   {
@@ -450,10 +455,11 @@ export const SCENES = [
     eyebrow: 'Treaty of Fort Jackson',
     title: 'Land Taken From Allies',
     narrative:
-      'Months after Horseshoe Bend, Jackson demanded vast Cherokee landholdings — claiming they were Creek territory. The Cherokee had fought as his allies. He took their land anyway. Look closely at the surviving territory: every village that was once across the Lower and Middle Town divisions has been pushed into a smaller and smaller core, while the same 16,000 people are now squeezed into less than 14,000 square miles.',
+      'At Fort Jackson in August 1814, Andrew Jackson dictated a treaty to the defeated Red Stick Creeks that ceded ~23 million acres — including land the Cherokee considered theirs. Cherokee delegations protested; over the next three years (1816\u20131817) Jackson used that protest as leverage to strong-arm the Cherokee themselves into ceding millions of acres in a series of follow-on treaties. The Cherokee had fought as his allies. He took their land anyway. Look closely at the surviving territory: every village that was once across the Lower and Middle Town divisions has been pushed into a smaller and smaller core, while the same 16,000 people are now squeezed into less than 14,000 square miles.',
     map: MAP.fortJackson,
     layers: LAYERS.territory,
     territoryKey: '1814',
+    portraitIds: ['andrew-jackson'],
     stats: {
       population: 16500,
       sqMiles: 14000,
@@ -508,25 +514,32 @@ export const SCENES = [
     eyebrow: 'Sequoyah\u2019s Gift',
     title: 'A Written Language in One Generation',
     narrative:
-      'Sequoyah (George Gist), born at Tuskegee on the Little Tennessee around 1770, worked alone for about twelve years to develop the Cherokee syllabary — 85 characters, one for every syllable of the spoken language. He had moved west with the Old Settlers by about 1818 and completed the system in Arkansas. He returned east and demonstrated it with his young daughter Ayoka before the Cherokee National Council, which approved it in 1821. Within a few years, literacy rates among the Cherokee exceeded those of surrounding white populations. He had given his nation something almost no other Indigenous nation in the world possessed: a writing system invented by one of its own people, in a single generation.',
+      'Sequoyah (George Gist), born at Tuskegee on the Little Tennessee around 1770, worked alone for about twelve years to develop the Cherokee syllabary — 85 characters, one for every syllable of the spoken language. He completed the system around 1821 and demonstrated it with his young daughter Ayoka before the Cherokee National Council, which approved it that year. Within a few years, literacy rates among the Cherokee exceeded those of surrounding white populations. He had given his nation something almost no other Indigenous nation in the world possessed: a writing system invented by one of its own people, in a single generation.',
     map: MAP.treaties,
     layers: LAYERS.territory,
     territoryKey: '1819',
+    portraitIds: ['sequoyah'],
+    artifactIds: ['syllabary-chart', 'sequoyah-original'],
+    pronunciationIds: ['sequoyah', 'tsalagi'],
+    videoIds: ['whats-a-syllabary', 'searching-for-sequoyah-pbs'],
     stats: null,
   },
   {
     id: 'constitution',
     chapter: CHAPTERS.TREATIES,
-    year: 'July 26, 1827',
-    yearSubtitle: 'New Echota, Cherokee Nation',
+    year: 'July 1827',
+    yearSubtitle: 'Signed July 24, ratified July 26 · New Echota, Cherokee Nation',
     effectiveYear: 1827,
     eyebrow: 'Constitution and Newspaper',
     title: 'A Sovereign Nation, on Paper',
     narrative:
-      'At the new Cherokee national capital of New Echota in north Georgia, the Cherokee National Convention ratified a written constitution modeled on the U.S. Constitution — three branches of government, a bicameral legislature (National Committee and National Council), and an elected Principal Chief. John Ross, one of the constitution\u2019s principal drafters, was elected the first Principal Chief under the new government in October 1828. Months after the constitution was signed, Elias Boudinot published the first issue of the Cherokee Phoenix at New Echota — the first Native American newspaper, printed in both English and the Cherokee syllabary. The Cherokee were not just resisting removal; they were becoming a modern nation-state on their own terms.',
+      'At the new Cherokee national capital of New Echota in north Georgia, the Cherokee National Convention ratified a written constitution modeled on the U.S. Constitution — three branches of government, a bicameral legislature (National Committee and National Council), and an elected Principal Chief. John Ross presided over the constitutional convention and was elected the first Principal Chief under the new government in October 1828. Months after the constitution was signed, Elias Boudinot published the first issue of the Cherokee Phoenix at New Echota — the first Native American newspaper, printed in both English and the Cherokee syllabary. The Cherokee were not just resisting removal; they were becoming a modern nation-state on their own terms.',
     map: MAP.newEchotaCapital,
     layers: LAYERS.territory,
     territoryKey: '1819',
+    portraitIds: ['john-ross', 'elias-boudinot'],
+    artifactIds: ['cherokee-constitution-1827', 'cherokee-phoenix-first-issue', 'new-echota-council-house'],
+    pronunciationIds: ['john-ross', 'elias-boudinot-name', 'tsalagi'],
     stats: null,
   },
   {
@@ -547,13 +560,13 @@ export const SCENES = [
   {
     id: 'dahlonega',
     chapter: CHAPTERS.TREATIES,
-    year: 'July 1828',
+    year: 'October 27, 1828',
     yearSubtitle: 'Dahlonega, Georgia',
     effectiveYear: 1828,
     eyebrow: 'Gold',
     title: 'The Discovery That Doomed Them',
     narrative:
-      'Benjamin Parks discovered gold near Dahlonega — inside Cherokee territory. It was the first major gold rush in U.S. history, twenty years before California. Within months, thousands of white prospectors were illegally on Cherokee land, digging up Cherokee fields. By 1830, an estimated 10,000 to 15,000 prospectors were on Cherokee land. Georgia responded by extending state law over Cherokee territory and passing laws forbidding Cherokee from mining their own gold. The gold rush gave Georgia politicians the economic pretext they had been waiting for to push for complete removal.',
+      'Benjamin Parks discovered gold near Dahlonega — inside Cherokee territory — on October 27, 1828. It was the first major gold rush in U.S. history, twenty years before California. Within months, thousands of white prospectors were illegally on Cherokee land, digging up Cherokee fields. By 1830, an estimated 10,000 to 15,000 prospectors were on Cherokee land. Georgia responded by extending state law over Cherokee territory and passing laws forbidding Cherokee from mining their own gold. The gold rush gave Georgia politicians the economic pretext they had been waiting for to push for complete removal.',
     map: MAP.dahlonegaGold,
     layers: LAYERS.territory,
     territoryKey: '1819',
@@ -577,6 +590,9 @@ export const SCENES = [
     map: MAP.washingtonDC,
     layers: LAYERS.territory,
     territoryKey: '1819',
+    atmosphere: 'blood',
+    portraitIds: ['andrew-jackson'],
+    artifactIds: ['jackson-removal-message-1830'],
     stats: null,
   },
   {
@@ -597,6 +613,7 @@ export const SCENES = [
     map: MAP.cherokeeGeorgiaBorder,
     layers: LAYERS.territory,
     territoryKey: '1819',
+    portraitIds: ['john-marshall'],
     stats: null,
   },
   {
@@ -617,6 +634,7 @@ export const SCENES = [
     map: MAP.worcesterRuling,
     layers: LAYERS.territory,
     territoryKey: '1819',
+    portraitIds: ['john-marshall'],
     stats: null,
   },
   {
@@ -643,14 +661,14 @@ export const SCENES = [
     title: 'Twenty Men, a Nation of 16,000',
     narrative:
       'Signed by about 20 men of the Treaty Party faction — Major Ridge, John Ridge, Elias Boudinot, Stand Watie, and others — at a meeting of roughly 300 to 500 Cherokee in attendance. None of the signers had authority from the Cherokee National Council, which represented the 16,000+ Cherokee opposed to removal. Principal Chief John Ross was not present. On May 23, 1836, the U.S. Senate ratified the treaty 31 to 15 — one vote above the two-thirds threshold required. It authorized the forced removal of every remaining Cherokee east of the Mississippi.',
-    quote: {
-      text: 'A spurious Delegation, in violation of a special injunction of the general council of the nation, proceeded to Washington City with this pretended treaty.',
-      attribution: 'Principal Chief John Ross, 1836',
-      source: 'Digital Library of Georgia',
-    },
     map: MAP.newEchota,
     layers: LAYERS.territory,
     territoryKey: '1835',
+    atmosphere: 'blood',
+    portraitIds: ['major-ridge', 'john-ridge', 'elias-boudinot', 'stand-watie'],
+    artifactIds: ['cherokee-petition-1836'],
+    pronunciationIds: ['john-ross', 'major-ridge-name', 'john-ridge-name', 'elias-boudinot-name', 'stand-watie-name'],
+    oralHistoryIds: ['john-ross-1836'],
     stats: {
       population: 16542,
       sqMiles: 0,
@@ -671,10 +689,12 @@ export const SCENES = [
     eyebrow: 'The Roundup',
     title: '31 Forts, 16,000 People',
     narrative:
-      'On May 17, 1838, General Winfield Scott arrived at New Echota with approximately 7,000 troops. Thirty-one forts were constructed across four states to round up Cherokee people: 13 in Georgia, 8 in Tennessee, 5 in North Carolina, and 5 in Alabama. Eleven internment camps held over 6,000 Cherokee near Charleston, Tennessee. An estimated 500 to 1,500 Cherokee died in the camps before the journey even began. Look at the cluster of forts surrounding the surviving Cherokee territory — every red dot was a holding pen.',
+      'On May 17, 1838, General Winfield Scott arrived at New Echota with approximately 7,000 troops. Thirty-one forts were constructed across four states to round up Cherokee people: 13 in Georgia, 8 in Tennessee, 5 in North Carolina, and 5 in Alabama. Eleven internment camps held over 6,000 Cherokee near Charleston, Tennessee. An estimated 1,500 or more Cherokee died in the camps before the journey even began. Look at the cluster of forts surrounding the surviving Cherokee territory — every red dot was a holding pen.',
     map: MAP.roundupFocus,
     layers: LAYERS.removal,
     migrationFrame: 0,
+    portraitIds: ['winfield-scott'],
+    videoIds: ['we-shall-remain-cherokee'],
     removalStats: { marching: 16000, lostSoFar: 0 },
   },
   {
@@ -690,6 +710,7 @@ export const SCENES = [
     map: MAP.departureFocus,
     layers: LAYERS.removal,
     migrationFrame: 1,
+    portraitIds: ['john-ross'],
     removalStats: { marching: 16000, lostSoFar: 0 },
   },
   {
@@ -704,6 +725,7 @@ export const SCENES = [
     map: MAP.removalWide,
     layers: LAYERS.removal,
     migrationFrame: 2,
+    pronunciationIds: ['white-path'],
     removalStats: { marching: 15200, lostSoFar: 800 },
   },
   {
@@ -715,14 +737,10 @@ export const SCENES = [
     title: 'The Ohio and Mississippi Freeze',
     narrative:
       'The Ohio and Mississippi Rivers froze. Detachments were trapped for weeks — the Bushyhead detachment was detained one month at the Mississippi River crossing by ice. Deaths mounted from whooping cough, typhus, dysentery, cholera, measles, pneumonia, exposure, and starvation.',
-    quote: {
-      text: 'My father wanted to fight, but my mother told him that the soldiers would kill him if he did.',
-      attribution: 'Rebecca Neugin, Trail of Tears survivor, recorded 1932',
-      source: 'Grant Foreman, Indian-Pioneer History Collection',
-    },
     map: MAP.removalWide,
     layers: LAYERS.removal,
     migrationFrame: 3,
+    oralHistoryIds: ['rebecca-neugin-1932'],
     removalStats: { marching: 13800, lostSoFar: 2200 },
   },
   {
@@ -737,6 +755,8 @@ export const SCENES = [
     map: MAP.removalWide,
     layers: LAYERS.removal,
     migrationFrame: 4,
+    portraitIds: ['john-ross'],
+    pronunciationIds: ['quatie-ross', 'john-ross'],
     removalStats: { marching: 12500, lostSoFar: 3500 },
   },
   {
@@ -754,9 +774,17 @@ export const SCENES = [
       attribution: 'Ralph Waldo Emerson, Letter to President Van Buren, April 23, 1838',
       source: 'Emerson, Collected Miscellanies',
     },
-    map: MAP.tahlequah,
+    map: {
+      // Zoom out to see the entire Trail of Tears route + arrival + camps
+      // so the memorial dots render visibly across the full geography.
+      center: [-89.0, 35.8],
+      zoom: 5.2,
+      bearing: 0,
+      pitch: 15,
+    },
     layers: LAYERS.removal,
     migrationFrame: 5,
+    showMemorial: true,
     removalStats: { marching: 12000, lostSoFar: 4000 },
   },
   {
@@ -771,6 +799,9 @@ export const SCENES = [
     map: MAP.tahlequah,
     layers: LAYERS.removal,
     migrationFrame: 5,
+    atmosphere: 'blood',
+    portraitIds: ['major-ridge', 'john-ridge', 'elias-boudinot', 'stand-watie'],
+    pronunciationIds: ['major-ridge-name', 'john-ridge-name', 'elias-boudinot-name', 'stand-watie-name', 'doublehead'],
     removalStats: { marching: 12000, lostSoFar: 4000 },
   },
 
@@ -786,9 +817,10 @@ export const SCENES = [
     eyebrow: 'After Removal',
     title: 'A Nation Survives the Next Catastrophe',
     narrative:
-      'The Treaty of 1846 reconciled John Ross\u2019s National Party, the Treaty Party, and the Old Settlers into a single Cherokee Nation in Indian Territory. For fifteen years the Cherokee rebuilt — constitution, courts, schools, the Cherokee Phoenix revived as the Cherokee Advocate. Then the Civil War split the Nation again. Stand Watie led the Confederate Cherokee and became a Confederate brigadier general; John Ross led the Union Cherokee after initial neutrality collapsed. One in four Cherokee died in the Civil War — a second demographic catastrophe within one generation. The 1866 Reconstruction Treaty, imposed by the United States as punishment for Confederate alliance, forced the Cherokee to free all enslaved people, grant Cherokee Freedmen citizenship, and cede land for railroads and other tribes\u2019 relocation. The Cherokee Nation survived. Again.',
+      'The Treaty of 1846 reconciled John Ross\u2019s National Party, the Treaty Party, and the Old Settlers into a single Cherokee Nation in Indian Territory. For fifteen years the Cherokee rebuilt — constitution, courts, schools, the Cherokee Phoenix revived as the Cherokee Advocate. Then the Civil War split the Nation again. Stand Watie led the Confederate Cherokee and became a Confederate brigadier general; John Ross led the Union Cherokee after initial neutrality collapsed. Estimates of Cherokee mortality in the Civil War range from one in four to one in three — a second demographic catastrophe within one generation. The 1866 Reconstruction Treaty, imposed by the United States as punishment for Confederate alliance, forced the Cherokee to free all enslaved people, grant Cherokee Freedmen citizenship, and cede land for railroads and other tribes\u2019 relocation. The Cherokee Nation survived. Again.',
     map: MAP.tahlequah,
     layers: LAYERS.removal,
+    portraitIds: ['john-ross', 'stand-watie'],
     stats: {
       population: 14000,
       note: 'Post-Civil War Cherokee population ~14,000 after war deaths',
@@ -820,14 +852,13 @@ export const SCENES = [
     eyebrow: 'Revival',
     title: 'The Chief the People Chose',
     narrative:
-      'In 1970, the Principal Chiefs Act restored the Cherokee Nation\u2019s right to elect its own chief for the first time since 1906. W.W. Keeler was elected that year. In 1985, Wilma Mankiller became the first woman elected Principal Chief of the Cherokee Nation — a restoration of women\u2019s traditional political power in Cherokee life. The Nation rebuilt its government, courts, hospitals, housing, and schools. In 2020, the U.S. Supreme Court ruled in McGirt v. Oklahoma that the Muscogee reservation had never been disestablished — a decision with direct implications for the Cherokee Nation\u2019s reservation, which was also never formally disestablished. The Cherokee Nation today operates a $3 billion economy, runs its own hospitals and housing authority, and teaches Cherokee in immersion schools. The nation the United States tried to end in 1907 is, in 2024, the largest tribal nation in the country.',
+      'In 1970, the Principal Chiefs Act restored the Cherokee Nation\u2019s right to elect its own chief for the first time since 1906. W.W. Keeler was elected the following year. In 1985, Wilma Mankiller became the first woman elected Principal Chief of the Cherokee Nation — a restoration of women\u2019s traditional political power in Cherokee life. The Nation rebuilt its government, courts, hospitals, housing, and schools. In 2020, the U.S. Supreme Court ruled in McGirt v. Oklahoma that the Muscogee reservation had never been disestablished — a decision with direct implications for the Cherokee Nation\u2019s reservation, which was also never formally disestablished. The Cherokee Nation today generates $3.1 billion in annual economic impact, runs its own hospitals and housing authority, and teaches Cherokee in immersion schools. The nation the United States tried to end in 1907 is, in 2024, the largest tribal nation in the country.',
     map: MAP.today,
     layers: LAYERS.today,
-    quote: {
-      text: 'The secret of our success is that we never, never give up.',
-      attribution: 'Wilma Mankiller, Principal Chief of the Cherokee Nation, 1985\u20131995',
-      source: 'Mankiller, Mankiller: A Chief and Her People (1993)',
-    },
+    portraitIds: ['wilma-mankiller'],
+    pronunciationIds: ['wilma-mankiller-name'],
+    oralHistoryIds: ['wilma-mankiller-success'],
+    videoIds: ['mankiller-trailer', 'mankiller-interview-full'],
     stats: null,
   },
 
@@ -845,10 +876,29 @@ export const SCENES = [
       'The Cherokee Nation (Tahlequah, OK) has over 466,000 citizens — the largest tribal nation in the United States. The Eastern Band of Cherokee Indians (~16,000) remains on the Qualla Boundary in the original homeland. The United Keetoowah Band of Cherokee Indians (~14,000) is headquartered in Tahlequah. All three are sovereign nations. Cherokee is taught in immersion schools. The Cherokee Phoenix still publishes. In 2026, Noquisiyi (Nikwasi) Mound — the first Indigenous mound returned to tribal ownership in North Carolina — was officially deeded back to the Eastern Band after more than two centuries. They lost a great deal of land. They were never defeated.',
     map: MAP.today,
     layers: LAYERS.today,
+    portraitIds: ['chuck-hoskin-jr'],
+    pronunciationIds: ['tsalagi', 'aniyvwiya', 'nikwasi'],
+    oralHistoryIds: ['hassan-cherokee', 'michell-hicks-testimony-2025'],
+    videoIds: ['cherokee-nation-channel'],
     stats: {
       population: 496000,
       note: 'Cherokee Nation 466,000 + EBCI ~16,000 + UKB ~14,000',
     },
+  },
+  {
+    id: 'what-you-can-do',
+    chapter: CHAPTERS.TODAY,
+    year: 'Now',
+    yearSubtitle: 'The living present needs you more than the past',
+    effectiveYear: 2024,
+    eyebrow: 'Take Action',
+    title: 'What You Can Do',
+    narrative:
+      'The Cherokee Nation, the Eastern Band of Cherokee Indians, and the United Keetoowah Band are sovereign nations with living governments, ongoing language revitalization programs, land-back initiatives, and policy fights happening right now. The most meaningful response to this history is not remembrance \u2014 it is support for the living present. Below are direct, no-intermediary ways to donate, learn, visit, acknowledge, and advocate.',
+    map: MAP.today,
+    layers: LAYERS.today,
+    showActionPanel: true,
+    stats: null,
   },
 ];
 

@@ -1,0 +1,290 @@
+{
+  "_meta": {
+    "scope": "Every Cherokee word, name, and place that appears in the app, with phonetic guidance where no open-licensed native-speaker audio is publicly available.",
+    "sources": [
+      "Durbin Feeling, Cherokee-English Dictionary (Cherokee Nation, 1975) — standard reference for Cherokee romanization and pronunciation.",
+      "James Mooney, Myths of the Cherokee (Bureau of American Ethnology, 1900) — historical orthography.",
+      "Cherokee Nation Language Department — ongoing dictionary project (cherokee.org).",
+      "Eastern Band of Cherokee Indians, Kituwah Preservation & Education Program — first-language resources."
+    ],
+    "guidance": "Plain-English guides show stressed syllables in CAPS. Cherokee is a tonal language and real pronunciation has pitch and vowel-length distinctions not captured in simple romanization. For the definitive sound, consult the Cherokee Nation Language Department or the Wikitongues recording of Jerry Wolf (see audioSources).",
+    "audioSources": {
+      "wikitonguesJerryWolf": {
+        "file": "/audio/wikitongues-jerry-wolf-cherokee.mp3",
+        "speaker": "Jerry Wolf",
+        "dialect": "Middle (Kituwah / Eastern Band)",
+        "license": "CC BY 3.0",
+        "attribution": "Spoken by Jerry Wolf; recorded and published by Wikitongues",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wikitongues_Jerry_speaking_Cherokee.mp3",
+        "description": "An audio sample of the Cherokee language, spoken in the middle dialect by the late Jerry Wolf, a beloved Eastern Band of Cherokee Indians elder and storyteller."
+      }
+    }
+  },
+  "words": {
+    "tsalagi": {
+      "syllabary": "ᏣᎳᎩ",
+      "romanization": "Tsalagi",
+      "english": "Cherokee (self-designation via the Muskogean loan \"Chilaki/Cheloki\")",
+      "ipa": "/tsaˈlaːɡi/",
+      "plain": "jah-LAH-gee",
+      "note": "The modern self-name is also Aniyvwiya — Principal People."
+    },
+    "aniyvwiya": {
+      "syllabary": "ᎠᏂᏴᏫᏯ",
+      "romanization": "Aniyvwiya",
+      "english": "Principal People (the Cherokee autonym)",
+      "ipa": "/aniˈjʌ̃wija/",
+      "plain": "ah-nee-YUN-wee-yah",
+      "note": "How the Cherokee refer to themselves in their own language."
+    },
+    "kituwah": {
+      "syllabary": "ᎩᏚᏩ",
+      "romanization": "Kituwah",
+      "english": "The Mother Town (most sacred Cherokee site)",
+      "ipa": "/kiˈtuːwa/",
+      "plain": "kih-TOO-wah",
+      "note": "The Mother Town from which all others traced their origin; Cherokee people call themselves Ani-Kituwagi, \"People of Kituwah.\""
+    },
+    "ani-kituwagi": {
+      "syllabary": "ᎠᏂᎩᏚᏩᎩ",
+      "romanization": "Ani-Kituwagi",
+      "english": "People of Kituwah",
+      "ipa": "/aniˌkituˈwaɡi/",
+      "plain": "ah-nee-kih-TOO-wah-gee"
+    },
+    "nikwasi": {
+      "syllabary": "ᏅᏈᏏᏱ",
+      "romanization": "Nikwasi (also Noquisiyi)",
+      "english": "Star Place — a Middle Town mound site in Franklin, NC",
+      "ipa": "/niˈkʷasi/",
+      "plain": "nih-KWAH-see",
+      "note": "1,000-year-old platform mound; home of the Nunnehi. Deed returned to the EBCI on February 26, 2026."
+    },
+    "nunnehi": {
+      "syllabary": "ᏄᏁᎯ",
+      "romanization": "Nunnehi",
+      "english": "\"The People Who Live Anywhere\" — the immortals or spirit people of Cherokee tradition",
+      "ipa": "/nũˈnːehi/",
+      "plain": "NOON-eh-hee",
+      "note": "Said to live inside certain Cherokee mounds, including Nikwasi. Seen rarely, usually as protectors in battle."
+    },
+    "chota": {
+      "syllabary": "ᎢᏣᏘ",
+      "romanization": "Itsati (anglicized Chota)",
+      "english": "De facto Cherokee capital ~1740s–1788; the \"City of Peace\"",
+      "ipa": "/iˈtsati/",
+      "plain": "ee-TSAH-tee",
+      "note": "Home of Attakullakulla, Oconostota, and Nanyehi. Submerged under Tellico Lake in the 1970s."
+    },
+    "tanasi": {
+      "syllabary": "ᏔᎾᏏ",
+      "romanization": "Tanasi",
+      "english": "Overhill town; the namesake of Tennessee",
+      "ipa": "/taˈnasi/",
+      "plain": "TAH-nah-see",
+      "note": "Capital ~1721–1730; the state of Tennessee takes its name from this town."
+    },
+    "talikwa": {
+      "syllabary": "ᏓᎵᏆ",
+      "romanization": "Talikwa",
+      "english": "Great Tellico — and the namesake of Tahlequah, OK",
+      "ipa": "/taˈliːkʷa/",
+      "plain": "tah-LEE-kwah"
+    },
+    "tahlequah": {
+      "syllabary": "ᏓᎵᏆ",
+      "romanization": "Tahlequah",
+      "english": "Capital of the Cherokee Nation (OK) since 1839",
+      "ipa": "/ˈtaːlikʷa/",
+      "plain": "TAH-lih-kwah",
+      "note": "Named for Great Tellico (Talikwa), the eastern homeland town."
+    },
+    "keowee": {
+      "syllabary": "ᎫᏬᎯᏱ",
+      "romanization": "Keowee",
+      "english": "Place of the Mulberry Patch — largest Lower Town",
+      "ipa": "/kiˈoːwiː/",
+      "plain": "KEE-oh-wee",
+      "note": "Submerged under Lake Keowee; main trading path to the British."
+    },
+    "sequoyah": {
+      "syllabary": "ᏍᏏᏉᏯ",
+      "romanization": "Sequoyah (also Sikwayi)",
+      "english": "Creator of the Cherokee syllabary, c. 1821",
+      "ipa": "/sikʷoːˈja/",
+      "plain": "sih-KWOH-yah",
+      "note": "Also spelled Ssiquoya. Namesake of the California sequoia trees, via Austrian botanist Stephan Endlicher (1847)."
+    },
+    "nanyehi": {
+      "romanization": "Nanyehi",
+      "english": "Ghigau (Beloved Woman) of Chota; known to Americans as Nancy Ward",
+      "ipa": "/nan.ˈje.hi/",
+      "plain": "nahn-YEH-hee",
+      "note": "The only female voting member of the Cherokee General Council; spoke directly to U.S. commissioners at the Treaty of Hopewell (1785)."
+    },
+    "ghigau": {
+      "syllabary": "ᎩᎦᎤ",
+      "romanization": "Ghigau",
+      "english": "Beloved Woman — highest honor for a Cherokee woman",
+      "ipa": "/ɡiˈɡa.u/",
+      "plain": "gee-GAH-ow",
+      "note": "A woman who has demonstrated great courage, wisdom, and service. Held a voting seat on the Cherokee General Council."
+    },
+    "attakullakulla": {
+      "romanization": "Atagulkalu (Ata-gul'-kalu)",
+      "english": "Peace chief of Chota; diplomat who visited London in the 1730 Cherokee delegation",
+      "ipa": "/aˌtaɡulˈkalu/",
+      "plain": "ah-tah-guhl-KAH-loo",
+      "note": "Mooney translated the Cherokee name as \"leaning wood.\" \"Little Carpenter\" is the English nickname given by colonial negotiators — possibly a metaphor for his skill at fitting pieces together in diplomacy. Father of Dragging Canoe."
+    },
+    "oconostota": {
+      "romanization": "Oconostota (also Aganstata)",
+      "english": "Great War Chief of the Cherokee ~1753–1783",
+      "ipa": "/oko.nosˈtota/",
+      "plain": "oh-koh-noh-STOH-tah",
+      "note": "Led the Cherokee during the Anglo-Cherokee War and the early American Revolution."
+    },
+    "dragging-canoe": {
+      "romanization": "Tsiyu Gansini",
+      "english": "Dragging Canoe — leader of the Chickamauga Cherokee resistance, 1777–1792",
+      "ipa": "/tsi.ju ɡan.ˈsi.ni/",
+      "plain": "tsee-YOO gahn-SEE-nee",
+      "note": "\"Tsiyu Gansini\" literally means \"he is dragging the canoe.\" Son of Attakullakulla."
+    },
+    "doublehead": {
+      "romanization": "Taltsuska",
+      "english": "Doublehead — Cherokee leader executed by his own people in 1807 for unauthorized land cession",
+      "plain": "tahlt-SOOS-kah",
+      "note": "Also Tal-tsu-tsa. His English name comes from the Cherokee name meaning \"two-heads-together,\" not a physical description."
+    },
+    "junaluska": {
+      "syllabary": "ᏧᎾᎳᏍᎧ",
+      "romanization": "Tsunu'lahun'ski",
+      "english": "Junaluska — Cherokee warrior who fought with Jackson at Horseshoe Bend",
+      "ipa": "/tsunuˈlahũski/",
+      "plain": "tsoo-noo-LAH-hoon-skee",
+      "note": "\"One Who Tried But Failed\" — from Junaluska's own reported phrasing (\"Detsinulahungu,\" \"I tried, but could not\"). Credited in Cherokee tradition with saving Andrew Jackson's life at Horseshoe Bend, 1814."
+    },
+    "john-ross": {
+      "syllabary": "ᎫᏫᏍᎫᏫ",
+      "romanization": "Guwisguwi",
+      "english": "John Ross — Principal Chief of the Cherokee Nation, 1828–1866",
+      "ipa": "/ɡuwisˈɡuwi/",
+      "plain": "goo-wiss-GOO-wee",
+      "note": "His Cherokee name means \"Mysterious Little White Bird.\""
+    },
+    "major-ridge-name": {
+      "romanization": "Ganundalegi (also Nunnehidihi)",
+      "english": "Major Ridge — Cherokee statesman; Treaty Party signer",
+      "plain": "gah-NOON-dah-leh-gee",
+      "note": "Ganundalegi means \"The Ridge.\" His earlier name Nunnehidihi means \"He Who Walks on the Mountain Top.\""
+    },
+    "john-ridge-name": {
+      "romanization": "Skahtlelohskee",
+      "english": "John Ridge — son of Major Ridge; Treaty Party signer",
+      "plain": "skaht-LEH-lohs-kee",
+      "note": "\"Yellow Bird.\""
+    },
+    "elias-boudinot-name": {
+      "syllabary": "ᎦᎴᎩᎾ",
+      "romanization": "Gallegina (Gallegina Uwati)",
+      "english": "Elias Boudinot — first editor of the Cherokee Phoenix; Treaty Party signer",
+      "plain": "gah-LEH-gee-nah",
+      "note": "Gallegina means \"Male Deer / Buck.\" Took his English name from the American Bible Society president."
+    },
+    "stand-watie-name": {
+      "syllabary": "ᏕᎦᏔᎦ",
+      "romanization": "Degataga",
+      "english": "Stand Watie — Treaty Party signer; Confederate brigadier general",
+      "plain": "deh-GAH-tah-gah",
+      "note": "Degataga means \"Stand Firm\" or \"He Stands\" — the source of his anglicized first name. Elias Boudinot's brother."
+    },
+    "wilma-mankiller-name": {
+      "syllabary": "ᎠᏥᎳᏍᎩ ᎠᏍᎦᏯᏗᎯ",
+      "romanization": "Atsilasgi Asgayadihi",
+      "english": "Wilma Mankiller — first woman elected Principal Chief of the Cherokee Nation (1985)",
+      "plain": "aht-see-LAHS-gee ahs-GAH-yah-dee-HEE",
+      "note": "Her Cherokee given name Atsilasgi (ᎠᏥᎳᏍᎩ) means \"Flower.\" Mankiller — Asgayadihi (ᎠᏍᎦᏯᏗᎯ) — is a traditional Cherokee military rank: the warrior who defends the village. Mankiller herself described it as her family's inherited title before it became her English surname."
+    },
+    "white-path": {
+      "romanization": "Nuna-da-ut-sun'y",
+      "english": "White Path — elderly Cherokee leader who died on the Trail of Tears near Hopkinsville, KY",
+      "plain": "noo-nah-dah-oot-SOON-ee"
+    },
+    "tsali": {
+      "romanization": "Tsali",
+      "english": "Tsali — Cherokee who resisted removal, executed 1838",
+      "ipa": "/ˈtsali/",
+      "plain": "TSAH-lee",
+      "note": "Known as \"Old Charley\" in English. His family fled into the Smoky Mountains and, through the intervention of William Holland Thomas, became the foundation of the Eastern Band of Cherokee Indians."
+    },
+    "yonaguska": {
+      "romanization": "Yonaguska",
+      "english": "Yonaguska — Chief of the Oconaluftee Cherokee; adopted father of William Holland Thomas",
+      "plain": "yoh-nah-GUHS-kah",
+      "note": "\"Drowning Bear.\" Led the ~800 Cherokee who separated from the Cherokee Nation in 1819 and remained in North Carolina."
+    },
+    "quatie-ross": {
+      "romanization": "Quatie",
+      "english": "Elizabeth \"Quatie\" Ross — wife of Principal Chief John Ross; died on the Trail of Tears",
+      "plain": "KWAH-tee",
+      "note": "Died of pneumonia aboard the steamboat Victoria, February 1, 1839. Buried at Mount Holly Cemetery, Little Rock, AR."
+    },
+    "clan-wolf": {
+      "syllabary": "ᎠᏂᏩᏯ",
+      "romanization": "Aniwaya",
+      "english": "Wolf Clan — largest Cherokee clan; produced War Chiefs",
+      "plain": "ah-nee-WAH-yah",
+      "note": "Most Cherokee warriors and War Chiefs came from the Wolf Clan."
+    },
+    "clan-long-hair": {
+      "syllabary": "ᎠᏂᎩᎶᎯ",
+      "romanization": "Anigilohi",
+      "english": "Long Hair Clan — produced Peace Chiefs; adopted outsiders into the Cherokee Nation",
+      "plain": "ah-nee-gee-LOH-hee"
+    },
+    "clan-blue": {
+      "syllabary": "ᎠᏂᏌᎰᏂ",
+      "romanization": "Anisahoni",
+      "english": "Blue Clan (also Panther) — keepers of children's medicines",
+      "plain": "ah-nee-sah-HOH-nee",
+      "note": "The oldest subdivision of the Cherokee people."
+    },
+    "clan-paint": {
+      "syllabary": "ᎠᏂᏬᏗ",
+      "romanization": "Aniwodi",
+      "english": "Paint Clan (Red Paint) — medicine people; smallest and most secretive clan",
+      "plain": "ah-nee-WOH-dee"
+    },
+    "clan-deer": {
+      "syllabary": "ᎠᏂᎧᏫ",
+      "romanization": "Anikawi",
+      "english": "Deer Clan — fast runners, hunters, and messengers",
+      "plain": "ah-nee-KAH-wee"
+    },
+    "clan-bird": {
+      "syllabary": "ᎠᏂᏥᏍᏆ",
+      "romanization": "Anitsisqua",
+      "english": "Bird Clan — messengers between earth and heaven; keepers of sacred feathers",
+      "plain": "ah-nee-tsees-KWAH"
+    },
+    "clan-wild-potato": {
+      "syllabary": "ᎠᏂᎦᏙᎨᏫ",
+      "romanization": "Anigatagewi",
+      "english": "Wild Potato Clan — keepers of the land; gatherers",
+      "plain": "ah-nee-gah-toh-GEH-wee"
+    },
+    "uku": {
+      "syllabary": "ᎤᎫ",
+      "romanization": "Uku",
+      "english": "Peace Chief — head of the White (peace) organization in a Cherokee town",
+      "ipa": "/uˈku/",
+      "plain": "oo-KOO"
+    },
+    "skiagusta": {
+      "romanization": "Skiagusta",
+      "english": "War Chief — head of the Red (war) organization in a Cherokee town",
+      "plain": "skee-ah-GUHS-tah"
+    }
+  }
+}

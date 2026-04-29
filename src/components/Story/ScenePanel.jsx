@@ -1,6 +1,14 @@
 import { useApp } from '../../context/AppContext';
 import { SCENES } from '../../data/scenes';
 import AnimatedCounter from './AnimatedCounter';
+import PortraitStrip from './PortraitStrip';
+import ArtifactStrip from './ArtifactStrip';
+import PronunciationStrip from './PronunciationStrip';
+import CherokeeVoiceCard from './CherokeeVoiceCard';
+import OralHistoryCard from './OralHistoryCard';
+import VideoCard from './VideoCard';
+import MemorialCaption from './MemorialCaption';
+import CivicActionPanel from './CivicActionPanel';
 import './ScenePanel.css';
 
 export default function ScenePanel() {
@@ -30,6 +38,40 @@ export default function ScenePanel() {
             </footer>
           </blockquote>
         )}
+
+        {scene.showMemorial && <MemorialCaption />}
+
+        {scene.oralHistoryIds && scene.oralHistoryIds.length > 0 && (
+          <>
+            {scene.oralHistoryIds.map((id) => (
+              <OralHistoryCard key={id} id={id} />
+            ))}
+          </>
+        )}
+
+        {scene.portraitIds && scene.portraitIds.length > 0 && (
+          <PortraitStrip ids={scene.portraitIds} />
+        )}
+
+        {scene.artifactIds && scene.artifactIds.length > 0 && (
+          <ArtifactStrip ids={scene.artifactIds} />
+        )}
+
+        {scene.pronunciationIds && scene.pronunciationIds.length > 0 && (
+          <PronunciationStrip ids={scene.pronunciationIds} />
+        )}
+
+        {scene.showLanguageCard && <CherokeeVoiceCard />}
+
+        {scene.videoIds && scene.videoIds.length > 0 && (
+          <>
+            {scene.videoIds.map((id) => (
+              <VideoCard key={id} id={id} />
+            ))}
+          </>
+        )}
+
+        {scene.showActionPanel && <CivicActionPanel />}
 
         {scene.stats && (
           <div className="sp-stats">

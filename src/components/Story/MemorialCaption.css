@@ -1,0 +1,58 @@
+.memorial-caption {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin: 18px 0 8px;
+  padding: 14px 16px;
+  background: rgba(127, 29, 29, 0.08);
+  border: 1px solid rgba(254, 202, 202, 0.18);
+  border-left: 3px solid #fca5a5;
+  border-radius: 8px;
+}
+
+.memorial-caption-dot-legend {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  margin-top: 3px;
+}
+
+.memorial-caption-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #fecaca;
+  border: 0.5px solid #7f1d1d;
+  box-shadow: 0 0 10px rgba(252, 165, 165, 0.5);
+  animation: memorial-pulse 3.2s ease-in-out infinite;
+}
+
+@keyframes memorial-pulse {
+  0%, 100% { opacity: 0.75; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.18); }
+}
+
+.memorial-caption-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.memorial-caption-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  color: #fca5a5;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 6px;
+}
+
+.memorial-caption-text {
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 0;
+  font-style: italic;
+}

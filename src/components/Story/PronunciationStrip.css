@@ -1,0 +1,78 @@
+.pron-strip {
+  margin: 18px 0 8px;
+  padding: 14px 16px;
+  background: rgba(251, 191, 36, 0.04);
+  border: 1px solid rgba(251, 191, 36, 0.16);
+  border-radius: 8px;
+}
+
+.pron-strip-header {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 10px;
+}
+
+.pron-strip-title {
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fbbf24;
+  letter-spacing: 0.04em;
+}
+
+.pron-strip-sub {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.pron-strip-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.pron-chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 7px;
+  padding: 6px 10px;
+  background: rgba(10, 14, 22, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  transition: background 160ms ease, border-color 160ms ease;
+  cursor: pointer;
+}
+
+.pron-chip:hover {
+  background: rgba(30, 40, 60, 0.7);
+  border-color: rgba(251, 191, 36, 0.36);
+}
+
+.pron-chip-syllabary {
+  font-family: var(--font-display);
+  font-size: 14px;
+  color: #fef3c7;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.pron-chip-rom {
+  font-family: var(--font-display);
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-style: italic;
+  line-height: 1;
+}
+
+/* allow CherokeeWord button to sit tight against chip */
+.pron-strip .cw-wrap {
+  align-items: center;
+}
+
+.pron-strip .cw-button {
+  transform: translateY(0);
+}

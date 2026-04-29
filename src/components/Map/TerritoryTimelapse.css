@@ -1,0 +1,307 @@
+/* ===== TRIGGER BUTTON ===== */
+
+.timelapse-trigger {
+  all: unset;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 56px;
+  transform: translateY(82px); /* stack below the MapOverlayControl */
+  z-index: 16;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background: rgba(10, 14, 22, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  color: var(--text-secondary);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+  transition: background 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
+  min-width: 200px;
+}
+
+.timelapse-trigger:hover,
+.timelapse-trigger:focus-visible {
+  background: rgba(220, 38, 38, 0.12);
+  border-color: rgba(252, 165, 165, 0.35);
+  color: #fef3c7;
+  transform: translateY(81px);
+}
+
+.timelapse-trigger:focus-visible {
+  outline: 2px solid rgba(252, 165, 165, 0.6);
+  outline-offset: 2px;
+}
+
+.timelapse-trigger-icon {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(220, 38, 38, 0.9);
+  color: #fff;
+  flex-shrink: 0;
+  box-shadow: 0 2px 6px rgba(220, 38, 38, 0.3);
+}
+
+.timelapse-trigger-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.timelapse-trigger-title {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  color: #fef3c7;
+}
+
+.timelapse-trigger-sub {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  font-weight: 500;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 3px;
+}
+
+/* ===== OVERLAY ===== */
+
+.timelapse-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; /* full-screen coverage so the scrim can catch clicks anywhere on the map */
+  pointer-events: none;
+  z-index: 25;
+  animation: timelapse-overlay-in 320ms cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+
+/* Click-to-dismiss scrim layered behind the visible header. The header gets
+   pointer-events: auto via .timelapse-overlay > * below, so the user can
+   click the year/stop button; clicking anywhere else on the map dismisses.
+   `right: 480px` keeps the scene panel area click-through-able during the
+   time-lapse so users can still see scene context. */
+.timelapse-scrim {
+  all: unset;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 480px;
+  pointer-events: auto;
+  cursor: pointer;
+  background: linear-gradient(180deg, rgba(10, 14, 22, 0.72) 0%, rgba(10, 14, 22, 0.18) 220px, rgba(10, 14, 22, 0) 380px);
+}
+
+.timelapse-scrim:focus-visible {
+  outline: none;
+}
+
+@media (max-width: 720px) {
+  .timelapse-scrim {
+    right: 0; /* scene panel is full-width on mobile, so scrim covers all */
+  }
+}
+
+@keyframes timelapse-overlay-in {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.timelapse-overlay > * {
+  pointer-events: auto;
+}
+
+.timelapse-header {
+  position: relative;
+  z-index: 1; /* above the scrim so clicks on text don't dismiss */
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 64px 32px 24px;
+}
+
+.timelapse-year-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.timelapse-year {
+  font-family: var(--font-display);
+  font-size: 48px;
+  font-weight: 700;
+  color: #fef3c7;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  text-shadow: 0 3px 20px rgba(252, 165, 165, 0.3);
+  transition: all 160ms ease;
+}
+
+.timelapse-divider {
+  width: 1px;
+  height: 32px;
+  background: rgba(252, 165, 165, 0.35);
+}
+
+.timelapse-stats {
+  display: flex;
+  gap: 20px;
+}
+
+.timelapse-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.1;
+}
+
+.timelapse-stat-label {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 600;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 4px;
+}
+
+.timelapse-stat-value {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 700;
+  color: #fef3c7;
+}
+
+.timelapse-stat-value--loss {
+  color: #ef4444;
+}
+
+.timelapse-stat-value--all {
+  color: #dc2626;
+  text-shadow: 0 0 14px rgba(220, 38, 38, 0.5);
+  animation: timelapse-total-loss 1.2s ease;
+}
+
+@keyframes timelapse-total-loss {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+.timelapse-event {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-style: italic;
+  color: #e2e8f0;
+  line-height: 1.45;
+  margin-bottom: 20px;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.7);
+  transition: all 160ms ease;
+}
+
+.timelapse-progress {
+  height: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  overflow: hidden;
+  margin: 0 auto 8px;
+  max-width: 480px;
+}
+
+.timelapse-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #fbbf24, #ef4444);
+  transition: width 300ms ease;
+}
+
+.timelapse-progress-stages {
+  display: flex;
+  justify-content: space-between;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.timelapse-stage-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  transition: background 320ms ease, transform 320ms ease;
+}
+
+.timelapse-stage-dot--active {
+  background: #fbbf24;
+  transform: scale(1.2);
+  box-shadow: 0 0 8px rgba(251, 191, 36, 0.5);
+}
+
+.timelapse-stop {
+  all: unset;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  z-index: 2; /* above the scrim and header */
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  background: rgba(10, 14, 22, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: #fef3c7;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: background 160ms ease, color 160ms ease;
+  backdrop-filter: blur(8px);
+}
+
+.timelapse-stop:hover,
+.timelapse-stop:focus-visible {
+  background: rgba(239, 68, 68, 0.24);
+  color: #fff;
+}
+
+.timelapse-stop:focus-visible {
+  outline: 2px solid rgba(239, 68, 68, 0.7);
+  outline-offset: 2px;
+}
+
+@media (max-width: 720px) {
+  .timelapse-trigger {
+    min-width: 0;
+    top: 12px;
+    left: 48px;
+    transform: translateY(70px);
+  }
+  .timelapse-trigger:hover {
+    transform: translateY(69px);
+  }
+  .timelapse-overlay {
+    padding: 48px 16px 16px;
+  }
+  .timelapse-year {
+    font-size: 32px;
+  }
+  .timelapse-event {
+    font-size: 12px;
+  }
+}

@@ -4,6 +4,9 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import { useApp } from '../../context/AppContext';
 import { COLORS, DIVISION_COLORS, ROUTE_COLORS } from '../../utils/constants';
 import { generateTownClusteredDots, generateMigrationFrames, filterTownsInPolygon } from '../../utils/populationDots';
+import { applyAtmosphere, CHAPTER_DEFAULT_ATMOSPHERE } from '../../utils/atmospheres';
+import { buildMemorialDotsGeoJSON } from '../../utils/memorialDots';
+import { TIMELAPSE_STAGES, TIMELAPSE_CAMERA } from '../../data/timelapseStages';
 import towns from '../../data/towns.json';
 import settlerTowns from '../../data/settlerTowns.json';
 import modernCherokee from '../../data/modernCherokee.json';
@@ -739,25 +742,20 @@ export default function MapView() {
     m.on('load', () => {
       mapReady.current = true;
 
-      // Terrain source — gives the Appalachian homeland real 3D relief
+      // Terrain source — gives the Appalachian homeland real 3D relief.
+      // Exaggeration is set by the atmosphere preset below so it can shift
+      // per scene (higher on the homeland for dramatic mountains, flatter
+      // on the wintry removal routes).
       m.addSource('mapbox-dem', {
         type: 'raster-dem',
         url: 'mapbox://mapbox.mapbox-terrain-dem-v1',
         tileSize: 512,
         maxzoom: 14,
       });
-      m.setTerrain({ source: 'mapbox-dem', exaggeration: 1.6 });
 
-      // Atmospheric fog at horizon for depth
-      m.setFog({
-        color: 'rgb(20, 30, 50)',
-        'high-color': 'rgb(15, 20, 40)',
-        'horizon-blend': 0.1,
-        'space-color': 'rgb(8, 12, 24)',
-        'star-intensity': 0.15,
-      });
-
-      // Hillshade layer for subtle mountain shading on the base style
+      // Hillshade layer for subtle mountain shading on the base style.
+      // Paint properties are controlled by the atmosphere preset so shadow
+      // and highlight colors can shift with the scene's emotional tone.
       m.addSource('hillshade-src', {
         type: 'raster-dem',
         url: 'mapbox://mapbox.mapbox-terrain-dem-v1',
@@ -773,6 +771,45 @@ export default function MapView() {
           'hillshade-shadow-color': '#0a0f1a',
           'hillshade-highlight-color': '#6b8e9e',
           'hillshade-accent-color': '#2d5a47',
+        },
+      }, 'land-structure-polygon');
+
+      // Apply the opening scene's atmosphere (fog + light + terrain exag + hillshade).
+      // Further scene-change transitions happen via the useEffect below.
+      const initAtmo = initScene?.atmosphere
+        || CHAPTER_DEFAULT_ATMOSPHERE[initScene?.chapter]
+        || 'autumn';
+      applyAtmosphere(m, initAtmo);
+
+      // =====================================================================
+      // ROYCE 1884 HISTORICAL MAP OVERLAY
+      // Charles C. Royce's "Map of the Former Territorial Limits of the
+      // Cherokee 'Nation of' Indians", published in the Bureau of American
+      // Ethnology's Fifth Annual Report (1884). This is the canonical source
+      // for Cherokee cession boundaries — every numbered polygon on the
+      // app's treaty layers traces back to the numbered areas on this map.
+      // Georeferenced via approximate corner bounds of the original printed
+      // plate; users can toggle on/off via MapOverlayControl.
+      // =====================================================================
+      m.addSource('royce-1884', {
+        type: 'image',
+        url: `${import.meta.env.BASE_URL.replace(/\/$/, '')}/overlays/royce-1884-cherokee.jpg`,
+        // [top-left, top-right, bottom-right, bottom-left] as [lon, lat]
+        coordinates: [
+          [-90.50, 37.35], // NW — SW Kentucky / NE Arkansas
+          [-76.00, 37.35], // NE — Chesapeake Bay / E Virginia
+          [-76.00, 32.00], // SE — Atlantic off northern FL
+          [-90.50, 32.00], // SW — central Mississippi
+        ],
+      });
+      m.addLayer({
+        id: 'royce-1884-overlay',
+        type: 'raster',
+        source: 'royce-1884',
+        layout: { visibility: 'none' },
+        paint: {
+          'raster-opacity': 0.72,
+          'raster-fade-duration': 200,
         },
       }, 'land-structure-polygon');
 
@@ -1539,6 +1576,48 @@ export default function MapView() {
         },
       });
 
+      // =====================================================================
+      // MEMORIAL DOTS — one dot per documented death on the Trail of Tears.
+      // Hidden until the `arrival` scene, where they render in silently
+      // across ~6 seconds using an order-filter that advances through the
+      // pre-assigned 0..1 revealFraction on each feature.
+      // Clusters sit at Fort Cass internment camps (largest cluster — the
+      // camp deaths preceded the march), the Mississippi ice crossing,
+      // Hopkinsville (White Path), Little Rock (Quatie Ross), and Tahlequah.
+      // =====================================================================
+      m.addSource('memorial-dots', {
+        type: 'geojson',
+        data: buildMemorialDotsGeoJSON(ROUTE_WAYPOINTS),
+      });
+      m.addLayer({
+        id: 'memorial-dots-glow',
+        type: 'circle',
+        source: 'memorial-dots',
+        layout: { visibility: 'none' },
+        paint: {
+          'circle-radius': 3.2,
+          'circle-color': '#fca5a5',
+          'circle-opacity': 0.18,
+          'circle-blur': 1.2,
+        },
+        filter: ['<=', ['get', 'orderFrac'], 0],
+      });
+      m.addLayer({
+        id: 'memorial-dots-point',
+        type: 'circle',
+        source: 'memorial-dots',
+        layout: { visibility: 'none' },
+        paint: {
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 4, 1.3, 7, 2.0, 10, 2.8],
+          'circle-color': '#fecaca',
+          'circle-opacity': 0.72,
+          'circle-stroke-color': '#7f1d1d',
+          'circle-stroke-width': 0.35,
+          'circle-stroke-opacity': 0.6,
+        },
+        filter: ['<=', ['get', 'orderFrac'], 0],
+      });
+
       // Historical trails — pre-removal Cherokee roads and trading paths.
       // Inserted BELOW town layers ('towns-glow') so town icons render on
       // top of the trail lines, not underneath them.
@@ -2197,6 +2276,159 @@ export default function MapView() {
         essential: true,
       });
     }
+
+    // Atmosphere transition — tune fog, light, terrain exaggeration, and
+    // hillshade to match the scene's emotional mood. Per-scene atmosphere
+    // overrides the chapter default. Mapbox interpolates these values
+    // smoothly when they change, so this becomes part of the fly-to.
+    const atmo = scene.atmosphere
+      || CHAPTER_DEFAULT_ATMOSPHERE[scene.chapter]
+      || 'autumn';
+    applyAtmosphere(m, atmo);
+  }, [state.currentSceneIndex]);
+
+  // Sync Royce 1884 map visibility and opacity with app state
+  useEffect(() => {
+    const m = map.current;
+    if (!m || !mapReady.current) return;
+    if (!m.getLayer('royce-1884-overlay')) return;
+    m.setLayoutProperty(
+      'royce-1884-overlay',
+      'visibility',
+      state.royceMapVisible ? 'visible' : 'none'
+    );
+    m.setPaintProperty('royce-1884-overlay', 'raster-opacity', state.royceMapOpacity);
+  }, [state.royceMapVisible, state.royceMapOpacity]);
+
+  // Territory time-lapse: when active, fly to wide homeland view and swap the
+  // territory polygon per stage. When inactive, the scene useEffect above
+  // restores whatever the current scene's territory is.
+  const prevTimelapseRef = useRef(false);
+  useEffect(() => {
+    const m = map.current;
+    if (!m || !mapReady.current) return;
+
+    const wasActive = prevTimelapseRef.current;
+    prevTimelapseRef.current = state.timelapseActive;
+
+    if (state.timelapseActive) {
+      // Starting the time-lapse? Fly to the wide homeland view and hide
+      // scene-specific chrome (detachments/routes) so the polygon is the star.
+      if (!wasActive) {
+        try {
+          m.flyTo({
+            center: TIMELAPSE_CAMERA.center,
+            zoom: TIMELAPSE_CAMERA.zoom,
+            bearing: TIMELAPSE_CAMERA.bearing,
+            pitch: TIMELAPSE_CAMERA.pitch,
+            padding: { top: 180, right: 40, bottom: 40, left: 40 },
+            duration: 1200,
+            essential: true,
+          });
+        } catch {}
+        // Minimal layer set for the time-lapse: ghost homeland + current territory + towns
+        const TIMELAPSE_LAYERS = ['territory-current', 'territory-ghost', 'towns', 'cherokee-rivers'];
+        updateSceneLayerVisibility(m, TIMELAPSE_LAYERS);
+      }
+
+      // Swap territory polygon for the current stage
+      const stage = TIMELAPSE_STAGES[state.timelapseStage];
+      if (stage) {
+        const src = m.getSource('territory-current');
+        const geojson = TERRITORY_MAP[stage.key];
+        if (src && geojson) src.setData(geojson);
+      }
+    } else if (wasActive) {
+      // Time-lapse just ended: re-apply the current scene's state
+      const scene = SCENES[state.currentSceneIndex];
+      if (scene) {
+        try {
+          updateSceneLayerVisibility(m, scene.layers || []);
+        } catch {}
+        if (scene.territoryKey) {
+          const src = m.getSource('territory-current');
+          const geojson = TERRITORY_MAP[scene.territoryKey];
+          if (src && geojson) src.setData(geojson);
+        }
+        if (scene.map) {
+          try {
+            m.flyTo({
+              center: scene.map.center,
+              zoom: scene.map.zoom,
+              bearing: scene.map.bearing || 0,
+              pitch: scene.map.pitch || 0,
+              padding: { top: 40, right: 470, bottom: 40, left: 40 },
+              duration: 1200,
+              essential: true,
+            });
+          } catch {}
+        }
+      }
+    }
+  }, [state.timelapseActive, state.timelapseStage, state.currentSceneIndex]);
+
+  // Memorial dots reveal: on scenes flagged `showMemorial`, accumulate the
+  // dots progressively from 0..1 over ~6 seconds via the `orderFrac` filter.
+  // Silent, unstoppable, one after another.
+  const memorialRafRef = useRef(null);
+  useEffect(() => {
+    const m = map.current;
+    if (!m || !mapReady.current) return;
+    if (!m.getLayer('memorial-dots-point')) return;
+
+    const scene = SCENES[state.currentSceneIndex];
+    const show = Boolean(scene && scene.showMemorial);
+
+    // Cancel any in-flight animation
+    if (memorialRafRef.current) {
+      cancelAnimationFrame(memorialRafRef.current);
+      memorialRafRef.current = null;
+    }
+
+    if (!show) {
+      // Hide and reset filter
+      try {
+        m.setLayoutProperty('memorial-dots-point', 'visibility', 'none');
+        m.setLayoutProperty('memorial-dots-glow', 'visibility', 'none');
+        m.setFilter('memorial-dots-point', ['<=', ['get', 'orderFrac'], 0]);
+        m.setFilter('memorial-dots-glow', ['<=', ['get', 'orderFrac'], 0]);
+      } catch {}
+      return;
+    }
+
+    // Reveal: make layers visible, then progressively raise the threshold
+    try {
+      m.setLayoutProperty('memorial-dots-point', 'visibility', 'visible');
+      m.setLayoutProperty('memorial-dots-glow', 'visibility', 'visible');
+    } catch {}
+
+    const DURATION_MS = 6500;
+    const START_DELAY_MS = 1200; // let the flyTo land first
+    const start = performance.now() + START_DELAY_MS;
+
+    function tick(now) {
+      const elapsed = Math.max(0, now - start);
+      const progress = Math.min(1, elapsed / DURATION_MS);
+      // Ease-out so later dots accumulate at a similar pace to early ones
+      const eased = 1 - Math.pow(1 - progress, 1.8);
+      try {
+        m.setFilter('memorial-dots-point', ['<=', ['get', 'orderFrac'], eased]);
+        m.setFilter('memorial-dots-glow', ['<=', ['get', 'orderFrac'], eased]);
+      } catch {}
+      if (progress < 1) {
+        memorialRafRef.current = requestAnimationFrame(tick);
+      } else {
+        memorialRafRef.current = null;
+      }
+    }
+    memorialRafRef.current = requestAnimationFrame(tick);
+
+    return () => {
+      if (memorialRafRef.current) {
+        cancelAnimationFrame(memorialRafRef.current);
+        memorialRafRef.current = null;
+      }
+    };
   }, [state.currentSceneIndex]);
 
   return <div className="map-container" ref={mapContainer} />;

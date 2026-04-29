@@ -1,0 +1,158 @@
+.pop-ribbon {
+  position: relative;
+  width: 100%;
+  padding: 10px 16px 4px;
+  background: rgba(10, 14, 22, 0.9);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.pop-ribbon-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 4px;
+  padding: 0 2px;
+}
+
+.pop-ribbon-title {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.pop-ribbon-current {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.pop-ribbon-current-year {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  color: #fbbf24;
+  letter-spacing: 0.05em;
+}
+
+.pop-ribbon-current-sep {
+  color: #64748b;
+  font-size: 10px;
+}
+
+.pop-ribbon-current-pop {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: #fef3c7;
+  letter-spacing: 0.02em;
+}
+
+.pop-ribbon-svg {
+  display: block;
+  width: 100%;
+  height: 80px;
+  overflow: visible;
+}
+
+.pop-ribbon-svg circle {
+  transition: r 160ms ease, opacity 160ms ease;
+}
+
+.pop-ribbon-svg circle:hover {
+  r: 5;
+}
+
+.pop-ribbon-tooltip {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  transform: translateX(-50%);
+  width: 240px;
+  padding: 10px 12px;
+  background: rgba(10, 14, 22, 0.97);
+  border: 1px solid rgba(251, 191, 36, 0.32);
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+  z-index: 30;
+  animation: pop-tooltip-in 140ms ease;
+}
+
+@keyframes pop-tooltip-in {
+  from { opacity: 0; transform: translate(-50%, 2px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+.pop-ribbon-tooltip-kind {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 700;
+  padding: 2px 6px;
+  margin-bottom: 4px;
+  border-radius: 3px;
+  letter-spacing: 0.1em;
+  color: #0a0f1a;
+}
+
+.pop-ribbon-tooltip-kind--cliff { background: #ef4444; }
+.pop-ribbon-tooltip-kind--erasure { background: #f97316; }
+.pop-ribbon-tooltip-kind--pre { background: #fbbf24; }
+.pop-ribbon-tooltip-kind--note { background: #94a3b8; }
+.pop-ribbon-tooltip-kind--rise { background: #4ade80; }
+
+.pop-ribbon-tooltip-label {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  color: #fef3c7;
+  margin-bottom: 2px;
+  line-height: 1.25;
+}
+
+.pop-ribbon-tooltip-pop {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: #fbbf24;
+  margin-bottom: 6px;
+}
+
+.pop-ribbon-tooltip-detail {
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 720px) {
+  .pop-ribbon {
+    padding: 6px 10px 2px;
+  }
+  .pop-ribbon-svg {
+    height: 60px;
+  }
+  .pop-ribbon-current-pop {
+    font-size: 10px;
+  }
+  .pop-ribbon-tooltip {
+    width: 200px;
+    font-size: 10px;
+  }
+}

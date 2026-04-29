@@ -1,0 +1,275 @@
+/* -------- inline Cherokee word with pronunciation button -------- */
+
+.cw-wrap {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 2px;
+  white-space: nowrap;
+}
+
+.cw-display {
+  display: inline;
+}
+
+.cw-syllabary-inline {
+  margin-left: 5px;
+  color: #fbbf24;
+  font-family: var(--font-display);
+  font-weight: 500;
+  opacity: 0.88;
+}
+
+.cw-button {
+  all: unset;
+  cursor: pointer;
+  display: inline-grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  color: #fbbf24;
+  opacity: 0.55;
+  transition: opacity 140ms ease, background 140ms ease, transform 140ms ease;
+  transform: translateY(1px);
+  margin-left: 2px;
+  vertical-align: baseline;
+}
+
+.cw-button:hover,
+.cw-button:focus-visible {
+  opacity: 1;
+  background: rgba(251, 191, 36, 0.14);
+}
+
+.cw-button:focus-visible {
+  outline: 1px solid rgba(251, 191, 36, 0.6);
+  outline-offset: 1px;
+}
+
+.cw-button--active {
+  opacity: 1;
+  background: rgba(251, 191, 36, 0.2);
+}
+
+/* -------- popover -------- */
+
+.cw-popover {
+  position: fixed;
+  z-index: 2100;
+  width: 320px;
+  max-width: calc(100vw - 32px);
+  padding: 16px 18px 14px;
+  background: rgba(10, 14, 22, 0.97);
+  border: 1px solid rgba(251, 191, 36, 0.28);
+  border-radius: 10px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  font-size: 13px;
+  line-height: 1.55;
+  animation: cw-pop-in 180ms cubic-bezier(0.2, 0.9, 0.3, 1);
+  /* clamp near viewport edges: */
+  transform: translateX(0);
+}
+
+@keyframes cw-pop-in {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.cw-popover-arrow {
+  position: absolute;
+  top: -6px;
+  left: 18px;
+  width: 12px;
+  height: 12px;
+  background: rgba(10, 14, 22, 0.97);
+  border-left: 1px solid rgba(251, 191, 36, 0.28);
+  border-top: 1px solid rgba(251, 191, 36, 0.28);
+  transform: rotate(45deg);
+}
+
+.cw-popover-close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: transparent;
+  color: #94a3b8;
+  border: none;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 3px;
+  transition: color 140ms ease, background 140ms ease;
+}
+
+.cw-popover-close:hover {
+  color: #fef3c7;
+  background: rgba(239, 68, 68, 0.16);
+}
+
+.cw-popover-syllabary {
+  font-family: var(--font-display);
+  font-size: 28px;
+  color: #fef3c7;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  margin-bottom: 4px;
+  padding-right: 28px; /* room for close button */
+}
+
+.cw-popover-rom {
+  font-family: var(--font-display);
+  font-size: 15px;
+  color: #fbbf24;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.cw-popover-english {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.cw-popover-phon {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  margin-bottom: 12px;
+}
+
+.cw-popover-plain,
+.cw-popover-ipa {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.cw-popover-label {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  font-weight: 600;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  min-width: 38px;
+}
+
+.cw-popover-plain-value {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 700;
+  color: #fef3c7;
+  letter-spacing: 0.02em;
+}
+
+.cw-popover-ipa-value {
+  font-family: 'Fira Code', 'SF Mono', monospace;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.cw-popover-note {
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  margin: 0 0 12px;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.cw-popover-audio-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 0 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cw-popover-audio {
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 14px;
+  background: rgba(251, 191, 36, 0.12);
+  border: 1px solid rgba(251, 191, 36, 0.32);
+  border-radius: 20px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: #fbbf24;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 160ms ease, transform 160ms ease;
+  width: fit-content;
+}
+
+.cw-popover-audio:hover {
+  background: rgba(251, 191, 36, 0.22);
+  transform: translateY(-1px);
+}
+
+.cw-popover-audio:focus-visible {
+  outline: 2px solid rgba(251, 191, 36, 0.6);
+  outline-offset: 2px;
+}
+
+.cw-popover-audio--playing {
+  background: rgba(239, 68, 68, 0.16);
+  border-color: rgba(239, 68, 68, 0.5);
+  color: #fca5a5;
+}
+
+.cw-popover-audio--playing:hover {
+  background: rgba(239, 68, 68, 0.24);
+}
+
+.cw-popover-audio-note {
+  font-size: 10.5px;
+  color: var(--text-muted);
+  line-height: 1.45;
+  font-style: italic;
+}
+
+.cw-popover-footer {
+  font-size: 10.5px;
+  line-height: 1.55;
+  color: var(--text-muted);
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.cw-popover-footer a {
+  color: #fbbf24;
+  text-decoration: none;
+}
+
+.cw-popover-footer a:hover {
+  text-decoration: underline;
+}
+
+.cw-popover-footer em {
+  color: #d1d5db;
+  font-style: italic;
+}
+
+/* -------- responsive: narrow the popover on tiny screens -------- */
+
+@media (max-width: 420px) {
+  .cw-popover {
+    width: calc(100vw - 28px);
+    left: 14px !important;
+  }
+}
